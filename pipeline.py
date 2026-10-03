@@ -362,7 +362,7 @@ def score_items(cfg, items):
 
 TRACK_TITLES = {"product": "产品订阅方向（SaaS/付费工具）",
                 "traffic": "流量站方向（工具页/数据页 + 展示广告或 affiliate）",
-                "minigame": "微信小游戏方向（个人 IAA）"}
+                "minigame": "微信小游戏方向（个人 IAA·玩法方向提案）"}
 
 # 评分行用中文名，不用 B1/A1 代号（读者不需要记 schema）
 DIM_LABELS = {
