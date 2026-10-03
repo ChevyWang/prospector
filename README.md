@@ -1,0 +1,61 @@
+# idea-radar：LLM 每日选题雷达
+
+每天自动抓取海外需求信号（社区愿望帖 / 竞品差评 / RSS），LLM 按你自己的 rubric 打分，
+把值得看的机会写成日报 commit 回仓库。GitHub Actions 是调度与中间层，`reports/` 是最终落地。
+
+```
+GitHub Actions cron（每天北京时间 06:30）
+  → 抓取: HN Algolia + Reddit(OAuth) + RSS + App Store 竞品差评
+  → SQLite 去重（14 天同题冷却）+ 规则预筛
+  → LLM 按 rubric 打分（pain/pay/competition/fit）
+  → reports/YYYY-MM-DD.md commit 回仓库 +（可选）Telegram 推送 Top5
+```
+
+## 部署（10 分钟）
+
+1. **建一个私有 GitHub 仓库**（私有即免泄露报告，Actions 免费额度 2000 分钟/月，本任务每天约 3-5 分钟）并推送本目录：
+
+   ```bash
+   cd idea-radar
+   git remote add origin git@github.com:<你>/idea-radar.git
+   git push -u origin main
+   ```
+
+2. **仓库 Settings → Secrets and variables → Actions** 添加：
+
+   | Secret | 必填 | 说明 |
+   |---|---|---|
+   | `LLM_API_KEY` | ✅ | 任意 OpenAI 兼容服务的 key |
+   | `LLM_BASE_URL` | 可选 | 覆盖 config.yaml，如 `https://api.deepseek.com/v1` |
+   | `LLM_MODEL` | 可选 | 覆盖 config.yaml，如 `deepseek-chat` / `glm-4-flash` |
+   | `REDDIT_CLIENT_ID` / `REDDIT_CLIENT_SECRET` | 推荐 | 见下方注册步骤；不设则跳过 Reddit 源 |
+   | `TELEGRAM_BOT_TOKEN` / `TELEGRAM_CHAT_ID` | 可选 | 每天推送 Top5；不设则只看仓库报告 |
+
+3. **编辑 `config.yaml`**：换成你关注的 subreddit / RSS / 竞品 App Store ID。垂直行业 sub（accounting、veterinary 之类）是 B2B 信号金矿。
+
+4. **手动触发一次验证**：仓库 Actions 标签 → daily → Run workflow。成功后 `reports/` 里出现当天报告。
+
+Reddit 应用注册（5 分钟）：reddit.com/prefs/apps → create app → 类型选 **script** → 名称随意、redirect uri 填 `http://localhost:8080` → 创建后得到 client_id（应用名下方短串）和 secret。免费档限 100 请求/分钟，本项目每天几十个请求，远够。
+
+## 本地运行
+
+```bash
+uv sync
+uv run python pipeline.py --dry-run       # 只验证抓取/去重，不调 LLM、不需要 key
+LLM_API_KEY=sk-... uv run python pipeline.py   # 完整跑一次
+```
+
+## 日报怎么用（反馈回路）
+
+- 每天给条目标「看 / 不看」，两周后回看：不靠谱的推荐集中在哪个维度失真？
+  直接改 `pipeline.py` 里的 `RUBRIC` 措辞和评分指令——这是自建相对 IdeaBrowser 们的核心价值。
+- 报告里每条都挂原文链接，**决定前点开读原帖**：点赞和「想要」不是付费意愿，已有竞品收费且差评多才是好信号。
+- 定位：每天 10 分钟的灵感催化剂 + 趋势雷达，不是想法自动贩卖机。
+
+## 成本与限制
+
+- LLM：150 条/天 × gpt-4o-mini 级约 $1-3/月；换 DeepSeek/GLM 更低。
+- cron 是 best-effort，可能延迟几分钟到几十分钟；手动 `workflow_dispatch` 随时可跑。
+- 每日 commit 同时解决了「60 天无活动仓库定时任务被禁用」的问题。
+- Reddit 必须走 OAuth（免认证 `.json` 已 403）；X 官方 API、G2/Capterra 抓取、Play 竞品差评被刻意排除（贵 / ToS 禁止 / 无官方途径），G2/Capterra 建议每周人工浏览。
+- 去重是标题规范化 hash：同义改写的近似重复会漏网，重复干扰明显时再升级 SimHash。

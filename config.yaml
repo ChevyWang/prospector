@@ -1,0 +1,35 @@
+# idea-radar 配置。LLM 的 key 走环境变量/GitHub Secrets，不放在这里。
+
+llm:
+  # 任何 OpenAI 兼容端点都可。换 DeepSeek: https://api.deepseek.com/v1 + deepseek-chat
+  # 智谱: https://open.bigmodel.cn/api/paas/v4 + glm-4-flash；Moonshot: https://api.moonshot.cn/v1 + moonshot-v1-8k
+  base_url: https://api.openai.com/v1
+  model: gpt-4o-mini
+
+sources:
+  hacker_news:
+    queries: ["wish existed", "is there a tool", "is there an app", "how do you handle"]
+    lookback_hours: 48   # 每天跑，回看 48h 防漏（重复靠去重库挡）
+  reddit:
+    subs: [SomebodyMakeThis, Startup_Ideas, SideProject, SaaS]
+    # 垂直行业 sub 是 B2B 金矿，替换/追加成你关注的行业，例如:
+    # - accounting / veterinary / lawfirm / dentistry / smallbusiness
+    limit: 50
+  rss:
+    feeds:
+      - https://lobste.rs/rss
+      - https://dev.to/feed/tag/sideproject
+  appstore:
+    # 竞品差评挖掘（信号最强的合规自动源）。填竞品的 App Store ID（App 链接里的数字）。
+    # - id: "1496831034"
+    #   country: us
+    #   name: SomeCompetitor
+
+filters:
+  min_text_len: 40
+  cooldown_days: 14      # 同题信号冷却期
+  max_score_per_day: 150 # 每天最多送 LLM 打分的条数（成本上限）
+  negative_keywords: [hiring, "who is hiring", giveaway, survey, "looking for a cofounder", recruiting]
+
+report:
+  top_n: 10
