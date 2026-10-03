@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""idea-radar: 每日需求信号 → LLM 评分 → 机会日报。
+"""prospector: 每日需求信号 → LLM 评分 → 机会日报。
 
 抓取(HN/Reddit/RSS/AppStore差评) → SQLite 去重 → 规则预筛 → LLM 按 rubric 打分
 → reports/YYYY-MM-DD.md。本地跑: python pipeline.py [--dry-run]。
@@ -25,7 +25,7 @@ ROOT = Path(__file__).parent
 DB_PATH = ROOT / "data" / "signals.db"
 REPORTS_DIR = ROOT / "reports"
 TZ = timezone(timedelta(hours=8))  # 北京时间
-UA = "idea-radar/0.1 (personal research pipeline)"
+UA = "prospector/0.1 (personal research pipeline)"
 
 RUBRIC = """评分维度（各 1-5 分，分高更好）：
 pain: 痛点是否清晰、强烈、具体（泛泛的"希望有个AI帮我生活"=1分）
@@ -292,7 +292,7 @@ def notify_telegram(top):
     chat = os.environ.get("TELEGRAM_CHAT_ID")
     if not (tok and chat) or not top:
         return
-    text = "📡 idea-radar 日报 Top5:\n" + "\n".join(
+    text = "⛏ prospector 日报 Top5:\n" + "\n".join(
         f"{n}. {it['title'][:60]}（{it['total']}分） {it['url']}"
         for n, it in enumerate(top[:5], 1))
     try:

@@ -1,4 +1,4 @@
-# idea-radar 配置。LLM 的 key 走环境变量/GitHub Secrets，不放在这里。
+# prospector 配置。LLM 的 key 走环境变量/GitHub Secrets，不放在这里。
 
 llm:
   # 任何 OpenAI 兼容端点都可。换 DeepSeek: https://api.deepseek.com/v1 + deepseek-chat

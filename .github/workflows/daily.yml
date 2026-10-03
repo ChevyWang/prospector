@@ -40,7 +40,7 @@ jobs:
       # GitHub 对 60 天无活动仓库自动禁用定时任务
       - name: commit report & state
         run: |
-          git config user.name "idea-radar-bot"
+          git config user.name "prospector-bot"
           git config user.email "actions@github.com"
           git add reports data || true
           git commit -m "daily: $(date -u +%Y-%m-%d)" || echo "nothing new today"

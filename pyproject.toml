@@ -1,5 +1,5 @@
 [project]
-name = "idea-radar"
+name = "prospector"
 version = "0.1.0"
 description = "每日需求信号抓取 + LLM 评分 → 机会日报"
 requires-python = ">=3.9"

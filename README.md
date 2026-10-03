@@ -1,4 +1,4 @@
-# idea-radar：LLM 每日选题雷达
+# prospector：LLM 每日选题雷达
 
 每天自动抓取海外需求信号（社区愿望帖 / 竞品差评 / RSS），LLM 按你自己的 rubric 打分，
 把值得看的机会写成日报 commit 回仓库。GitHub Actions 是调度与中间层，`reports/` 是最终落地。
@@ -16,8 +16,8 @@ GitHub Actions cron（每天北京时间 06:30）
 1. **建一个私有 GitHub 仓库**（私有即免泄露报告，Actions 免费额度 2000 分钟/月，本任务每天约 3-5 分钟）并推送本目录：
 
    ```bash
-   cd idea-radar
-   git remote add origin git@github.com:<你>/idea-radar.git
+   cd prospector
+   git remote add origin git@github.com:<你>/prospector.git
    git push -u origin main
    ```
 
