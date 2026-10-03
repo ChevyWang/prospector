@@ -26,12 +26,14 @@ DB_PATH = ROOT / "data" / "signals.db"
 REPORTS_DIR = ROOT / "reports"
 TZ = timezone(timedelta(hours=8))  # 北京时间
 UA = "prospector/0.1 (personal research pipeline)"
+BROWSER_UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 
 RUBRIC = """先为每条信号分类（track）：
 - product：适合做产品/付费工具/SaaS 订阅——本质是"有人会为解决这个痛付钱"
 - traffic：适合做流量站/工具页/数据页，靠展示广告或 affiliate 变现——本质是"有人会反复搜索并使用"
+- minigame：微信小游戏方向的信号（玩法/品类/平台政策/爆款拆解/成败复盘），按个人主体 IAA 变现评估
 - none：纯新闻/随笔/无机会
-两道皆可时选主赛道，并在 reason 里注明另一道的可能性。
+两道以上皆可时选主赛道，并在 reason 里注明其他可能性。
 
 【product 赛道】六维各 1-5 分，总分 30：
 B1 付费意愿证据：5=竞品收费多年且社区有人主动求替代/抱怨涨价；3=2-3 家竞品有公开定价页和真实评价；1=无付费竞品且人群是价格敏感 C 端
@@ -50,6 +52,16 @@ A4 需求规模：5=词簇合计>5 万 mv，可扩 100+ 含独有数据的页面
 A5 独有数据/交互深度：5=专有数据管道或用户生成数据，页面价值随时间自增；3=简单交互或自建小型数据集；1=静态文字，可被 AIO 一段话复述
 A6 达门槛可行性（3-4h/天，12 个月）：5=可破 10 万 PV/月（Raptive 档，约 $1500-4500/月）；4=5-10 万 sessions（Mediavine 档）；3=1-5 万 sessions；1=到不了 Journey 门槛（1k sessions/月）
 traffic 一票否决（命中则 track=none 并注明）：词簇已被 AIO 覆盖且页面形态无法提供交互/独有数据；寄生 SEO（借高权域名挂第三方内容）；无人工介入的纯 AI 批量铺页；SERP 前排被 Reddit/YouTube/大厂官方占 ≥5 席且无法用 tool intent 差异化
+
+【minigame 赛道：微信小游戏（个人主体 IAA）】六维各 1-5 分，总分 30：
+C1 吸量潜力（素材 30 秒演示后的点击意愿）：5=玩法天然可视化爆点（物理效果/大数字/破坏反馈）且同类素材近 3 个月才起量；3=有成熟吸量原型（割草/合成/解压）可借鉴但需换皮；1=纯数值挂机无画面爆点，或同类素材已泛滥
+C2 品类拥挤度：5=新融合品类（消除+X 新组合等）榜单同类<5 款且爆款验证于 6 个月内；3=品类活跃但存在明显细分空位（题材/融合玩法）；1=正面撞无尽冬日like/咸鱼like/成熟 SLG（头部固化，TOP10 月活仅为 TOP3 的约 1/4）
+C3 制作成本匹配（个人 3-4h/天）：5=单场景可复用玩法（Roguelike/物理/合成），AI 可生成大部分美术，4 周内出可测版；3=2D 可行但内容量大（百关+）；1=需 3D 精建模/大体量关卡/多人服务端
+C4 变现效率（IAA-only 前提）：5=死亡复活/加速/翻倍类强激励场景，人均广告位 5+ 次/日，且可自然插入屏（插屏约占休闲小游戏收入 44%，别只做激励视频）；3=3-5 次自然广告位、激励视频有明确价值交换点；1=人均广告曝光<2 次/日
+C5 流量获取路径：5=适合视频号直播挂载（规则简单、强互动、观众可指挥主播；直播侧 CP 分成最高 90%）或 PC 多窗口挂机（PC 用户时长高近一倍、额外 10% 专属广告金）；3=可蹭一个明确入口（搜索词/游戏圈）；1=纯自然长尾、无入口红利
+C6 合规与上线摩擦：5=纯 IAA+中文命名免软著、已备案账号可复用、2-3 周可上线；3=标准 IAA 流程、软著在办（全周期 3-6 周，IAA 版本审核 13-37 个工作日）；1=类目敏感（棋牌/捕鱼/真人竞技）或备案预期>2 个月
+minigame 一票否决（命中则 track=none 并注明）：设计依赖 IAP/虚拟支付但主体是个人（无版号不可能合规开通）；可测版本开发超 8 周；玩法 30 秒内无法演示（试玩广告消耗同比 +844% 的时代，素材不吸量=死）；正面复刻头部品类；依赖买量回本、周期>3 个月（个人无投放预算）；涉现金/实物奖励诱导（涉诈红线）
+minigame 现实预期校准：个人 IAA 常态是月几百-几千元，吃到直播/PC 入口红利才上万；市场盘子 500-600 亿元但 IAA 年流水百万的 1400+ 款多为团队——C4/C5 打分时按此校准，不要给"复刻爆款月入十万"的幻觉分。
 
 通用评分纪律：点赞和"想要"不是付费意愿，waitlist 无意义；竞品收费且差评多是好信号；搜索量/CPC/KD 看不到时按品类常识估并在 action 里写明"需 Glimpse/Ahrefs 验证"。"""
 
@@ -134,7 +146,12 @@ def fetch_reddit(cfg):
 
 def fetch_rss(cfg):
     items = []
-    for url in cfg["sources"]["rss"].get("feeds", []):
+    for feed in cfg["sources"]["rss"].get("feeds", []):
+        if isinstance(feed, dict):
+            url = feed["url"]
+            kws = [k.lower() for k in feed.get("keywords", [])]
+        else:
+            url, kws = feed, []
         try:
             f = feedparser.parse(url)
             if f.get("bozo") and not f.entries:
@@ -142,11 +159,42 @@ def fetch_rss(cfg):
                 continue
             label = f.feed.get("title", url)
             for e in f.entries[:30]:
+                title = e.get("title") or ""
+                body = strip_html(e.get("summary") or "")
+                if kws and not any(k in (title + body).lower() for k in kws):
+                    continue
                 items.append(make_item(
-                    "rss", e.get("id") or e.get("link") or e.get("title"), e.get("title") or "",
-                    e.get("summary") or "", e.get("link") or url, label))
+                    "rss", e.get("id") or e.get("link") or title, title,
+                    body, e.get("link") or url, label))
         except Exception as e:
             print(f"[warn] rss {url} failed: {e}")
+    return items
+
+
+def fetch_tuoluo(cfg):
+    src = cfg["sources"].get("tuoluo") or {}
+    channel = src.get("channel", "https://www.youxituoluo.com/html5game")
+    try:
+        r = requests.get(channel, timeout=30, headers={"User-Agent": BROWSER_UA})
+        r.raise_for_status()
+    except Exception as e:
+        print(f"[warn] tuoluo channel failed: {e}")
+        return []
+    paths = list(dict.fromkeys(re.findall(r'href="(/\d+\.html)"', r.text)))
+    items = []
+    for path in paths[:src.get("max_details", 12)]:
+        url = "https://www.youxituoluo.com" + path
+        try:
+            d = requests.get(url, timeout=30, headers={"User-Agent": BROWSER_UA}).text
+            t = re.search(r"<title>([^<]+)</title>", d)
+            desc = (re.search(r'property="og:description"\s+content="([^"]+)"', d)
+                    or re.search(r'name="description"\s+content="([^"]+)"', d))
+            title = t.group(1).replace("_游戏陀螺", "").strip() if t else ""
+            if title:
+                items.append(make_item("tuoluo", path.removeprefix("/").removesuffix(".html"),
+                                       title, desc.group(1) if desc else "", url, "游戏陀螺·小游戏"))
+        except Exception as e:
+            print(f"[warn] tuoluo {path} failed: {e}")
     return items
 
 
@@ -256,9 +304,9 @@ def score_items(cfg, items):
                  "content": f"你为一位独立开发者（海外市场，每天 3-4 小时）筛选机会。{RUBRIC} 只输出 JSON。"},
                 {"role": "user",
                  "content": f"以下是 {len(batch)} 条来自互联网的信号（社区帖子/愿望/差评/趋势）。"
-                            f"对每条：先定 track（product/traffic/none，注意一票否决项），"
+                            f"对每条：先定 track（product/traffic/minigame/none，注意各赛道一票否决项），"
                             f"product 输出 b1-b6 六个维度分，traffic 输出 a1-a6 六个维度分，"
-                            f"none 只给 reason。\n\n{listing}\n\n"
+                            f"minigame 输出 c1-c6 六个维度分，none 只给 reason。\n\n{listing}\n\n"
                             f'输出格式：{{"items":[{{"i":0,"track":"product",'
                             f'"scores":{{"b1":3,"b2":4,"b3":3,"b4":4,"b5":3,"b6":4}},"total":21,'
                             f'"reason":"一句话理由","angle":"一句话切入角度",'
@@ -282,7 +330,8 @@ def score_items(cfg, items):
 # ---------- 报告 ----------
 
 TRACK_TITLES = {"product": "产品订阅方向（SaaS/付费工具）",
-                "traffic": "流量站方向（工具页/数据页 + 展示广告或 affiliate）"}
+                "traffic": "流量站方向（工具页/数据页 + 展示广告或 affiliate）",
+                "minigame": "微信小游戏方向（个人 IAA）"}
 
 
 def write_report(cfg, scored, stats, date_str):
@@ -294,7 +343,7 @@ def write_report(cfg, scored, stats, date_str):
         "",
     ]
     top_all = []
-    for track in ("product", "traffic"):
+    for track in ("product", "traffic", "minigame"):
         pool = [x for x in scored if x.get("track") == track]
         top = sorted(pool, key=lambda x: -x.get("total", 0))[:top_n]
         lines += [f"## {TRACK_TITLES[track]}", ""]
@@ -348,7 +397,8 @@ def main():
     args = ap.parse_args()
 
     cfg = load_config()
-    items = fetch_hn(cfg) + fetch_reddit(cfg) + fetch_rss(cfg) + fetch_appstore(cfg)
+    items = (fetch_hn(cfg) + fetch_reddit(cfg) + fetch_rss(cfg)
+             + fetch_tuoluo(cfg) + fetch_appstore(cfg))
     fresh = dedupe(items, cfg["filters"].get("cooldown_days", 14))
     keep = prefilter(fresh, cfg)
     stats = {"fetched": len(items), "fresh": len(fresh), "scored": len(keep)}

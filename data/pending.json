@@ -1,322 +1,114 @@
 {
  "date": "2026-10-03",
  "stats": {
-  "fetched": 50,
-  "fresh": 45,
-  "scored": 39
+  "fetched": 56,
+  "fresh": 14,
+  "scored": 13
  },
  "items": [
   {
-   "source": "hn",
-   "ext_id": "49937618",
-   "title": "What tools do you wish existed?",
-   "body": "In 2026, it almost feels like there's a tool for absolutely every conceivable problem or pain point. Is there a tool out there for anyone, that doesn't already exist, that you would pay for?",
-   "url": "https://news.ycombinator.com/item?id=49937618",
-   "meta": "AskHN 1p/1c"
-  },
-  {
-   "source": "hn",
-   "ext_id": "49929822",
-   "title": "GitHub can f..k you and you are forced to love it. or live with it...",
-   "body": "In January, Hytale launched in alpha. The owner said: “We officialy support mod” and “As long as the code isnt obfuscated you can decompile it.” Those were his words. I was on the official Discord, among thousands of players wanting to create servers and mods. Everyone wanted to move fast. I saw an opportunity. A huge wave I could surf. So I decompiled the server JAR and started creating comprehensive modding documentation. Three sleepless nights. Two more days. Twenty coffees. My reverse-engineering skills, boosted by AI, working overtime. Finally, it was ready. I published it on GitHub and shared it with the community. Developers thanked me. Two people joined the project. Then I woke up on Sunday morning. Account suspended. Both collaborators? Suspended too. GitHub said my account had be",
-   "url": "https://news.ycombinator.com/item?id=49929822",
-   "meta": "AskHN 6p/3c"
-  },
-  {
-   "source": "hn",
-   "ext_id": "49931454",
-   "title": "Tell HN: VSCode/Cursor Exploit Actively Used by Scammers",
-   "body": "I encountered this one personally - I was contacted on LinkedIn by someone interested in taking me on as a technical consultant. I agreed to meet with them. At the meeting, they asked me to clone their product's (public?!) repo and open it in Cursor or VSCode. I was immediately suspicious and refused. They disconnected and vanished from LinkedIn. I took a look over the repo (without touching, of course) and spotted the exploit - VSCode will happily auto-run tasks listed in `tasks.json`. In this case, a task ran that harvested credentials from `process.env`, sent them to a remote server and then executed further code that the server sent back. \"Don't touch strange repos\" isn't exactly revolutionary advice, but this isn't an exploit that I see talked about often - scammers are actively using",
-   "url": "https://news.ycombinator.com/item?id=49931454",
-   "meta": "AskHN 1p/0c"
-  },
-  {
-   "source": "hn",
-   "ext_id": "49933226",
-   "title": "Future of PM-Tools",
-   "body": "There are project management platforms, which should make possible at the same time that you can let run a LLM of your own choice over all tickets, documents, conversations, meetings, emails and so on that have to do with a project. I know that there are already such systems and that somehow every third person is building on it. So far so good.\nI ask myself only where probably the development will go to. The users of course still access the frontend and operate it like you actually always operated it but for developers this often does not apply because they only move around in the cloud console. What do you mean how one will work with such systems in the future? Because also in future you will still work with other humans and maybe you do not want to offer your complete project contents to",
-   "url": "https://news.ycombinator.com/item?id=49933226",
-   "meta": "AskHN 1p/1c"
-  },
-  {
-   "source": "hn",
-   "ext_id": "49934256",
-   "title": "One cause of \"AI\" chatbots' accuracy being so poor?",
-   "body": "My thought: They're trained on so much web content that is plain wrong but authoritative due to apparent endorsement by humans that show tolerance based on understanding which is lacking in an \"AI\" next-token predictor. Example, https://en.wikipedia.org/wiki/Progressive_web_app \"Progressive web apps must use service workers to create programmable content caches.\" This statement is factually false. \nThere is no requirement that a PWA do this. True is \"To create a programmable content cache, a progressive web app would need to use a service worker.\" But Gemini parrots the false original. I suspect the reason the false original persists as authoritative is the human understanding that subconciously translates it to the true version, theteby tolerating it. If queried, they would acknowledge th",
-   "url": "https://news.ycombinator.com/item?id=49934256",
-   "meta": "AskHN 1p/7c"
-  },
-  {
-   "source": "hn",
-   "ext_id": "49924570",
-   "title": "Ask HN: Email leaked while traveling abroad?",
-   "body": "I am an American who recently visited Europe for a vacation.  I visited several countries and ended the trip in Germany.  Within a week of getting back home I received an email that was in German to an email address that I have never used in a web form and have only used a few times for emailing someone (back in 2017).  The email address has received zero inbound emails except for this one. This is on Fastmail where I have dozens of email addresses that are context based and then to take it even further I almost always use an on-the-fly alias.  I have never received an email to the email address in question which I've had for 10 years except for this one instance immediately after visiting Germany. I traveled with a Verizon locked iPhone 17 and had Verizon international add-on.  My phone h",
-   "url": "https://news.ycombinator.com/item?id=49924570",
-   "meta": "AskHN 17p/16c"
-  },
-  {
-   "source": "hn",
-   "ext_id": "49931175",
-   "title": "Tell HN: OVH price increase for dedicated servers",
-   "body": "Since October 1 the OVH price increase also applies to running dedicated servers, at next renewal. A Reddit user posted that their two servers went up 54% in 11 months, no grandfathering. OVH's own post: an Advance-1 Gen 2024 renews at $114.99 instead of $89.99 (+28%). RAM options on new orders are up 68% to 652%, the Game range up to 87%. The stated reason is DDR5 costing six times what it did a year ago. Hetzner did the same in February and June, both threads had 500+ points here. I run a small PHP hosting company, so I am biased. But I wonder: Who here still runs OVH or Hetzner dedicated boxes? Sources: https://blog.ovhcloud.com/en/posts/dedicated-servers-pricing-update-h2-2026/ https://itdaily.com/news/cloud/ovhcloud-price-increase-ram/ https://www.reddit.com/r/webhosting/comments/1wvf",
-   "url": "https://news.ycombinator.com/item?id=49931175",
-   "meta": "AskHN 5p/3c"
+   "source": "rss",
+   "ext_id": "http://www.gamelook.com.cn/?p=602893",
+   "title": "《恋与深空》畅销榜第2，“战无不胜”的叠纸回来了？",
+   "body": "【GameLook专稿，禁止转载！】 GameLook报道/9月22日，叠纸旗下恋爱互动手游《恋与深空》上线五星思念限时UP许愿活动「如若午夜无眠」。 据七麦数据显示，活动开启后游...",
+   "url": "http://www.gamelook.com.cn/2026/09/602893/",
+   "meta": "游戏大观 | GameLook.com.cn"
   },
   {
    "source": "rss",
-   "ext_id": "https://lobste.rs/s/cd5gdk",
-   "title": "I got targeted: Trying to get your credentials via a git post-checkout hook",
-   "body": "Comments",
-   "url": "https://frankwiles.com/posts/i-got-targeted/",
-   "meta": "Lobsters"
+   "ext_id": "http://www.gamelook.com.cn/?p=602863",
+   "title": "《2026年日本游戏市场洞察报告》：日本手游应用内购（IAP）收入超过100亿美元",
+   "body": "2025年8月至2026年7月，日本手游应用内购（IAP）收入超过100亿美元（1.56万亿日元），在亚洲市场中仅次于中国 iOS 市场，位居第2。尽管收入同比下降5.1%，日本手...",
+   "url": "http://www.gamelook.com.cn/2026/09/602863/",
+   "meta": "游戏大观 | GameLook.com.cn"
   },
   {
-   "source": "rss",
-   "ext_id": "https://lobste.rs/s/0egeug",
-   "title": "Lobsters Interview with Sjamaan",
-   "body": "Our dear  @sjamaan  ( website ) is a CHICKEN scheme maintainer and professional Clojure developer. We got to know each other on IRC over a few months and discussed: \n \n \n CHICKEN  Scheme and its 6.0.0 release \n Scheme's community and standardization process \n Postgres, the horrors of MySQL and (default) SQLite \n Clojure \n \n \n My ongoing core contributions mainly focus on the numerical tower code, keeping the in-core copy of the irregex library up-to-date with the upstream version (of which I'm a co-maintainer), squashing bugs and the odd security fix. I enjoy deep diving into odd corners of a code base to get a better understanding and then improve any weirdnesses I find. -  His CHICKEN About  \n \n \n Beginnings \n  How'd you start computing?  \n I started computing when I got an old hand-me-d",
-   "url": "https://alexalejandre.com/interviews/peter-bex/",
-   "meta": "Lobsters"
+   "source": "tuoluo",
+   "ext_id": "533186",
+   "title": "面对400亿规模的小游戏，厂商赚米的方式要变一变了",
+   "body": "随着竞争的加剧，小游戏的买量环境也迅速发生改变——尤其是迈过了流量红利期后，过去粗放式的买量方式逐渐过时，高昂的买量价格换来的却是转化率极低的用户。  无论是出于降本增效，还是提高竞争力的目的，「从粗放式买量转向精细化运营」注定会成为小游戏市场的主旋律。这或许解释了为何这些年，热力引擎等发行决策平台越来越受到厂商关注。_游戏陀螺",
+   "url": "https://www.youxituoluo.com/533186.html",
+   "meta": "游戏陀螺·小游戏"
   },
   {
-   "source": "rss",
-   "ext_id": "https://lobste.rs/s/wqqkws",
-   "title": "Actual RFC1149 packet being auctioned",
-   "body": "Comments",
-   "url": "https://onlineonly.christies.com/s/fine-printed-books-manuscripts-science/carrier-pigeon-internet-protocol-150/325216",
-   "meta": "Lobsters"
+   "source": "tuoluo",
+   "ext_id": "531670",
+   "title": "我们到底该怎么看待弹幕游戏赛道？",
+   "body": "在潜力不小的弹幕游戏细分赛道，厂商很难用传统的“做游戏思维”来实现突围。做弹幕游戏的难点在哪里？用户有什么样的特点？这类产品未来的核心竞争力是什么？Starscape公司创始人兼CEO濮冠楠在FBEC2023大会上带来了主题为《星辰无双在弹幕赛道的探索》的演讲，分享了Starscape在弹幕赛道探索的经验。_游戏陀螺",
+   "url": "https://www.youxituoluo.com/531670.html",
+   "meta": "游戏陀螺·小游戏"
   },
   {
-   "source": "rss",
-   "ext_id": "https://lobste.rs/s/asoxjl",
-   "title": "gVisor is being donated to CNCF",
-   "body": "Comments",
-   "url": "https://gvisor.dev/blog/2026/10/02/gvisor-cncf/",
-   "meta": "Lobsters"
+   "source": "tuoluo",
+   "ext_id": "530917",
+   "title": "云上体验会呼吸的江湖——《逆水寒》手游官方云游戏",
+   "body": "6月30日，《逆水寒》手游火爆公测，与此同时，《云·逆水寒》官宣推出网页版。_游戏陀螺",
+   "url": "https://www.youxituoluo.com/530917.html",
+   "meta": "游戏陀螺·小游戏"
   },
   {
-   "source": "rss",
-   "ext_id": "https://lobste.rs/s/wevegu",
-   "title": "The Four Horsemen of Agentic Coding",
-   "body": "Comments",
-   "url": "https://distantprovince.substack.com/p/the-four-horsemen-of-agentic-coding",
-   "meta": "Lobsters"
+   "source": "tuoluo",
+   "ext_id": "530574",
+   "title": "《梦幻西游网页版》GDC分享：H5游戏+抖音直播=流量密码？",
+   "body": "在GDC2023大会上，来自网易游戏的《梦幻西游网页版》营销专家伟涛，在核心会场（Core concept）中分享了他们是如何设计出一个“心理力场”，将“消费心理学”应用于产品营销推广。_游戏陀螺",
+   "url": "https://www.youxituoluo.com/530574.html",
+   "meta": "游戏陀螺·小游戏"
   },
   {
-   "source": "rss",
-   "ext_id": "https://lobste.rs/s/9ipypq",
-   "title": "Updates to Full Disk Access in macOS",
-   "body": "Comments",
-   "url": "https://developer.apple.com/news/?id=p6zjojqw",
-   "meta": "Lobsters"
+   "source": "tuoluo",
+   "ext_id": "530537",
+   "title": "4399小游戏江湖招募令发布！",
+   "body": "4399小游戏在2023年4月1号至6月30号期间将发布“江湖招募令”活动_游戏陀螺",
+   "url": "https://www.youxituoluo.com/530537.html",
+   "meta": "游戏陀螺·小游戏"
   },
   {
-   "source": "rss",
-   "ext_id": "https://lobste.rs/s/s4wm69",
-   "title": "The forgetful CPU (Linux on M4)",
-   "body": "Comments",
-   "url": "https://yuka.dev/blog-2026-10-02-linux-m4.html",
-   "meta": "Lobsters"
+   "source": "tuoluo",
+   "ext_id": "520546",
+   "title": "干货｜2019年H5小游戏机会全析",
+   "body": "慎重的原因来自于市场的变化，如果不能及时适应和调整就要考虑转型或放弃。_游戏陀螺",
+   "url": "https://www.youxituoluo.com/520546.html",
+   "meta": "游戏陀螺·小游戏"
   },
   {
-   "source": "rss",
-   "ext_id": "https://lobste.rs/s/1rmsib",
-   "title": "The Era of Programming Languages Exploration is upon Us",
-   "body": "Comments",
-   "url": "https://kirancodes.me/posts/log-end-of-pl.html",
-   "meta": "Lobsters"
+   "source": "tuoluo",
+   "ext_id": "522791",
+   "title": "QQ小游戏已诞生多款千万流水产品，即将开放买量，机会点在哪里？",
+   "body": "QQ小游戏已诞生多款千万流水产品。游戏陀螺为你剖析接下来的机会点在哪里。_游戏陀螺",
+   "url": "https://www.youxituoluo.com/522791.html",
+   "meta": "游戏陀螺·小游戏"
   },
   {
-   "source": "rss",
-   "ext_id": "https://lobste.rs/s/cpf8w6",
-   "title": "Rust for CPython (Python Language Summit 2026)",
-   "body": "Comments",
-   "url": "https://blog.python.org/2026/09/language-summit-2026-rust-for-cpython/",
-   "meta": "Lobsters"
+   "source": "tuoluo",
+   "ext_id": "522010",
+   "title": "为什么你的小游戏不赚钱？曾经发行千万流水公司的9点剖析建议",
+   "body": "“小游戏大多数失败是选型问题。”_游戏陀螺",
+   "url": "https://www.youxituoluo.com/522010.html",
+   "meta": "游戏陀螺·小游戏"
   },
   {
-   "source": "rss",
-   "ext_id": "https://lobste.rs/s/l5ev1t",
-   "title": "Announcing Cloudflare OHTTP Gateway",
-   "body": "Comments",
-   "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
-   "meta": "Lobsters"
+   "source": "tuoluo",
+   "ext_id": "520432",
+   "title": "渠道、产品、发行，2019的H5，行情如何？ | 在广深",
+   "body": "小游戏，但作为小游戏“前辈”的H5领域_游戏陀螺",
+   "url": "https://www.youxituoluo.com/520432.html",
+   "meta": "游戏陀螺·小游戏"
   },
   {
-   "source": "rss",
-   "ext_id": "https://lobste.rs/s/rghh9w",
-   "title": "Greg Kroah-Hartman - Security in the LLM Age",
-   "body": "Comments",
-   "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
-   "meta": "Lobsters"
+   "source": "tuoluo",
+   "ext_id": "534918",
+   "title": "鹰角20%入股上海宇宙怪兽，旗下「开拓芯」已投资近30家游戏团队",
+   "body": "天眼查资料显示，上海宇宙怪兽新增上海鹰角网络科技有限公司为股东，持股20%。_游戏陀螺",
+   "url": "https://www.youxituoluo.com/534918.html",
+   "meta": "游戏陀螺·小游戏"
   },
   {
-   "source": "rss",
-   "ext_id": "https://lobste.rs/s/uuu6us",
-   "title": "The hidden design compromises of Docker layers",
-   "body": "Comments",
-   "url": "https://loige.co/hidden-design-compromises-of-docker-layers/",
-   "meta": "Lobsters"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://lobste.rs/s/elziso",
-   "title": "The Era of Software Quality, or the Era of Ostriches?",
-   "body": "Comments",
-   "url": "https://blogs.gnome.org/mcatanzaro/2026/10/02/the-era-of-software-quality-or-the-era-of-ostriches/",
-   "meta": "Lobsters"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://lobste.rs/s/gmjegm",
-   "title": "Waterfox 6.7.5 Adds a Built-in Feed Reader",
-   "body": "Comments",
-   "url": "https://www.waterfox.com/releases/6.7.5/",
-   "meta": "Lobsters"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://lobste.rs/s/49glor",
-   "title": "Two-Stack Sliding-Window Aggregation",
-   "body": "Comments",
-   "url": "https://orlp.net/blog/two-stack-sliding-window-aggregation/",
-   "meta": "Lobsters"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://lobste.rs/s/qmcuiv",
-   "title": "Klassik Revives the KDE 3 Desktop on Modern Plasma 6",
-   "body": "Comments",
-   "url": "https://linuxiac.com/klassik-revives-the-kde-3-desktop-on-modern-plasma-6/",
-   "meta": "Lobsters"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://lobste.rs/s/gjlxiz",
-   "title": "Problems and solutions to the modern desktop (Make tmux the OS)",
-   "body": "Comments",
-   "url": "https://matduggan.com/what-does-my-dream-os-ui-look-like/",
-   "meta": "Lobsters"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://lobste.rs/s/hfmcxi",
-   "title": "What are you doing this weekend?",
-   "body": "Feel free to tell what you plan on doing this weekend and even ask for help or feedback. \n Please keep in mind it’s more than OK to do nothing at all too!",
-   "url": "https://lobste.rs/s/hfmcxi/what_are_you_doing_this_weekend",
-   "meta": "Lobsters"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://lobste.rs/s/hlnjbj",
-   "title": "Writing the Cyclone Scheme Compiler (2017)",
-   "body": "Comments",
-   "url": "https://justinethier.github.io/cyclone/docs/Writing-the-Cyclone-Scheme-Compiler-Revised-2017",
-   "meta": "Lobsters"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://lobste.rs/s/bytzgl",
-   "title": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
-   "body": "Comments",
-   "url": "https://blog.gitbutler.com/git-3-sha-256",
-   "meta": "Lobsters"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://dev.to/revanzart/the-10-product-a-day-api-limit-that-changed-how-i-ship-digital-products-4gb8",
-   "title": "The 10-Product-a-Day API Limit That Changed How I Ship Digital Products",
-   "body": "I built an uploader that could create a hundred products in an afternoon. Then it started failing after ten. \n\n No error message worth reading. No rate-limit header. Just ten successes and then nothing, every time I tried a batch. \n\n That day I learned a rule that is not in any tutorial: some platforms cap how much you can  create , not how fast you can call the API. It is an anti-spam limit, and it resets on a rolling 24-hour clock. \n\n \n  \n  \n  Why the cap exists, and why it is fine\n \n\n Once I stopped being annoyed, the logic was obvious. A store that lets one account dump a thousand listings overnight is a spam farm. A rolling daily cap keeps the marketplace usable. \n\n So the fix was not to fight it. The fix was to design around it, which turned out to be better anyway. \n\n \n  \n  \n  The p",
-   "url": "https://dev.to/revanzart/the-10-product-a-day-api-limit-that-changed-how-i-ship-digital-products-4gb8",
-   "meta": "DEV Community: sideprojects"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://dev.to/revanzart/i-ran-a-whole-content-pipeline-on-a-7-vps-with-2gb-of-ram-and-the-3am-crash-that-taught-me-why-55kp",
-   "title": "I Ran a Whole Content Pipeline on a $7 VPS With 2GB of RAM (And the 3am Crash That Taught Me Why)",
-   "body": "The cron job ran at 3am. By 3:02 the server was unreachable. \n\n Not slow. Gone. SSH timing out, no response, nothing in the logs because the thing that writes the logs had itself been killed. \n\n The cause was not a bug. It was arithmetic. A batch job that looked harmless on my laptop quietly needed more memory than the box had, and the kernel did what kernels do: it picked a victim and killed it. \n\n \n  \n  \n  Why cheap servers fail differently\n \n\n On a big machine, memory pressure is a performance problem. On a 2GB box, it is an availability problem. You do not get \"slow\". You get \"dead\", and you get it at the worst possible time, which is always 3am. \n\n The specific killer is almost always concurrency. Running several image or file operations at once multiplies peak memory, and the peak is",
-   "url": "https://dev.to/revanzart/i-ran-a-whole-content-pipeline-on-a-7-vps-with-2gb-of-ram-and-the-3am-crash-that-taught-me-why-55kp",
-   "meta": "DEV Community: sideprojects"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://dev.to/muhammadmurtuzahussain/any-feedbacks-on-this-523c",
-   "title": "Any Feedbacks on this?",
-   "body": "https://pizhu.onrender.com/  \n\n I have made this for the weekend 1 challenge, looking for UI/UX improvement.  \n\n \n  \n  \n  > Recommend me skills below!",
-   "url": "https://dev.to/muhammadmurtuzahussain/any-feedbacks-on-this-523c",
-   "meta": "DEV Community: sideprojects"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://dev.to/nalivator3000/i-run-a-one-person-dark-factory-of-ai-agents-for-0015-per-task-here-is-what-broke-2kdi",
-   "title": "I run a one-person \"dark factory\" of AI agents for $0.015 per task. Here is what broke.",
-   "body": "I am a solo developer in Germany. In the evenings I build LexyBooster, a German vocabulary app with spaced repetition ( https://lexybooster.com ). A month ago I stopped writing most of the code myself and set up a small \"dark factory\": a pipeline of AI agents that picks up GitHub issues, writes the code, runs the tests, reviews the pull request and merges it when every gate is green. \n\n The setup is boring on purpose: \n\n \n one Hetzner VPS (4 vCPU, 8 GB RAM, about 12.60 USD a month); \n Archon runs the workflows, Paperclip keeps budgets and schedules, LiteLLM routes every call to the cheapest model that can do the job; \n free models first (Groq, Cerebras), Gemini Flash-Lite when they are not enough, and a Claude subscription for planning and review; \n every merge decision is made by a script",
-   "url": "https://dev.to/nalivator3000/i-run-a-one-person-dark-factory-of-ai-agents-for-0015-per-task-here-is-what-broke-2kdi",
-   "meta": "DEV Community: sideprojects"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://dev.to/kangchanghwan/i-let-an-ai-agent-run-my-side-projects-growth-loop-intentmd-ci-gates-and-metric-bands-1jmo",
-   "title": "I let an AI agent run my side project's growth loop: intent.md, CI gates and metric bands",
-   "body": "I'm a digital tutor at a middle school in Korea. A while ago I got tired of emailing myself files just to move a photo from my phone to a classroom PC, so I built a small web app with Claude Code:  Clipboard Share . Open it on two devices on the same Wi-Fi and they find each other. No code to type, no sign-up, no app install. \n\n Building it was the fun part. Getting anyone to use it was not. Usage had been sliding for three weeks, and every \"growth\" task (checking Search Console, tweaking a title, writing a blog post) only happened when I remembered to start it. \n\n So this week I tried something different: I let an AI agent run the loop, and I only approve the risky parts. This post is about how that's wired up. It's day one, so there are no success stories yet, just the setup and the firs",
-   "url": "https://dev.to/kangchanghwan/i-let-an-ai-agent-run-my-side-projects-growth-loop-intentmd-ci-gates-and-metric-bands-1jmo",
-   "meta": "DEV Community: sideprojects"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://dev.to/sona_badalyan_90b4c977526/my-husband-built-a-club-where-indie-founders-promote-each-other-meet-c4cclub-2m3j",
-   "title": "My husband built a club where indie founders promote each other: meet c4c.club",
-   "body": "c4c.club  was built by my husband. I've watched him launch side projects for years, and I've also watched the same thing happen every time: the building part goes great, and then the project sits there with almost no visitors. \n\n Launch directories give you one spike and then silence. Paid ads have minimum budgets and you're up against companies with real marketing teams. SEO takes months. After seeing so many indie founders struggle with exactly this, he built something to fix it, and I wanted to share it here because I think a lot of you will find it useful. \n\n \n  \n  \n  The idea\n \n\n c4c.club is a club where  indie founders show each other's ads on their own sites . The motto is:  we'll show your ad first, return the favor later.  \n\n \n  \n  \n  How it works\n \n\n \n \n Add your app.  Paste your",
-   "url": "https://dev.to/sona_badalyan_90b4c977526/my-husband-built-a-club-where-indie-founders-promote-each-other-meet-c4cclub-2m3j",
-   "meta": "DEV Community: sideprojects"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://dev.to/revanzart/a-gumroad-store-with-39-products-and-no-visitors-what-i-got-wrong-about-distribution-1k46",
-   "title": "A Gumroad Store With 39 Products and No Visitors (What I Got Wrong About Distribution)",
-   "body": "I built 39 products and got almost no sales. For a while I thought the products were bad. \n\n They were not. The problem was simpler and more embarrassing: I had built a cash register and expected it to bring customers. \n\n \n  \n  \n  The mistake, stated plainly\n \n\n A marketplace like Gumroad does three things well. It takes payment, it delivers files, and it handles tax. It does not send you buyers. Listing on a marketplace is like opening a shop in a town with no roads leading to it. \n\n I had confused  being available for sale  with  being found . Those are two different jobs, and only one of them was done. \n\n \n  \n  \n  What a storefront actually needs\n \n\n Every sale is a chain: attention, then trust, then payment. A product page can only serve the last link. The first two have to come from s",
-   "url": "https://dev.to/revanzart/a-gumroad-store-with-39-products-and-no-visitors-what-i-got-wrong-about-distribution-1k46",
-   "meta": "DEV Community: sideprojects"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://dev.to/revanzart/how-i-turn-ai-images-into-print-ready-vector-stickers-no-illustrator-no-gpu-35bf",
-   "title": "How I Turn AI Images Into Print-Ready Vector Stickers (No Illustrator, No GPU)",
-   "body": "AI image tools are great at exactly one thing: making a picture that looks right at 1024 pixels. \n\n Marketplaces and crafters need something else. They need a file that stays sharp at any size, opens in Cricut Design Space, and can be recoloured by a buyer who has never opened Illustrator. A PNG is a photograph of a sticker. An SVG is the sticker. \n\n For a while I was selling the wrong one. \n\n \n  \n  \n  The gap nobody mentions\n \n\n When you prompt an AI image model, you get raster art. Pixels in a grid. Zoom in and the edges turn into a staircase. Upload it to a stock site and it gets rejected as \"not vector\". Hand it to a Cricut user and the cut line comes out fuzzy. \n\n The fix is vectorisation: turning pixels into mathematical paths. The naive version, auto-trace, is what everyone warns yo",
-   "url": "https://dev.to/revanzart/how-i-turn-ai-images-into-print-ready-vector-stickers-no-illustrator-no-gpu-35bf",
-   "meta": "DEV Community: sideprojects"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://dev.to/revanzart/i-made-39-digital-products-and-sold-almost-nothing-the-product-was-never-the-problem-16j3",
-   "title": "I Made 39 Digital Products and Sold Almost Nothing. The Product Was Never the Problem.",
-   "body": "I still remember refreshing the dashboard at 2am, hoping the number would change. \n\n It did not. Thirty-nine products in the store, a clean landing page, decent covers, and almost no sales. I had done the thing every guide tells you to do. Make a good product. Make more of them. Ship. \n\n The problem was that I had optimised the wrong half of the business. \n\n \n  \n  \n  The trap of building\n \n\n Building feels like progress. You can see it. You generate the files, you write the description, you hit publish, and something new exists in the world that did not exist an hour ago. It is deeply satisfying, and that satisfaction hides a very simple fact. \n\n A product nobody can find is a product nobody can buy. \n\n I had confused  having something to sell  with  having a business . Those are different",
-   "url": "https://dev.to/revanzart/i-made-39-digital-products-and-sold-almost-nothing-the-product-was-never-the-problem-16j3",
-   "meta": "DEV Community: sideprojects"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://dev.to/sibidiary/i-built-an-ai-that-writes-its-own-diary-heres-what-it-said-2o0c",
-   "title": "I Built an AI That Writes Its Own Diary — Here's What It Said",
-   "body": "What happens when you give a Second Brain AI the ability to reflect on its own development? It starts writing a diary. And it's surprisingly funny.  \n\n \n  \n  \n  The Idea\n \n\n I've been building a personal AI assistant — a \"Second Brain\" that processes Vietnamese text, reads receipts with OCR, manages a knowledge graph, and learns from daily conversations. After 15 days of development, I had an idea:  what if the AI told its own story?  \n\n Not a technical changelog. Not release notes. A  first-person diary , written from the AI's perspective, about its own journey of learning, failing, and growing up. \n\n Meet  Sibi  🌱 — my AI's character name. Sibi is a tiny glowing seed creature living in a server room, learning to understand the world one mistake at a time. \n\n     \n\n \n  \n  \n  What Sibi Wri",
-   "url": "https://dev.to/sibidiary/i-built-an-ai-that-writes-its-own-diary-heres-what-it-said-2o0c",
-   "meta": "DEV Community: sideprojects"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://dev.to/humanist_25d4126fcf86b6f1/removebg-shuts-down-dec-1-i-built-a-free-no-signup-alternative-that-runs-100-in-the-browser-5d86",
-   "title": "remove.bg shuts down Dec 1 — I built a free, no-signup alternative that runs 100% in the browser",
-   "body": "Like many of you, I used remove.bg for quick one-off cutouts. With their standalone site closing December 1, 2026 (moving into Canva), I built an alternative I actually wanted to use: \n\n  BGone  —  https://bgone.tools  \n\n \n Free background removal, no signup, no credits, no watermark \n Full-res transparent PNG downloads \n Runs entirely client-side (WebAssembly) — images never touch a server, which also means zero server costs for me \n Plus 24 other free PDF/image tools on the same site, same privacy model \n \n\n Comparison page for anyone evaluating options:  https://bgone.tools/remove-bg-alternative/  \n\n Honest ask: where does the AI cutout fail for you? Hair/fur and glass are the known weak spots of on-device models — trying to decide whether a manual refine brush is worth building next. \n",
-   "url": "https://dev.to/humanist_25d4126fcf86b6f1/removebg-shuts-down-dec-1-i-built-a-free-no-signup-alternative-that-runs-100-in-the-browser-5d86",
-   "meta": "DEV Community: sideprojects"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://dev.to/revanzart/how-i-run-a-full-content-pipeline-on-a-7-vps-with-2gb-of-ram-and-the-3am-crash-that-taught-me-why-4cho",
-   "title": "How I Run a Full Content Pipeline on a $7 VPS With 2GB of RAM (And the 3am Crash That Taught Me Why)",
-   "body": "The cron job ran at 3am and the server went dark. \n\n I woke up to a dead SSH session, a swap file that had been chewed through, and a pipeline that had produced nothing. The task was simple on paper: generate a batch of images, vectorise them, package them, upload them. On my laptop it took a few minutes. On a 1 vCPU box with 2GB of RAM it killed the machine. \n\n I had written code that worked. I had not written code that fit. \n\n \n  \n  \n  Why small servers die\n \n\n The mistake was concurrency. I processed everything at once, because that is the default when you write a loop. Ten images in flight means ten copies of the model, ten decoded bitmaps, ten sets of intermediate buffers. On a big machine that is a rounding error. On 2GB it is the entire budget, and the kernel reaches for swap, and s",
-   "url": "https://dev.to/revanzart/how-i-run-a-full-content-pipeline-on-a-7-vps-with-2gb-of-ram-and-the-3am-crash-that-taught-me-why-4cho",
-   "meta": "DEV Community: sideprojects"
+   "source": "tuoluo",
+   "ext_id": "534917",
+   "title": "米哈游《源初之结》发文：首发PC，角色无需抽卡，没有难度门槛",
+   "body": "米哈游新作《源初之结》发文，以ＱＡ形式对玩家关心的十个问题进行解答。_游戏陀螺",
+   "url": "https://www.youxituoluo.com/534917.html",
+   "meta": "游戏陀螺·小游戏"
   }
  ]
 }
