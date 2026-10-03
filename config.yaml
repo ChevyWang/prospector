@@ -32,4 +32,4 @@ filters:
   negative_keywords: [hiring, "who is hiring", giveaway, survey, "looking for a cofounder", recruiting]
 
 report:
-  top_n: 10
+  top_n: 5   # 每个赛道各取前 N 条

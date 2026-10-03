@@ -27,12 +27,31 @@ REPORTS_DIR = ROOT / "reports"
 TZ = timezone(timedelta(hours=8))  # 北京时间
 UA = "prospector/0.1 (personal research pipeline)"
 
-RUBRIC = """评分维度（各 1-5 分，分高更好）：
-pain: 痛点是否清晰、强烈、具体（泛泛的"希望有个AI帮我生活"=1分）
-pay: 付费人群与付费意愿是否明确（B2B/专业人士/已有人在为类似问题花钱=高分；学生/娱乐=低分）
-competition: 市场空隙（5=几乎无现成方案或现有方案差评多；1=大厂免费产品已覆盖）
-fit: 适合个人开发者快速做出 B2B micro-SaaS/工具/API（需要硬件/牌照/重运营=低分）
-total = 四项之和"""
+RUBRIC = """先为每条信号分类（track）：
+- product：适合做产品/付费工具/SaaS 订阅——本质是"有人会为解决这个痛付钱"
+- traffic：适合做流量站/工具页/数据页，靠展示广告或 affiliate 变现——本质是"有人会反复搜索并使用"
+- none：纯新闻/随笔/无机会
+两道皆可时选主赛道，并在 reason 里注明另一道的可能性。
+
+【product 赛道】六维各 1-5 分，总分 30：
+B1 付费意愿证据：5=竞品收费多年且社区有人主动求替代/抱怨涨价；3=2-3 家竞品有公开定价页和真实评价；1=无付费竞品且人群是价格敏感 C 端
+B2 竞争结构：5=有竞品(市场被验证)且存在可命名的 feature-gap，差异有私有数据/垂直工作流护城河；3=强竞品但差评主题指向其架构/商业模式难以快速修补的缺口；1=核心功能已被大厂(Apple/Google/Microsoft/Notion/Canva/OpenAI)免费内置
+B3 获客通道：5=存在迁移窗口(竞品关站/收费/涨价)或有自有分发渠道；4="alternative to 竞品"有真实搜索量或人群聚集在可参与社区；1=无搜索意图、无社区，只能投广告/冷邮件
+B4 付费人群质量：5=B2B 有预算线、痛点挂钩收入/合规、可付 $100+/月；3=prosumer/独立创业者可付 $5-15/月；1=免费习惯的 C 端
+B5 时机窗口（非 shutdown/迁移型机会默认 3 分）：5=尚未公告但可从免费→付费信号提前布局，或公告当日即可上线；4=距关站 4-9 个月，可备齐"产品+一键迁移+定向优惠"三件套；2=距关站<2 个月来不及建迁移工具；1=关站已超 6 个月迁移潮被接走
+B6 独立交付：5=MVP<4 周、成本边际化、无单点依赖、可沉淀私有数据复利；3=MVP 2-3 个月、上游可替换；1=MVP 6+ 月或核心依赖单一上游 API 且无 fallback
+product 一票否决（命中则 track=none 并注明）：核心功能已被大厂免费内置；无付费竞品+无预算 C 端+非迁移窗口三者同时成立；单点上游依赖无切换方案；3-4h/天约束下 MVP 三个月内无法上线收费；shutdown 型但距关站<6 周
+
+【traffic 赛道】六维各 1-5 分，总分 30：
+A1 页面意图抗性：5=纯 tool intent（calculator/converter/generator/tracker/checker/数据查询），AIO 无法替代交互；3=词簇一半是 info，可改造为"info+内嵌工具"页；1=纯 info 词且 SERP 已出 AIO 且答案完整
+A2 关键词可赢性（新域名视角）：5=KD<20 且 SERP 前排有近两年新建小站排上去的先例；3=KD 20-30 或前排有 UGC/论坛帖穿插；1=KD>50 或前排全是权威站
+A3 变现效率：5=词簇 CPC>$15（金融/法律/保险/B2B）且流量以美英加为主；3=CPC $3-5；1=CPC<$1 泛娱乐
+A4 需求规模：5=词簇合计>5 万 mv，可扩 100+ 含独有数据的页面；3=2 千-1 万 mv 或 10+ 同构长尾页；1=词簇<500 mv 且无相邻扩展
+A5 独有数据/交互深度：5=专有数据管道或用户生成数据，页面价值随时间自增；3=简单交互或自建小型数据集；1=静态文字，可被 AIO 一段话复述
+A6 达门槛可行性（3-4h/天，12 个月）：5=可破 10 万 PV/月（Raptive 档，约 $1500-4500/月）；4=5-10 万 sessions（Mediavine 档）；3=1-5 万 sessions；1=到不了 Journey 门槛（1k sessions/月）
+traffic 一票否决（命中则 track=none 并注明）：词簇已被 AIO 覆盖且页面形态无法提供交互/独有数据；寄生 SEO（借高权域名挂第三方内容）；无人工介入的纯 AI 批量铺页；SERP 前排被 Reddit/YouTube/大厂官方占 ≥5 席且无法用 tool intent 差异化
+
+通用评分纪律：点赞和"想要"不是付费意愿，waitlist 无意义；竞品收费且差评多是好信号；搜索量/CPC/KD 看不到时按品类常识估并在 action 里写明"需 Glimpse/Ahrefs 验证"。"""
 
 
 def load_config():
@@ -234,24 +253,26 @@ def score_items(cfg, items):
         try:
             data = llm_json(cfg, [
                 {"role": "system",
-                 "content": f"你为一位独立开发者（方向：海外 B2B micro-SaaS/付费 API/工具站）"
-                            f"筛选产品机会。{RUBRIC}。只输出 JSON。"},
+                 "content": f"你为一位独立开发者（海外市场，每天 3-4 小时）筛选机会。{RUBRIC} 只输出 JSON。"},
                 {"role": "user",
-                 "content": f"以下是 {len(batch)} 条来自互联网的信号（社区帖子/愿望/差评）。"
-                            f"逐条按序号评分。注意：点赞数和'想要'不是付费意愿；"
-                            f"已有竞品在收费且差评多反而是好信号(competition 高分)。\n\n{listing}\n\n"
-                            f'输出格式：{{"items":[{{"i":0,"pain":1,"pay":1,"competition":1,'
-                            f'"fit":1,"total":4,"reason":"一句话理由",'
-                            f'"angle":"一句话产品切入角度","action":"一个具体的下一步验证动作"}}]}}'}])
+                 "content": f"以下是 {len(batch)} 条来自互联网的信号（社区帖子/愿望/差评/趋势）。"
+                            f"对每条：先定 track（product/traffic/none，注意一票否决项），"
+                            f"product 输出 b1-b6 六个维度分，traffic 输出 a1-a6 六个维度分，"
+                            f"none 只给 reason。\n\n{listing}\n\n"
+                            f'输出格式：{{"items":[{{"i":0,"track":"product",'
+                            f'"scores":{{"b1":3,"b2":4,"b3":3,"b4":4,"b5":3,"b6":4}},"total":21,'
+                            f'"reason":"一句话理由","angle":"一句话切入角度",'
+                            f'"kw":"建议主词簇(仅traffic)","action":"一个具体的下一步验证动作"}}]}}'}])
             for row in data.get("items", []) if isinstance(data.get("items"), list) else []:
                 j = row.get("i", -1)
                 if isinstance(j, int) and 0 <= j < len(batch):
                     b = dict(batch[j])
-                    for k in ("pain", "pay", "competition", "fit", "total"):
-                        b[k] = int(row.get(k, 0))
-                    b.update({k: row.get(k, "") for k in ("reason", "angle", "action")})
-                    if not b.get("total"):
-                        b["total"] = b["pain"] + b["pay"] + b["competition"] + b["fit"]
+                    b["track"] = row.get("track", "none")
+                    sc = row.get("scores") or {}
+                    b["scores"] = {k: int(v) for k, v in sc.items()
+                                   if isinstance(v, (int, float)) and not isinstance(v, bool)}
+                    b["total"] = int(row.get("total") or sum(b["scores"].values()))
+                    b.update({k: row.get(k, "") for k in ("reason", "angle", "action", "kw")})
                     scored.append(b)
         except Exception as e:
             print(f"[warn] scoring batch {i//25} failed: {e}")
@@ -260,31 +281,48 @@ def score_items(cfg, items):
 
 # ---------- 报告 ----------
 
+TRACK_TITLES = {"product": "产品订阅方向（SaaS/付费工具）",
+                "traffic": "流量站方向（工具页/数据页 + 展示广告或 affiliate）"}
+
+
 def write_report(cfg, scored, stats, date_str):
-    top = sorted(scored, key=lambda x: -x.get("total", 0))[:cfg["report"]["top_n"]]
+    top_n = cfg["report"]["top_n"]
     lines = [
         f"# 每日机会推荐 {date_str}",
         "",
-        f"今日抓取 {stats['fetched']} 条信号，去重后 {stats['fresh']} 条，"
-        f"预筛后送评 {stats['scored']} 条，推荐以下 {len(top)} 条。",
+        f"今日抓取 {stats['fetched']} 条信号，去重后 {stats['fresh']} 条，预筛后送评 {stats['scored']} 条。",
         "",
     ]
-    for n, it in enumerate(top, 1):
-        lines += [
-            f"## {n}. {it['title']}（{it['total']} 分）",
-            f"- 来源：{it['meta']} ｜ [原文]({it['url']})",
-            f"- 评分：痛点 {it['pain']} · 付费 {it['pay']} · 空隙 {it['competition']} · 适配 {it['fit']}",
-            f"- 值得做的理由：{it.get('reason', '')}",
-            f"- 产品切入：{it.get('angle', '')}",
-            f"- 下一步：{it.get('action', '')}",
-            "",
-        ]
-    lines += ["---", "", "> 定位提醒：这是灵感催化剂不是点子贩卖机——最好的判断仍来自你读原文后的直觉。",
-              "> 觉得某条不靠谱？直接改 pipeline.py 里的 RUBRIC 权重/措辞，这就是自建的意义。"]
+    top_all = []
+    for track in ("product", "traffic"):
+        pool = [x for x in scored if x.get("track") == track]
+        top = sorted(pool, key=lambda x: -x.get("total", 0))[:top_n]
+        lines += [f"## {TRACK_TITLES[track]}", ""]
+        if not top:
+            lines += ["今日无符合该赛道的机会。", ""]
+        for n, it in enumerate(top, 1):
+            dims = " · ".join(f"{k.upper()} {v}" for k, v in it.get("scores", {}).items())
+            lines += [
+                f"### {n}. {it['title']}（{it['total']}/30）",
+                f"- 来源：{it['meta']} ｜ [原文]({it['url']})",
+                f"- 评分：{dims}",
+            ]
+            if it.get("kw"):
+                lines.append(f"- 建议主词簇：{it['kw']}（搜索量/CPC/KD 需 Glimpse/Ahrefs 验证）")
+            lines += [
+                f"- 理由：{it.get('reason', '')}",
+                f"- 切入：{it.get('angle', '')}",
+                f"- 下一步：{it.get('action', '')}",
+                "",
+            ]
+        top_all += top
+    lines += ["---", "",
+              "> 定位提醒：这是灵感催化剂不是点子贩卖机——最好的判断仍来自你读原文后的直觉。",
+              "> 觉得某条不靠谱？直接改 pipeline.py 里的 RUBRIC，这就是自建的意义。"]
     REPORTS_DIR.mkdir(exist_ok=True)
     path = REPORTS_DIR / f"{date_str}.md"
     path.write_text("\n".join(lines), encoding="utf-8")
-    return path, top
+    return path, top_all
 
 
 def notify_telegram(top):

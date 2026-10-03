@@ -14,8 +14,11 @@
 每日（ZCode 定时触发）
   → 抓取: HN Algolia + Reddit(OAuth) + RSS + App Store 竞品差评
   → SQLite 去重（14 天同题冷却）+ 规则预筛 → data/pending.json
-  → agent 按 rubric 打分（pain/pay/competition/fit）
-  → reports/YYYY-MM-DD.md commit 回仓库 +（可选）Telegram 推送 Top5
+  → agent 按 RUBRIC 分类评分：每条信号先定赛道
+     · product 产品订阅：付费意愿/竞争结构/获客通道/人群质量/时机窗口/独立交付（B1-B6）
+     · traffic 流量站：意图抗性/词可赢性/变现效率/需求规模/独有数据/达门槛（A1-A6）
+     · 两道各有"一票否决项"（大厂免费内置、AIO 吞噬无交互、寄生 SEO 等）
+  → reports/YYYY-MM-DD.md 按赛道分组输出（每赛道前 5）+ commit 回仓库
 ```
 
 ## 部署（10 分钟）
