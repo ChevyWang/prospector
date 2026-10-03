@@ -120,6 +120,14 @@
   },
   {
    "source": "rss",
+   "ext_id": "https://lobste.rs/s/1rmsib",
+   "title": "The Era of Programming Languages Exploration is upon Us",
+   "body": "Comments",
+   "url": "https://kirancodes.me/posts/log-end-of-pl.html",
+   "meta": "Lobsters"
+  },
+  {
+   "source": "rss",
    "ext_id": "https://lobste.rs/s/cpf8w6",
    "title": "Rust for CPython (Python Language Summit 2026)",
    "body": "Comments",
@@ -136,14 +144,6 @@
   },
   {
    "source": "rss",
-   "ext_id": "https://lobste.rs/s/1rmsib",
-   "title": "The Era of Programming Languages Exploration is upon Us",
-   "body": "Comments",
-   "url": "https://kirancodes.me/posts/log-end-of-pl.html",
-   "meta": "Lobsters"
-  },
-  {
-   "source": "rss",
    "ext_id": "https://lobste.rs/s/rghh9w",
    "title": "Greg Kroah-Hartman - Security in the LLM Age",
    "body": "Comments",
@@ -156,6 +156,14 @@
    "title": "The hidden design compromises of Docker layers",
    "body": "Comments",
    "url": "https://loige.co/hidden-design-compromises-of-docker-layers/",
+   "meta": "Lobsters"
+  },
+  {
+   "source": "rss",
+   "ext_id": "https://lobste.rs/s/elziso",
+   "title": "The Era of Software Quality, or the Era of Ostriches?",
+   "body": "Comments",
+   "url": "https://blogs.gnome.org/mcatanzaro/2026/10/02/the-era-of-software-quality-or-the-era-of-ostriches/",
    "meta": "Lobsters"
   },
   {
@@ -184,18 +192,18 @@
   },
   {
    "source": "rss",
-   "ext_id": "https://lobste.rs/s/hfmcxi",
-   "title": "What are you doing this weekend?",
-   "body": "Feel free to tell what you plan on doing this weekend and even ask for help or feedback. \n Please keep in mind it’s more than OK to do nothing at all too!",
-   "url": "https://lobste.rs/s/hfmcxi/what_are_you_doing_this_weekend",
+   "ext_id": "https://lobste.rs/s/gjlxiz",
+   "title": "Problems and solutions to the modern desktop (Make tmux the OS)",
+   "body": "Comments",
+   "url": "https://matduggan.com/what-does-my-dream-os-ui-look-like/",
    "meta": "Lobsters"
   },
   {
    "source": "rss",
-   "ext_id": "https://lobste.rs/s/elziso",
-   "title": "The Era of Software Quality, or the Era of Ostriches?",
-   "body": "Comments",
-   "url": "https://blogs.gnome.org/mcatanzaro/2026/10/02/the-era-of-software-quality-or-the-era-of-ostriches/",
+   "ext_id": "https://lobste.rs/s/hfmcxi",
+   "title": "What are you doing this weekend?",
+   "body": "Feel free to tell what you plan on doing this weekend and even ask for help or feedback. \n Please keep in mind it’s more than OK to do nothing at all too!",
+   "url": "https://lobste.rs/s/hfmcxi/what_are_you_doing_this_weekend",
    "meta": "Lobsters"
   },
   {
@@ -212,14 +220,6 @@
    "title": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
    "body": "Comments",
    "url": "https://blog.gitbutler.com/git-3-sha-256",
-   "meta": "Lobsters"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://lobste.rs/s/gjlxiz",
-   "title": "Problems and solutions to the modern desktop (Make tmux the OS)",
-   "body": "Comments",
-   "url": "https://matduggan.com/what-does-my-dream-os-ui-look-like/",
    "meta": "Lobsters"
   },
   {
