@@ -1,13 +1,20 @@
 # prospector：LLM 每日选题雷达
 
 每天自动抓取海外需求信号（社区愿望帖 / 竞品差评 / RSS），LLM 按你自己的 rubric 打分，
-把值得看的机会写成日报 commit 回仓库。GitHub Actions 是调度与中间层，`reports/` 是最终落地。
+把值得看的机会写成日报 commit 回仓库。
+
+**双模式**：
+- **ZCode 定时任务（主）**：每天由 ZCode 自动化触发 `uv run python pipeline.py --signals-only`
+  导出当日信号，agent 直接读 `data/pending.json` 按 RUBRIC 评分、写 `reports/YYYY-MM-DD.md`
+  并 push——LLM 消耗走 ZCode 订阅额度，无需任何付费 API key。GitHub 仓库只是落地存储。
+- **GitHub Actions（备用）**：配好 `LLM_API_KEY` Secret 后可手动 Run workflow 走 API 评分
+  （`uv run python pipeline.py` 完整模式），适合本机不在身边的场景。
 
 ```
-GitHub Actions cron（每天北京时间 06:30）
+每日（ZCode 定时触发）
   → 抓取: HN Algolia + Reddit(OAuth) + RSS + App Store 竞品差评
-  → SQLite 去重（14 天同题冷却）+ 规则预筛
-  → LLM 按 rubric 打分（pain/pay/competition/fit）
+  → SQLite 去重（14 天同题冷却）+ 规则预筛 → data/pending.json
+  → agent 按 rubric 打分（pain/pay/competition/fit）
   → reports/YYYY-MM-DD.md commit 回仓库 +（可选）Telegram 推送 Top5
 ```
 

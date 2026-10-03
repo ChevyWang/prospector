@@ -1,9 +1,9 @@
 name: daily
 
 on:
-  schedule:
-    - cron: "30 22 * * *"   # UTC 22:30 = 北京时间 06:30
-  workflow_dispatch: {}      # 支持手动触发测试
+  # 评分已改为 ZCode 定时任务完成（走订阅额度，无需 API key）。
+  # 这里只保留手动触发作为备用：配好 LLM_API_KEY Secret 后可随时手动跑。
+  workflow_dispatch: {}
 
 permissions:
   contents: write            # 允许把报告和状态 commit 回仓库

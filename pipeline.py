@@ -305,6 +305,8 @@ def notify_telegram(top):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true", help="只跑抓取+去重+预筛，不调 LLM")
+    ap.add_argument("--signals-only", action="store_true",
+                    help="抓取+去重+预筛后导出 data/pending.json，评分交给外部（ZCode agent），不调 LLM API")
     args = ap.parse_args()
 
     cfg = load_config()
@@ -322,8 +324,19 @@ def main():
     keep = keep[:cfg["filters"].get("max_score_per_day", 150)]
     stats["scored"] = len(keep)
     if not keep:
-        print("[info] 今日无新信号，跳过 LLM")
+        print("[info] 今日无新信号")
         return
+
+    if args.signals_only:
+        payload = {"date": datetime.now(TZ).strftime("%Y-%m-%d"),
+                   "stats": stats, "items": keep}
+        (ROOT / "data").mkdir(exist_ok=True)
+        path = ROOT / "data" / "pending.json"
+        path.write_text(json.dumps(payload, ensure_ascii=False, indent=1),
+                        encoding="utf-8")
+        print(f"pending -> data/pending.json ({len(keep)} items, 待 ZCode agent 评分)")
+        return
+
     scored = score_items(cfg, keep)
     if not scored:
         print("[error] LLM 评分全部失败")
