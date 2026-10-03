@@ -364,6 +364,16 @@ TRACK_TITLES = {"product": "产品订阅方向（SaaS/付费工具）",
                 "traffic": "流量站方向（工具页/数据页 + 展示广告或 affiliate）",
                 "minigame": "微信小游戏方向（个人 IAA）"}
 
+# 评分行用中文名，不用 B1/A1 代号（读者不需要记 schema）
+DIM_LABELS = {
+    "b1": "付费意愿", "b2": "竞争结构", "b3": "获客通道", "b4": "人群质量",
+    "b5": "时机窗口", "b6": "独立交付",
+    "a1": "意图抗性", "a2": "词可赢性", "a3": "变现效率", "a4": "需求规模",
+    "a5": "独有数据", "a6": "达门槛",
+    "c1": "玩法验证", "c2": "竞争拥挤", "c3": "制作成本", "c4": "IAA变现",
+    "c5": "流量入口", "c6": "合规上线",
+}
+
 
 def write_report(cfg, scored, stats, date_str):
     top_n = cfg["report"]["top_n"]
@@ -381,7 +391,7 @@ def write_report(cfg, scored, stats, date_str):
         if not top:
             lines += ["今日无符合该赛道的机会。", ""]
         for n, it in enumerate(top, 1):
-            dims = " · ".join(f"{k.upper()} {v}" for k, v in it.get("scores", {}).items())
+            dims = " · ".join(f"{DIM_LABELS.get(k, k)} {v}" for k, v in it.get("scores", {}).items())
             lines += [
                 f"### {n}. {it['title']}（{it['total']}/30）",
                 f"- 来源：{it['meta']} ｜ [原文]({it['url']})",
