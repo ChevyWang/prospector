@@ -53,15 +53,18 @@ A5 独有数据/交互深度：5=专有数据管道或用户生成数据，页�
 A6 达门槛可行性（3-4h/天，12 个月）：5=可破 10 万 PV/月（Raptive 档，约 $1500-4500/月）；4=5-10 万 sessions（Mediavine 档）；3=1-5 万 sessions；1=到不了 Journey 门槛（1k sessions/月）
 traffic 一票否决（命中则 track=none 并注明）：词簇已被 AIO 覆盖且页面形态无法提供交互/独有数据；寄生 SEO（借高权域名挂第三方内容）；无人工介入的纯 AI 批量铺页；SERP 前排被 Reddit/YouTube/大厂官方占 ≥5 席且无法用 tool intent 差异化
 
-【minigame 赛道：微信小游戏（个人主体 IAA）】六维各 1-5 分，总分 30：
-C1 吸量潜力（素材 30 秒演示后的点击意愿）：5=玩法天然可视化爆点（物理效果/大数字/破坏反馈）且同类素材近 3 个月才起量；3=有成熟吸量原型（割草/合成/解压）可借鉴但需换皮；1=纯数值挂机无画面爆点，或同类素材已泛滥
-C2 品类拥挤度：5=新融合品类（消除+X 新组合等）榜单同类<5 款且爆款验证于 6 个月内；3=品类活跃但存在明显细分空位（题材/融合玩法）；1=正面撞无尽冬日like/咸鱼like/成熟 SLG（头部固化，TOP10 月活仅为 TOP3 的约 1/4）
-C3 制作成本匹配（个人 3-4h/天）：5=单场景可复用玩法（Roguelike/物理/合成），AI 可生成大部分美术，4 周内出可测版；3=2D 可行但内容量大（百关+）；1=需 3D 精建模/大体量关卡/多人服务端
-C4 变现效率（IAA-only 前提）：5=死亡复活/加速/翻倍类强激励场景，人均广告位 5+ 次/日，且可自然插入屏（插屏约占休闲小游戏收入 44%，别只做激励视频）；3=3-5 次自然广告位、激励视频有明确价值交换点；1=人均广告曝光<2 次/日
-C5 流量获取路径：5=适合视频号直播挂载（规则简单、强互动、观众可指挥主播；直播侧 CP 分成最高 90%）或 PC 多窗口挂机（PC 用户时长高近一倍、额外 10% 专属广告金）；3=可蹭一个明确入口（搜索词/游戏圈）；1=纯自然长尾、无入口红利
-C6 合规与上线摩擦：5=纯 IAA+中文命名免软著、已备案账号可复用、2-3 周可上线；3=标准 IAA 流程、软著在办（全周期 3-6 周，IAA 版本审核 13-37 个工作日）；1=类目敏感（棋牌/捕鱼/真人竞技）或备案预期>2 个月
-minigame 一票否决（命中则 track=none 并注明）：设计依赖 IAP/虚拟支付但主体是个人（无版号不可能合规开通）；可测版本开发超 8 周；玩法 30 秒内无法演示（试玩广告消耗同比 +844% 的时代，素材不吸量=死）；正面复刻头部品类；依赖买量回本、周期>3 个月（个人无投放预算）；涉现金/实物奖励诱导（涉诈红线）
-minigame 现实预期校准：个人 IAA 常态是月几百-几千元，吃到直播/PC 入口红利才上万；市场盘子 500-600 亿元但 IAA 年流水百万的 1400+ 款多为团队——C4/C5 打分时按此校准，不要给"复刻爆款月入十万"的幻觉分。
+【minigame 赛道：微信小游戏玩法方向（个人 IAA）】本赛道输出的是"可立项的游戏方向/点子"，不是新闻摘要：
+- 先判定机会类型，angle 必须以此开头：[迁移]=其他平台（Steam/手游/海外超休闲）已验证玩法→小游戏化；[改造]=已有小游戏玩法换题材/轻量化；[整合]=两个已验证玩法融合。angle 还需含具体玩法方向与预估开发周数（如"[迁移] 竖屏单局化+合成养成，约 4 周"）。
+- 纯行业新闻、政策解读、投融资、市场数据、无具体玩法可提炼的内容 → 一律 track=none，无论题材多重要。
+六维各 1-5 分，总分 30：
+C1 玩法验证度与吸量：5=来源玩法在其他平台已被市场验证（销量/榜单/流水可查）且天然可视化爆点（物理效果/大数字/破坏反馈），30 秒素材可演示；3=有成熟吸量原型（割草/合成/解压）可借鉴但需换皮；1=未验证的自创玩法，或纯数值挂机无画面爆点
+C2 竞争与拥挤度（看微信小游戏生态内）：5=微信内同类<5 款且来源玩法验证于 6 个月内（时间差窗口）；3=品类活跃但有明显细分空位（题材/融合差异）；1=微信内已泛滥（咸鱼like/无尽冬日like/成熟 SLG 的正面复刻）
+C3 制作成本（个人 3-4h/天）：5=单场景可复用玩法（Roguelike/物理/合成），AI 可生成大部分美术，≤4 周出可测版；3=2D 可行但内容量大（百关+）或需 4-8 周；1=需 3D 精建模/大体量关卡/多人服务端
+C4 IAA 变现效率：5=死亡复活/加速/翻倍类强激励场景，人均广告位 5+ 次/日，且可自然插入屏（插屏约占休闲小游戏收入 44%，别只做激励视频）；3=3-5 次自然广告位、激励视频有明确价值交换；1=人均广告曝光<2 次/日
+C5 流量获取路径：5=适合视频号直播挂载（规则简单、强互动、观众可指挥主播；直播 CP 分成最高 90%）或 PC 多窗口挂机（PC 用户时长高近一倍+额外 10% 广告金）；3=可蹭一个明确入口（搜索词/游戏圈）；1=纯自然长尾、无入口红利
+C6 合规与上线摩擦：5=纯 IAA+中文命名免软著、已备案账号可复用、2-3 周可上线；3=标准 IAA 流程软著在办（全周期 3-6 周）；1=类目敏感（棋牌/捕鱼/真人竞技）或备案预期>2 个月
+minigame 一票否决（命中则 track=none 并注明）：依赖 IAP/虚拟支付（个人无版号不可能合规）；可测版本开发超 8 周；玩法 30 秒内无法演示；正面复刻头部品类；依赖买量回本、周期>3 个月；涉现金/实物奖励诱导（涉诈红线）
+minigame 校准：个人 IAA 常态是月几百-几千元，吃到直播/PC 入口红利才上万。Steam 畅销榜上的 AAA/重叙事/重操作游戏若无法轻量化为"竖屏、30 秒可玩、单局 1-3 分钟"的小游戏形态，视为迁移不成立（C1/C3 打低分）。
 
 通用评分纪律：点赞和"想要"不是付费意愿，waitlist 无意义；竞品收费且差评多是好信号；搜索量/CPC/KD 看不到时按品类常识估并在 action 里写明"需 Glimpse/Ahrefs 验证"。"""
 
@@ -222,6 +225,34 @@ def fetch_appstore(cfg):
                     f"{app['name']} {rating}★ review"))
         except Exception as e:
             print(f"[warn] appstore {app.get('name')} failed: {e}")
+    return items
+
+
+def fetch_steam(cfg):
+    src = cfg["sources"].get("steam") or {}
+    s = requests.Session()
+    s.trust_env = False  # 本机代理访问 steam 不稳，直连更可靠
+    try:
+        r = s.get("https://store.steampowered.com/api/featuredcategories/", timeout=30,
+                  headers={"User-Agent": BROWSER_UA})
+        r.raise_for_status()
+        d = r.json()
+    except Exception as e:
+        print(f"[warn] steam failed: {e}")
+        return []
+    items = []
+    for cat, label in (("top_sellers", "畅销榜"), ("new_releases", "新品热门")):
+        for it in d.get(cat, {}).get("items", [])[:src.get("per_category", 15)]:
+            appid = it.get("id")
+            name = it.get("name", "")
+            # 硬件条目（Steam Machine/Frame/Deck 等）也有 appid，按名单排除
+            if not appid or not name or name.startswith(("Steam Machine", "Steam Frame", "Steam Deck")):
+                continue
+            desc = (it.get("short_description")
+                    or f"Steam {label}上榜（无简介，按游戏名与已知玩法判断迁移潜力）")
+            items.append(make_item("steam", f"{appid}-{cat}", name, desc,
+                                   f"https://store.steampowered.com/app/{appid}",
+                                   f"Steam {label}"))
     return items
 
 
@@ -398,7 +429,7 @@ def main():
 
     cfg = load_config()
     items = (fetch_hn(cfg) + fetch_reddit(cfg) + fetch_rss(cfg)
-             + fetch_tuoluo(cfg) + fetch_appstore(cfg))
+             + fetch_tuoluo(cfg) + fetch_steam(cfg) + fetch_appstore(cfg))
     fresh = dedupe(items, cfg["filters"].get("cooldown_days", 14))
     keep = prefilter(fresh, cfg)
     stats = {"fetched": len(items), "fresh": len(fresh), "scored": len(keep)}

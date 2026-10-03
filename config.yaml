@@ -19,14 +19,19 @@ sources:
     feeds:
       - https://lobste.rs/rss
       - https://dev.to/feed/tag/sideproject
-      # GameLook（国内游戏行业；HTTPS 在部分环境握手失败，用 HTTP）；keywords 只留小游戏相关
+      # GameLook（国内游戏行业；HTTPS 在部分环境握手失败，用 HTTP）。关键词故意放宽：
+      # 不只放小游戏内容，Steam/海外爆款拆解正是「迁移型玩法方向」的素材
       - url: http://www.gamelook.com.cn/feed
-        keywords: [小游戏, 微信小游戏, 创意小游戏, 买量, IAA, IAP, 版号, 混变, 吸量, 广告变现, 畅销榜, eCPM]
+        keywords: [小游戏, 微信小游戏, 创意小游戏, 买量, IAA, IAP, 版号, 混变, 吸量, 广告变现,
+                   畅销榜, eCPM, 爆款, 休闲, 超休闲, Steam, 放置, 合成, 益智, 塔防, 消除, 复盘]
   # 游戏陀螺·小游戏频道（无 RSS，抓频道页链接再取文章页标题+摘要）
   # ponytail: 依赖页面结构，陀螺改版即失效；他们出 RSS 时换掉
   tuoluo:
     channel: https://www.youxituoluo.com/html5game
     max_details: 12
+  # Steam 榜单（畅销榜+新品热门）——迁移型玩法方向的主要素材源
+  steam:
+    per_category: 15
   appstore:
     # 竞品差评挖掘（信号最强的合规自动源）。填竞品的 App Store ID（App 链接里的数字）。
     # - id: "1496831034"

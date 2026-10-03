@@ -1,114 +1,266 @@
 {
  "date": "2026-10-03",
  "stats": {
-  "fetched": 56,
-  "fresh": 14,
-  "scored": 13
+  "fetched": 100,
+  "fresh": 34,
+  "scored": 32
  },
  "items": [
   {
    "source": "rss",
-   "ext_id": "http://www.gamelook.com.cn/?p=602893",
-   "title": "《恋与深空》畅销榜第2，“战无不胜”的叠纸回来了？",
-   "body": "【GameLook专稿，禁止转载！】 GameLook报道/9月22日，叠纸旗下恋爱互动手游《恋与深空》上线五星思念限时UP许愿活动「如若午夜无眠」。 据七麦数据显示，活动开启后游...",
-   "url": "http://www.gamelook.com.cn/2026/09/602893/",
+   "ext_id": "https://dev.to/souvik_ns/how-im-building-and-self-hosting-jobscout-361p",
+   "title": "How I'm Building and Self-Hosting JobScout",
+   "body": "In the  last post  I wrote about why I'm building JobScout. This time I want to go through how it's built and where it's hosted. \n\n As of now I'm self-hosting JobScout on an old ThinkPad T470 that I had lying around. I'm not paying a cloud provider for any of it. The laptop wasn't doing anything else, and the project is early enough that one machine that stays on is all it needs. \n\n The ThinkPad runs Arch Linux (yeah, I use Arch by the way), and I have Tailscale set up on it. Tailscale puts the laptop on a private network with my other devices, so I can get into it from anywhere and nobody else can. \n\n For the public side I'm using a Cloudflare Tunnel. The laptop opens a connection out to Cloudflare, and Cloudflare sends incoming traffic back through it. So I don't have to open ports on my",
+   "url": "https://dev.to/souvik_ns/how-im-building-and-self-hosting-jobscout-361p",
+   "meta": "DEV Community: sideprojects"
+  },
+  {
+   "source": "rss",
+   "ext_id": "http://www.gamelook.com.cn/?p=603302",
+   "title": "10年独游老兵暴论：“游戏本身已不重要”！同行吵翻天：“发行商狗眼看人低”？",
+   "body": "【GameLook专稿，禁止转载！】 GameLook报道/这几年，游戏行业的困难几乎是人尽皆知，Steam 每年发售的游戏数量屡破纪录，玩家注意力成了比资金更稀缺的资源。而最近，...",
+   "url": "http://www.gamelook.com.cn/2026/09/603302/",
    "meta": "游戏大观 | GameLook.com.cn"
   },
   {
    "source": "rss",
-   "ext_id": "http://www.gamelook.com.cn/?p=602863",
-   "title": "《2026年日本游戏市场洞察报告》：日本手游应用内购（IAP）收入超过100亿美元",
-   "body": "2025年8月至2026年7月，日本手游应用内购（IAP）收入超过100亿美元（1.56万亿日元），在亚洲市场中仅次于中国 iOS 市场，位居第2。尽管收入同比下降5.1%，日本手...",
-   "url": "http://www.gamelook.com.cn/2026/09/602863/",
+   "ext_id": "http://www.gamelook.com.cn/?p=603291",
+   "title": "Steam“曝光饥渴症”背后：6年催生470个游戏节，但2/3游戏连门都没摸到！",
+   "body": "【GameLook专稿，禁止转载！】 GameLook报道/Steam平台每年都会有大量的新游戏发布，且每年的增幅都在提高。2026 年还没过完，就已经有近2万款游戏上线Steam...",
+   "url": "http://www.gamelook.com.cn/2026/09/603291/",
    "meta": "游戏大观 | GameLook.com.cn"
   },
   {
-   "source": "tuoluo",
-   "ext_id": "533186",
-   "title": "面对400亿规模的小游戏，厂商赚米的方式要变一变了",
-   "body": "随着竞争的加剧，小游戏的买量环境也迅速发生改变——尤其是迈过了流量红利期后，过去粗放式的买量方式逐渐过时，高昂的买量价格换来的却是转化率极低的用户。  无论是出于降本增效，还是提高竞争力的目的，「从粗放式买量转向精细化运营」注定会成为小游戏市场的主旋律。这或许解释了为何这些年，热力引擎等发行决策平台越来越受到厂商关注。_游戏陀螺",
-   "url": "https://www.youxituoluo.com/533186.html",
-   "meta": "游戏陀螺·小游戏"
+   "source": "rss",
+   "ext_id": "http://www.gamelook.com.cn/?p=603212",
+   "title": "混同人社区、第一次做游戏，就干出Steam近3万人在线《角色屋》？",
+   "body": "【GameLook专稿，禁止转载！】 你是否幻想过，将自己用心构思的 OC（Original Character，原创虚拟角色）摆上电脑桌面？一款主打捏人与陪伴的桌宠游戏，能够为同...",
+   "url": "http://www.gamelook.com.cn/2026/09/603212/",
+   "meta": "游戏大观 | GameLook.com.cn"
   },
   {
-   "source": "tuoluo",
-   "ext_id": "531670",
-   "title": "我们到底该怎么看待弹幕游戏赛道？",
-   "body": "在潜力不小的弹幕游戏细分赛道，厂商很难用传统的“做游戏思维”来实现突围。做弹幕游戏的难点在哪里？用户有什么样的特点？这类产品未来的核心竞争力是什么？Starscape公司创始人兼CEO濮冠楠在FBEC2023大会上带来了主题为《星辰无双在弹幕赛道的探索》的演讲，分享了Starscape在弹幕赛道探索的经验。_游戏陀螺",
-   "url": "https://www.youxituoluo.com/531670.html",
-   "meta": "游戏陀螺·小游戏"
+   "source": "rss",
+   "ext_id": "http://www.gamelook.com.cn/?p=603191",
+   "title": "必火无疑！Steam预约破250万人、全球第3，《亲爱的乘客》是什么奇葩游戏",
+   "body": "【GameLook专稿，禁止转载！】 GameLook报道/GameLook发现，最近Steam的愿望清单榜的一众3A大作里多了一位“不速之客”——《Dear Passengers...",
+   "url": "http://www.gamelook.com.cn/2026/09/603191/",
+   "meta": "游戏大观 | GameLook.com.cn"
   },
   {
-   "source": "tuoluo",
-   "ext_id": "530917",
-   "title": "云上体验会呼吸的江湖——《逆水寒》手游官方云游戏",
-   "body": "6月30日，《逆水寒》手游火爆公测，与此同时，《云·逆水寒》官宣推出网页版。_游戏陀螺",
-   "url": "https://www.youxituoluo.com/530917.html",
-   "meta": "游戏陀螺·小游戏"
+   "source": "rss",
+   "ext_id": "http://www.gamelook.com.cn/?p=603120",
+   "title": "字节“AI修仙游戏”开卖！小师妹颜值拉满、19元诚意价，为何叫好不叫座？",
+   "body": "【GameLook专稿，禁止转载！】 GameLook报道/在一款修仙游戏里，把酒馆老板娘换成奶龙，再打字逗它几句，居然还能涨好感、拿道具。 Steam玩家对《不问凡尘》的第一印象...",
+   "url": "http://www.gamelook.com.cn/2026/09/603120/",
+   "meta": "游戏大观 | GameLook.com.cn"
   },
   {
-   "source": "tuoluo",
-   "ext_id": "530574",
-   "title": "《梦幻西游网页版》GDC分享：H5游戏+抖音直播=流量密码？",
-   "body": "在GDC2023大会上，来自网易游戏的《梦幻西游网页版》营销专家伟涛，在核心会场（Core concept）中分享了他们是如何设计出一个“心理力场”，将“消费心理学”应用于产品营销推广。_游戏陀螺",
-   "url": "https://www.youxituoluo.com/530574.html",
-   "meta": "游戏陀螺·小游戏"
+   "source": "rss",
+   "ext_id": "http://www.gamelook.com.cn/?p=603099",
+   "title": "腾讯又投资休闲手游公司：土耳其Circle Games喜获2500万美元巨额融资",
+   "body": "【GameLook专稿，禁止转载！】 GameLook报道/国内大厂在休闲游戏领域的布局仍在持续。近日，土耳其手游工作室Circle Games在由腾讯领投的A轮融资中获得了250...",
+   "url": "http://www.gamelook.com.cn/2026/09/603099/",
+   "meta": "游戏大观 | GameLook.com.cn"
   },
   {
-   "source": "tuoluo",
-   "ext_id": "530537",
-   "title": "4399小游戏江湖招募令发布！",
-   "body": "4399小游戏在2023年4月1号至6月30号期间将发布“江湖招募令”活动_游戏陀螺",
-   "url": "https://www.youxituoluo.com/530537.html",
-   "meta": "游戏陀螺·小游戏"
+   "source": "rss",
+   "ext_id": "http://www.gamelook.com.cn/?p=603006",
+   "title": "“开僵尸工厂, 当墓地大老板”！《守墓人2》Steam在线破5万人，荒诞又上头",
+   "body": "【GameLook专稿，禁止转载！】 GameLook报道/还记得当年那个把你绑架到中世纪、一边往河里抛尸一边被教会催账的游戏《守墓人》吗？在经历了一代的各种磨难后，游戏制作团队L...",
+   "url": "http://www.gamelook.com.cn/2026/09/603006/",
+   "meta": "游戏大观 | GameLook.com.cn"
   },
   {
-   "source": "tuoluo",
-   "ext_id": "520546",
-   "title": "干货｜2019年H5小游戏机会全析",
-   "body": "慎重的原因来自于市场的变化，如果不能及时适应和调整就要考虑转型或放弃。_游戏陀螺",
-   "url": "https://www.youxituoluo.com/520546.html",
-   "meta": "游戏陀螺·小游戏"
+   "source": "rss",
+   "ext_id": "http://www.gamelook.com.cn/?p=603007",
+   "title": "休闲手游数据报告：Top300新游仅占2%，老游戏霸榜，休闲手游逻辑彻底变了！",
+   "body": "【GameLook专稿，禁止转载！】 GameLook报道/休闲游戏公司Azur Games最近发布的内部休闲游戏报告显示，在2026上半年，所有品类的下载量都出现了明显下滑，且除...",
+   "url": "http://www.gamelook.com.cn/2026/09/603007/",
+   "meta": "游戏大观 | GameLook.com.cn"
   },
   {
-   "source": "tuoluo",
-   "ext_id": "522791",
-   "title": "QQ小游戏已诞生多款千万流水产品，即将开放买量，机会点在哪里？",
-   "body": "QQ小游戏已诞生多款千万流水产品。游戏陀螺为你剖析接下来的机会点在哪里。_游戏陀螺",
-   "url": "https://www.youxituoluo.com/522791.html",
-   "meta": "游戏陀螺·小游戏"
+   "source": "rss",
+   "ext_id": "http://www.gamelook.com.cn/?p=603087",
+   "title": "“游戏圈喜剧还是悲剧”？Roblox开闸放水，几百万款游戏涌向Steam和手游？",
+   "body": "【GameLook专稿，禁止转载！】 GameLook报道/上周末的Roblox开发者大会（RDC 2026），Roblox扔出了一颗重磅炸弹。 Roblox允许开发者把平台上的游...",
+   "url": "http://www.gamelook.com.cn/2026/09/603087/",
+   "meta": "游戏大观 | GameLook.com.cn"
   },
   {
-   "source": "tuoluo",
-   "ext_id": "522010",
-   "title": "为什么你的小游戏不赚钱？曾经发行千万流水公司的9点剖析建议",
-   "body": "“小游戏大多数失败是选型问题。”_游戏陀螺",
-   "url": "https://www.youxituoluo.com/522010.html",
-   "meta": "游戏陀螺·小游戏"
+   "source": "rss",
+   "ext_id": "http://www.gamelook.com.cn/?p=602908",
+   "title": "“让女玩家做裙子的游戏火了”！3人开发《针影裁梦》好评96%, Steam在线破万人",
+   "body": "【GameLook专稿，禁止转载！】 你见过亲手挑选面料，从打版裁剪到缝合成衣的制衣游戏吗？你见过不受模板限制，自由设计版型、搭配纹样，打造专属时装的工坊模拟吗？你见过把布料质感、...",
+   "url": "http://www.gamelook.com.cn/2026/09/602908/",
+   "meta": "游戏大观 | GameLook.com.cn"
   },
   {
-   "source": "tuoluo",
-   "ext_id": "520432",
-   "title": "渠道、产品、发行，2019的H5，行情如何？ | 在广深",
-   "body": "小游戏，但作为小游戏“前辈”的H5领域_游戏陀螺",
-   "url": "https://www.youxituoluo.com/520432.html",
-   "meta": "游戏陀螺·小游戏"
+   "source": "rss",
+   "ext_id": "http://www.gamelook.com.cn/?p=602892",
+   "title": "《永恒之塔2》Steam测试爆火：国外男玩家“已看破”，女玩家：“男角色穿太多”！",
+   "body": "【GameLook专稿，禁止转载！】 GameLook报道/当韩国游戏巨头NCsoft与盛趣游戏再度携手，宣布将《永恒之塔2》引进中国大陆市场时，不少经历过PC端游黄金时代的国内玩...",
+   "url": "http://www.gamelook.com.cn/2026/09/602892/",
+   "meta": "游戏大观 | GameLook.com.cn"
   },
   {
-   "source": "tuoluo",
-   "ext_id": "534918",
-   "title": "鹰角20%入股上海宇宙怪兽，旗下「开拓芯」已投资近30家游戏团队",
-   "body": "天眼查资料显示，上海宇宙怪兽新增上海鹰角网络科技有限公司为股东，持股20%。_游戏陀螺",
-   "url": "https://www.youxituoluo.com/534918.html",
-   "meta": "游戏陀螺·小游戏"
+   "source": "rss",
+   "ext_id": "http://www.gamelook.com.cn/?p=602885",
+   "title": "数据分析：如何通过Steam Demo在线人数，预测游戏最终成绩？",
+   "body": "【GameLook专稿，禁止转载！】 GameLook报道/在Steam平台，越来越多的游戏开始通过demo来测试游戏在玩家社区中的接受度，并通过它来收集玩家反馈，对最终游戏做出改...",
+   "url": "http://www.gamelook.com.cn/2026/09/602885/",
+   "meta": "游戏大观 | GameLook.com.cn"
   },
   {
-   "source": "tuoluo",
-   "ext_id": "534917",
-   "title": "米哈游《源初之结》发文：首发PC，角色无需抽卡，没有难度门槛",
-   "body": "米哈游新作《源初之结》发文，以ＱＡ形式对玩家关心的十个问题进行解答。_游戏陀螺",
-   "url": "https://www.youxituoluo.com/534917.html",
-   "meta": "游戏陀螺·小游戏"
+   "source": "steam",
+   "ext_id": "4165910-top_sellers",
+   "title": "Steam Machine",
+   "body": "Steam 畅销榜上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/4165910",
+   "meta": "Steam 畅销榜"
+  },
+  {
+   "source": "steam",
+   "ext_id": "4165890-top_sellers",
+   "title": "Steam Frame",
+   "body": "Steam 畅销榜上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/4165890",
+   "meta": "Steam 畅销榜"
+  },
+  {
+   "source": "steam",
+   "ext_id": "3010850-top_sellers",
+   "title": "Gears of War: E-Day",
+   "body": "Steam 畅销榜上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/3010850",
+   "meta": "Steam 畅销榜"
+  },
+  {
+   "source": "steam",
+   "ext_id": "2288340-top_sellers",
+   "title": "ACE COMBAT 8: WINGS OF THEVE",
+   "body": "Steam 畅销榜上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/2288340",
+   "meta": "Steam 畅销榜"
+  },
+  {
+   "source": "steam",
+   "ext_id": "1675200-top_sellers",
+   "title": "Steam Deck",
+   "body": "Steam 畅销榜上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/1675200",
+   "meta": "Steam 畅销榜"
+  },
+  {
+   "source": "steam",
+   "ext_id": "3679100-new_releases",
+   "title": "Keine’s Terakoya: A Schoolhouse in Gensokyo",
+   "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/3679100",
+   "meta": "Steam 新品热门"
+  },
+  {
+   "source": "steam",
+   "ext_id": "4884750-new_releases",
+   "title": "The Webring",
+   "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/4884750",
+   "meta": "Steam 新品热门"
+  },
+  {
+   "source": "steam",
+   "ext_id": "4893990-new_releases",
+   "title": "Airline Empire",
+   "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/4893990",
+   "meta": "Steam 新品热门"
+  },
+  {
+   "source": "steam",
+   "ext_id": "4899730-new_releases",
+   "title": "Intercept Line",
+   "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/4899730",
+   "meta": "Steam 新品热门"
+  },
+  {
+   "source": "steam",
+   "ext_id": "4962430-new_releases",
+   "title": "Pixel Trader",
+   "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/4962430",
+   "meta": "Steam 新品热门"
+  },
+  {
+   "source": "steam",
+   "ext_id": "5262940-new_releases",
+   "title": "Myriad Gambit",
+   "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/5262940",
+   "meta": "Steam 新品热门"
+  },
+  {
+   "source": "steam",
+   "ext_id": "4482600-new_releases",
+   "title": "Horde is Coming",
+   "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/4482600",
+   "meta": "Steam 新品热门"
+  },
+  {
+   "source": "steam",
+   "ext_id": "5113560-new_releases",
+   "title": "Soldier Rush",
+   "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/5113560",
+   "meta": "Steam 新品热门"
+  },
+  {
+   "source": "steam",
+   "ext_id": "5267360-new_releases",
+   "title": "Blackout",
+   "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/5267360",
+   "meta": "Steam 新品热门"
+  },
+  {
+   "source": "steam",
+   "ext_id": "5269520-new_releases",
+   "title": "The 3AM Convenience Store",
+   "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/5269520",
+   "meta": "Steam 新品热门"
+  },
+  {
+   "source": "steam",
+   "ext_id": "5242800-new_releases",
+   "title": "LUMESPROUT",
+   "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/5242800",
+   "meta": "Steam 新品热门"
+  },
+  {
+   "source": "steam",
+   "ext_id": "5201260-new_releases",
+   "title": "Alchemy Master",
+   "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/5201260",
+   "meta": "Steam 新品热门"
+  },
+  {
+   "source": "steam",
+   "ext_id": "3231480-new_releases",
+   "title": "Dreamspring",
+   "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/3231480",
+   "meta": "Steam 新品热门"
+  },
+  {
+   "source": "steam",
+   "ext_id": "3200810-new_releases",
+   "title": "GENERAL IDLER",
+   "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/3200810",
+   "meta": "Steam 新品热门"
   }
  ]
 }

@@ -12,13 +12,15 @@
 
 ```
 每日（ZCode 定时触发）
-  → 抓取: HN Algolia + Reddit(OAuth) + RSS（Lobsters/dev.to/GameLook 小游戏关键词过滤）
-          + 游戏陀螺·小游戏频道 + App Store 竞品差评
+  → 抓取: HN Algolia + Reddit(OAuth) + RSS（Lobsters/dev.to/GameLook 关键词）
+          + 游戏陀螺·小游戏频道 + Steam 畅销榜/新品热门 + App Store 竞品差评
   → SQLite 去重（14 天同题冷却）+ 规则预筛 → data/pending.json
   → agent 按 RUBRIC 分类评分：每条信号先定赛道
      · product 产品订阅：付费意愿/竞争结构/获客通道/人群质量/时机窗口/独立交付（B1-B6）
      · traffic 流量站：意图抗性/词可赢性/变现效率/需求规模/独有数据/达门槛（A1-A6）
-     · minigame 微信小游戏（个人 IAA）：吸量潜力/品类拥挤度/制作成本/变现效率/流量入口/合规摩擦（C1-C6）
+     · minigame 微信小游戏（个人 IAA）：输出玩法方向提案（[迁移]/[改造]/[整合]+预估周数），
+       按玩法验证度与吸量/微信内竞争拥挤度/制作成本/IAA 变现/流量入口/合规打分（C1-C6）；
+       纯新闻/政策/数据报告一律归 none
      · 三道各有"一票否决项"（大厂免费内置、AIO 吞噬无交互、IAP 依赖无版号等）
   → reports/YYYY-MM-DD.md 按赛道分组输出（每赛道前 5）+ commit 回仓库
 ```
