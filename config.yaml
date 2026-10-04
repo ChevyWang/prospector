@@ -11,10 +11,11 @@ sources:
     queries: ["wish existed", "is there a tool", "is there an app", "how do you handle"]
     lookback_hours: 48   # 每天跑，回看 48h 防漏（重复靠去重库挡）
   reddit:
-    subs: [SomebodyMakeThis, Startup_Ideas, SideProject, SaaS]
+    subs: [SomebodyMakeThis, Startup_Ideas, SideProject, SaaS, incremental_games]
     # 垂直行业 sub 是 B2B 金矿，替换/追加成你关注的行业，例如:
     # - accounting / veterinary / lawfirm / dentistry / smallbusiness
     limit: 50
+    # OAuth 凭证未配置时自动降级为免凭证 .rss（串行+10s 间隔，连发会被 429）
   rss:
     feeds:
       - https://lobste.rs/rss
@@ -24,6 +25,15 @@ sources:
       - url: http://www.gamelook.com.cn/feed
         keywords: [小游戏, 微信小游戏, 创意小游戏, 买量, IAA, IAP, 版号, 混变, 吸量, 广告变现,
                    畅销榜, eCPM, 爆款, 休闲, 超休闲, Steam, 放置, 合成, 益智, 塔防, 消除, 复盘]
+      - https://www.gameres.com/rss.xml    # GameRes 游资网（国内行业）
+        # keywords 同 GameLook 需要时再开
+      - url: https://www.baijing.cn/feed    # 白鲸出海（海外休闲爆款→国内迁移对照）
+      # EOL/关停雷达（product 赛道时机窗口）：英文 + 中文双路
+      - url: https://news.google.com/rss/search?q=%22shutting+down%22+OR+%22sunsetting%22+OR+%22end+of+life%22+when%3A7d&hl=en-US&gl=US&ceid=US:en
+        keywords: []   # 检索式已收敛，不再过滤
+      - url: https://news.google.com/rss/search?q=%E5%81%9C%E6%AD%A2%E6%9C%8D%E5%8A%A1+OR+%E5%81%9C%E8%BF%90+when%3A7d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans
+      # minigame 玩法迁移素材：itch.io HTML5 新游
+      - https://itch.io/games/html5.xml
   # 游戏陀螺·小游戏频道（无 RSS，抓频道页链接再取文章页标题+摘要）
   # ponytail: 依赖页面结构，陀螺改版即失效；他们出 RSS 时换掉
   tuoluo:
@@ -32,6 +42,14 @@ sources:
   # Steam 榜单（畅销榜+新品热门）——迁移型玩法方向的主要素材源
   steam:
     per_category: 15
+    tags: [Casual]   # 标签新品榜（search infinite=1 端点）
+  # EOL/关停结构化基线：Killed by Google（每日取近 N 天关闭条目）+ endoflife.date 按需白名单
+  # （all.json 只有产品名列表、周期要逐产品拉，故默认不拉；需要时填 slug 如 [nodejs]）
+  eol:
+    window_days: 14
+    products: []
+  v2ex:
+    nodes: [create]   # 分享创造节点（国内独立开发者一手动态）
   appstore:
     # 竞品差评挖掘（信号最强的合规自动源）。填竞品的 App Store ID（App 链接里的数字）。
     # - id: "1496831034"

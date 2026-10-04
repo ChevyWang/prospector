@@ -120,11 +120,31 @@ def reddit_headers():
 
 def fetch_reddit(cfg):
     headers = reddit_headers()
-    if headers is None:
-        print("[warn] REDDIT_CLIENT_ID/SECRET 未设置，跳过 Reddit 源")
-        return []
     src = cfg["sources"]["reddit"]
     items = []
+    if headers is None:
+        # 免凭证 .rss 降级：实测连发第二个请求即 429，必须串行 + 硬间隔
+        # ponytail: OAuth 凭证就绪后走下面正式档（100 QPM），此分支可删
+        print("[warn] REDDIT_CLIENT_ID/SECRET 未设置，走免凭证 .rss 慢速模式（串行+15s，部分 sub 可能被限流跳过）")
+        s = requests.Session()
+        for sub in src.get("subs", []):
+            try:
+                r = s.get(f"https://www.reddit.com/r/{sub}/new/.rss",
+                          params={"limit": 50}, headers={"User-Agent": BROWSER_UA}, timeout=30)
+                if r.status_code == 429:
+                    time.sleep(30)
+                    r = s.get(f"https://www.reddit.com/r/{sub}/new/.rss",
+                              params={"limit": 50}, headers={"User-Agent": BROWSER_UA}, timeout=30)
+                r.raise_for_status()
+                f = feedparser.parse(r.content)
+                for e in f.entries[:30]:
+                    items.append(make_item(
+                        "reddit", e.get("id") or e.get("link"), e.get("title") or "",
+                        e.get("summary") or "", e.get("link") or "", f"r/{sub}"))
+            except Exception as e:
+                print(f"[warn] reddit r/{sub} rss failed: {e}")
+            time.sleep(15)
+        return items
     for sub in src.get("subs", []):
         try:
             r = requests.get(f"https://oauth.reddit.com/r/{sub}/new",
@@ -253,6 +273,92 @@ def fetch_steam(cfg):
             items.append(make_item("steam", f"{appid}-{cat}", name, desc,
                                    f"https://store.steampowered.com/app/{appid}",
                                    f"Steam {label}"))
+    # 标签新品榜（search infinite=1 端点，结果内嵌 HTML 需正则解析）
+    for tag in src.get("tags", []):
+        try:
+            r2 = s.get("https://store.steampowered.com/search/results/",
+                       params={"json": 1, "start": 0, "count": 30, "infinite": 1,
+                               "tags": tag, "sort_by": "Released_DESC", "cc": "US", "l": "english"},
+                       timeout=30, headers={"User-Agent": BROWSER_UA})
+            html_rows = r2.json().get("results_html", "")
+            for m in re.finditer(r'data-ds-appid="(\d+)"(.{0,1500}?)<span class="title">\s*([^<]+)</span>',
+                                 html_rows, re.S):
+                appid, _, name = m.group(1), m.group(2), m.group(3).strip()
+                items.append(make_item("steam", f"{appid}-tag-{tag}", name,
+                                       f"Steam 标签[{tag}]新品榜（按名称与已知玩法判断迁移潜力）",
+                                       f"https://store.steampowered.com/app/{appid}",
+                                       f"Steam {tag}新品"))
+        except Exception as e:
+            print(f"[warn] steam tag '{tag}' failed: {e}")
+    return items
+
+
+def fetch_eol(cfg):
+    # ponytail: endoflife.date 的 all.json 只是产品名列表，周期详情需逐产品拉；
+    # 默认白名单为空=不请求，需要时在 config 填产品 slug（如 nodejs）。关停信号主力是
+    # killedbygoogle + Google News 检索式 RSS，不依赖这里。
+    window = (cfg["sources"].get("eol") or {}).get("window_days", 14)
+    earliest = datetime.now(TZ) - timedelta(days=window)
+    horizon = datetime.now(TZ) + timedelta(
+        days=(cfg["sources"].get("eol") or {}).get("horizon_days", 270))
+    items = []
+    for slug in (cfg["sources"].get("eol") or {}).get("products", []):
+        try:
+            cycles = requests.get(f"https://endoflife.date/api/{slug}.json", timeout=30,
+                                  headers={"User-Agent": BROWSER_UA}).json()
+            for c in cycles:
+                eol = c.get("eol")
+                if not isinstance(eol, str):
+                    continue
+                try:
+                    d = datetime.fromisoformat(eol[:10]).replace(tzinfo=TZ)
+                except ValueError:
+                    continue
+                if earliest <= d <= horizon:
+                    items.append(make_item(
+                        "eol", f"{slug}-{c.get('cycle')}-{eol}",
+                        f"[EOL] {slug} {c.get('cycle','')} 将于 {d:%Y-%m-%d} 停止支持",
+                        f"{slug} {c.get('cycle','')} 生命周期结束日期 {d:%Y-%m-%d}（endoflife.date 官方周期数据），"
+                        f"下游用户面临升级/迁移压力。",
+                        f"https://endoflife.date/{slug}", "endoflife.date"))
+                    break
+        except Exception as e:
+            print(f"[warn] endoflife {slug} failed: {e}")
+    try:
+        grave = requests.get(
+            "https://raw.githubusercontent.com/codyogden/killedbygoogle/main/graveyard.json",
+            timeout=30, headers={"User-Agent": BROWSER_UA}).json()
+        for x in grave:
+            dc = (x.get("dateClose") or "")[:10]
+            try:
+                d = datetime.strptime(dc, "%Y-%m-%d").replace(tzinfo=TZ)
+            except ValueError:
+                continue
+            if earliest <= d <= horizon:
+                items.append(make_item(
+                    "eol", f"kbg-{x.get('name')}",
+                    f"[关停] Google {x.get('name')} 将于 {d:%Y-%m-%d} 关闭",
+                    (x.get("description") or "")[:300],
+                    x.get("link") or "https://killedbygoogle.com", "Killed by Google"))
+    except Exception as e:
+        print(f"[warn] killedbygoogle failed: {e}")
+    return items
+
+
+def fetch_v2ex(cfg):
+    items = []
+    for node in (cfg["sources"].get("v2ex") or {}).get("nodes", []):
+        try:
+            r = requests.get("https://www.v2ex.com/api/topics/show.json",
+                             params={"node_name": node}, timeout=30,
+                             headers={"User-Agent": BROWSER_UA})
+            r.raise_for_status()
+            for t in r.json():
+                items.append(make_item(
+                    "v2ex", t.get("id"), t.get("title") or "", t.get("content") or "",
+                    t.get("url") or "https://v2ex.com/go/create", f"V2EX/{node}"))
+        except Exception as e:
+            print(f"[warn] v2ex {node} failed: {e}")
     return items
 
 
@@ -430,6 +536,21 @@ def notify_telegram(top):
         print(f"[warn] telegram failed: {e}")
 
 
+def interleave_by_source(items):
+    # 按源轮转重排：防止高产量源（reddit/rss）独占 max_score_per_day 上限，
+    # 让 eol/steam/v2ex/陀螺 等尾部源也有名额
+    by_src = {}
+    for it in items:
+        by_src.setdefault(it["source"], []).append(it)
+    out = []
+    while by_src:
+        for k in list(by_src):
+            out.append(by_src[k].pop(0))
+            if not by_src[k]:
+                del by_src[k]
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true", help="只跑抓取+去重+预筛，不调 LLM")
@@ -439,9 +560,11 @@ def main():
 
     cfg = load_config()
     items = (fetch_hn(cfg) + fetch_reddit(cfg) + fetch_rss(cfg)
-             + fetch_tuoluo(cfg) + fetch_steam(cfg) + fetch_appstore(cfg))
+             + fetch_tuoluo(cfg) + fetch_steam(cfg) + fetch_eol(cfg)
+             + fetch_v2ex(cfg) + fetch_appstore(cfg))
     fresh = dedupe(items, cfg["filters"].get("cooldown_days", 14))
     keep = prefilter(fresh, cfg)
+    keep = interleave_by_source(keep)
     stats = {"fetched": len(items), "fresh": len(fresh), "scored": len(keep)}
     print(f"fetched={stats['fetched']} fresh={stats['fresh']} kept={stats['scored']}")
 

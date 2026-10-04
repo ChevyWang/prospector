@@ -1,114 +1,50 @@
 {
  "date": "2026-10-04",
  "stats": {
-  "fetched": 89,
-  "fresh": 15,
-  "scored": 13
+  "fetched": 360,
+  "fresh": 6,
+  "scored": 5
  },
  "items": [
   {
-   "source": "hn",
-   "ext_id": "49947975",
-   "title": "Is library building obsoleted by AI coding?",
-   "body": "Huge open source projects have been successful by building upon dozens to hundreds of small libraries that encapsulate functionality and complexity. AI coding uses these libraries to quickly build applications. With the latest round of model releases I am seeing that AI can now generate the functionality of almost any library in-line as it generates the application. When building took a long time, breaking things down into well defined modules, shipping incrementally, and reusing code, were essential techniques. They seem much less important when AI is doing the work. Is software library creation obsolete?",
-   "url": "https://news.ycombinator.com/item?id=49947975",
-   "meta": "AskHN 2p/4c"
-  },
-  {
-   "source": "hn",
-   "ext_id": "49948107",
-   "title": "Tell HN: I Hate Codex with Passion",
-   "body": "OpenAI would have you believe you can do real work with Codex. I have a $20 OpenAI subscription and a $20 Claude subscription. With Codex I can barely get one meaningful coding task done in the 5h limit. (Either Sol 5.1 high or Astra 6 high.)\nWith Claude I can comfortably get 3 meaningful tasks done. (Opus 5.5 high.) This is not anecdotal but from repeated experience of dozens of tasks. Doesn't matter what's the size or complexity of those tasks  - they're comparable and the differences wash out in the number. I divide my work consistently. And now an anecdote from a moment ago: I've run out of Opus weekly usage. I've found a bug in my app. Not trivial but not really hard. I had well over 50% of the Codex 5h limit left. I thought: great, Astra will crush this bug in no time. And then I wat",
-   "url": "https://news.ycombinator.com/item?id=49948107",
-   "meta": "AskHN 3p/2c"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://lobste.rs/s/xruas8",
-   "title": "An Update on Orion for Linux and Windows",
-   "body": "Comments",
-   "url": "https://blog.kagi.com/update-orion-linux-windows",
-   "meta": "Lobsters"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://lobste.rs/s/hk0ohb",
-   "title": "System-level ad-blocking in Android",
-   "body": "Comments",
-   "url": "https://kevinboone.me/adblock.html",
-   "meta": "Lobsters"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://lobste.rs/s/dqp0oc",
-   "title": "Customization: Optimizing Compiler Technology for SELF, a Dynamically-Typed Object-Oriented Programming Language (1989)",
-   "body": "Dynamically-typed object-oriented languages please programmers, but their lack of static type information penalizes performance. Our new implementation techniques extract static type information from declaration-free programs. Our system compiles several copies of a given procedure, each customized for one receiver type, so that the type of the receiver is bound at compile time. The compiler predicts types that are statically unknown but likely, and inserts run-time type tests to verify its predictions. It splits calls, compiling a copy on each control path, optimized to the specific types on that path. Coupling these new techniques with compile-time message lookup, aggressive procedure inlining, and traditional optimizations has doubled the performance of dynamically-typed object-oriented",
-   "url": "https://dl.acm.org/doi/epdf/10.1145/74818.74831",
-   "meta": "Lobsters"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://lobste.rs/s/srduzv",
-   "title": "Why don’t more developers \"use the platform\"?",
-   "body": "Comments",
-   "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
-   "meta": "Lobsters"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://dev.to/metalhead_coder/how-i-found-12-testers-for-google-play-closed-testing-twice-12jn",
-   "title": "How I Found 12 Testers for Google Play Closed Testing, Twice",
-   "body": "Friends and family for my first app, Reddit “test for test” for the second, plus a Reddit post template you can copy.\n \n\n Over the past months, I built and shipped two Android apps on my own. I wanted hands-on experience with Kotlin Multiplatform and with taking an app all the way from an idea to Google Play. The first one is an exam prep app for the German citizenship test. The second one is a grid-based puzzle game that challenges your focus and memory. \n\n Writing the code was the part I expected to be hard. The part that surprised me was closed testing. Before Google Play lets you publish a new app, you need real people to test it, and finding those people took more effort than I planned. When I searched for advice, I mostly found short posts with the rules and not much about how to get",
-   "url": "https://dev.to/metalhead_coder/how-i-found-12-testers-for-google-play-closed-testing-twice-12jn",
-   "meta": "DEV Community: sideprojects"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://dev.to/removewaterfromspeakers/i-built-a-tiny-tool-that-catches-the-printed-at-94-problem-1hj1",
-   "title": "I built a tiny tool that catches the \"printed at 94%\" problem",
-   "body": "Hi everyone, \n\n I built  a free print scale checker  as part of my printer test site, after running into a frustrating problem: prints that look fine but come out the wrong size. \n\n The usual cause: an A4 file printed on Letter with \"Fit to page\" on shrinks to about 94%. Nothing looks broken, but templates, labels and patterns are off. \n\n  What I focused on:  \n\n \n Print one sheet, measure a 100 mm bar, type the number \n It tells you the scale and whether it matches a paper-size mismatch \n Runs in the browser, nothing uploaded \n \n\n  What I learned:  \n\n \n \"The printer printed\" and \"it printed correctly\" are different checks \n Real vector PDFs beat HTML print for exact sizes \n \n\n  Question for developers:  have you built anything that has to print at an exact size? How did you test it?",
-   "url": "https://dev.to/removewaterfromspeakers/i-built-a-tiny-tool-that-catches-the-printed-at-94-problem-1hj1",
-   "meta": "DEV Community: sideprojects"
-  },
-  {
-   "source": "tuoluo",
-   "ext_id": "534919",
-   "title": "小游戏没有躺赢：有人流水翻12倍，有人停运IAA",
-   "body": "2026年上半年，中国游戏行业只讲了一个故事：分化。_游戏陀螺",
-   "url": "https://www.youxituoluo.com/534919.html",
-   "meta": "游戏陀螺·小游戏"
+   "source": "reddit",
+   "ext_id": "t3_1wx8oka",
+   "title": "I made a free iPhone app for counting down to things with friends",
+   "body": "Hey everyone! I've been working on Nudge, a little app for the things you're looking forward to: a trip with friends, a birthday, a reunion, or finally seeing your partner again, etc.    Nudge on the App Store    You make a countdown and share it with the people involved. While you're waiting, you can send little emoji or message nudges, add photos to the countdown, and keep it on your Home Screen or Lock Screen.   It's free, including the widgets. No ads, no subscription, and no separate account to create. It uses iCloud for storing the data.   I'm still growing it, and I'd love people to try it with their friends and tell me what feels fun, confusing, or missing. I want to keep improving it with the people who use it and grow from there. Please let me know any of your suggestions! It's c",
+   "url": "https://www.reddit.com/r/SideProject/comments/1wx8oka/i_made_a_free_iphone_app_for_counting_down_to/",
+   "meta": "r/SideProject"
   },
   {
    "source": "steam",
-   "ext_id": "4019220-top_sellers",
-   "title": "Dressmaker",
+   "ext_id": "72233-top_sellers",
+   "title": "Destiny 2: The Collection",
    "body": "Steam 畅销榜上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/4019220",
+   "url": "https://store.steampowered.com/app/72233",
+   "meta": "Steam 畅销榜"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wx6xxj",
+   "title": "I built a free app to track maintenance for everything you own (home, cars, tools). Looking for testers",
+   "body": "I kept forgetting when I last changed the furnace filter, rotated the tires or flushed the water heater, so I built **Maintainly**: one place for everything that needs regular upkeep.   **What it does**   - Add your home, cars, appliances and tools from 30+ built-in maintenance schedules, or answer a 1-minute setup quiz   - Tasks come due by date **or** by miles/hours, whichever comes first   - A budget view estimates what's coming up each month, and learns from what you actually paid   - Share a location with family, a roommate or a tenant, as an editor or view-only   - Keep a service log with notes, readings and costs   **Try it without signing up:** tap \"Continue as guest\". It's free, with no ads.    https://maintainly.netlify.app/    **Built with:** plain HTML/CSS/JS (a single file, no",
+   "url": "https://www.reddit.com/r/SideProject/comments/1wx6xxj/i_built_a_free_app_to_track_maintenance_for/",
+   "meta": "r/SideProject"
+  },
+  {
+   "source": "steam",
+   "ext_id": "4001890-top_sellers",
+   "title": "How to Fish",
+   "body": "Steam 畅销榜上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/4001890",
    "meta": "Steam 畅销榜"
   },
   {
    "source": "steam",
-   "ext_id": "1742110-new_releases",
-   "title": "Demon Lord: Clicker",
-   "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/1742110",
-   "meta": "Steam 新品热门"
-  },
-  {
-   "source": "steam",
-   "ext_id": "4450670-new_releases",
-   "title": "Timefract",
-   "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/4450670",
-   "meta": "Steam 新品热门"
-  },
-  {
-   "source": "steam",
-   "ext_id": "5006170-new_releases",
-   "title": "Draw Alive: Fish",
-   "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/5006170",
-   "meta": "Steam 新品热门"
+   "ext_id": "5261710-tag-Casual",
+   "title": "Hazard Ready",
+   "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/5261710",
+   "meta": "Steam Casual新品"
   }
  ]
 }
