@@ -266,7 +266,8 @@ def fetch_steam(cfg):
             appid = it.get("id")
             name = it.get("name", "")
             # 硬件条目（Steam Machine/Frame/Deck 等）也有 appid，按名单排除
-            if not appid or not name or name.startswith(("Steam Machine", "Steam Frame", "Steam Deck")):
+            if not appid or not name or name.startswith(
+                    ("Steam Machine", "Steam Frame", "Steam Deck", "Steam Controller")):
                 continue
             desc = (it.get("short_description")
                     or f"Steam {label}上榜（无简介，按游戏名与已知玩法判断迁移潜力）")

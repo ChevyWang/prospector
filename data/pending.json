@@ -1,50 +1,226 @@
 {
  "date": "2026-10-04",
  "stats": {
-  "fetched": 360,
-  "fresh": 6,
-  "scored": 5
+  "fetched": 356,
+  "fresh": 28,
+  "scored": 27
  },
  "items": [
   {
    "source": "reddit",
-   "ext_id": "t3_1wx8oka",
-   "title": "I made a free iPhone app for counting down to things with friends",
-   "body": "Hey everyone! I've been working on Nudge, a little app for the things you're looking forward to: a trip with friends, a birthday, a reunion, or finally seeing your partner again, etc.    Nudge on the App Store    You make a countdown and share it with the people involved. While you're waiting, you can send little emoji or message nudges, add photos to the countdown, and keep it on your Home Screen or Lock Screen.   It's free, including the widgets. No ads, no subscription, and no separate account to create. It uses iCloud for storing the data.   I'm still growing it, and I'd love people to try it with their friends and tell me what feels fun, confusing, or missing. I want to keep improving it with the people who use it and grow from there. Please let me know any of your suggestions! It's c",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wx8oka/i_made_a_free_iphone_app_for_counting_down_to/",
+   "ext_id": "t3_1wx9ov3",
+   "title": "I’m one of 3 broke students from Romania. We spent the last year building a couples app and somehow won Innovation Labs",
+   "body": "https://reddit.com/link/1wx9ov3/video/u96ur81cleth1/player    We’re three students from Romania, and about a year ago we got stuck on a thought that ended up taking over way more of our lives than we expected. You can know someone for years, love them, live with them, talk to them every day, and still misunderstand some pretty important things about them. Even stranger, you can be completely wrong about yourself too.  You might think you communicate well until you realize your partner avoids bringing certain things up because of how you react. You might assume you both want the same future because you’ve never actually talked about the uncomfortable details. Or you can have the same argument ten times without realizing that the argument itself isn’t really the problem. We found that fascin",
+   "url": "https://www.reddit.com/r/SideProject/comments/1wx9ov3/im_one_of_3_broke_students_from_romania_we_spent/",
    "meta": "r/SideProject"
   },
   {
+   "source": "rss",
+   "ext_id": "https://dev.to/devdusud/jai-publie-8-livres-et-guides-sans-depenser-un-seul-euro-le-pipeline-complet-295m",
+   "title": "J'ai publié 8 livres et guides sans dépenser un seul euro : le pipeline complet",
+   "body": "Il y a trois semaines, je n'avais aucun produit en ligne. Aujourd'hui, huit guides sont en vente sur ma boutique, et une nouvelle sortie est prévue chaque lundi. \n\n Le plus intéressant n'est pas le contenu. C'est le pipeline. \n\n \n  \n  \n  Le principe : une usine, pas des coups de génie\n \n\n Chaque livre suit le même chemin : \n\n \n Un thème est choisi dans une liste (productivité, IA, freelance, organisation…) \n Le contenu est rédigé en markdown \n Un script Python convertit le markdown en EPUB compatible Amazon KDP \n Le même contenu devient un PDF propre pour la vente directe \n L'API de la boutique crée le produit, téléverse le fichier, met en vente \n \n\n La partie clé : les étapes 3 à 5 tournent toutes seules. \n\n \n  \n  \n  Le script qui fabrique les livres\n \n\n La conversion markdown vers EPUB t",
+   "url": "https://dev.to/devdusud/jai-publie-8-livres-et-guides-sans-depenser-un-seul-euro-le-pipeline-complet-295m",
+   "meta": "DEV Community: sideprojects"
+  },
+  {
    "source": "steam",
-   "ext_id": "72233-top_sellers",
-   "title": "Destiny 2: The Collection",
+   "ext_id": "4165870-top_sellers",
+   "title": "Steam Controller",
    "body": "Steam 畅销榜上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/72233",
+   "url": "https://store.steampowered.com/app/4165870",
+   "meta": "Steam 畅销榜"
+  },
+  {
+   "source": "v2ex",
+   "ext_id": "1246367",
+   "title": "[开源] 我做了一个没有删除和升级权限的链上论坛",
+   "body": "做了一个极简的链上论坛，叫 Chain Talk 。\r\n\r\n核心思路很简单：所有内容存在以太坊的事件日志里，合约只有 22 行代码，一个变量、一个函数、一个事件。没有管理员，没有删除按钮，没有升级机制。发出去的东西永远不能改。\r\n\r\n### 为什么做这个\r\n\r\n我们在这个\"404 时代\"失去了太多东西。\r\n\r\n百度空间关了，天涯半死不活，豆瓣小组说解散就解散，贴吧的老帖说删就删。你在网上发过的每一句话，其实都不属于你——它可能被平台删除，可能在服务器迁移时丢失，也可能在公司倒闭后永远消失。\r\n\r\n这个实验想看看：如果内容一旦发出就永远不能删除、不能修改、不能被任何管理员下架，会发生什么？\r\n\r\n### 技术实现\r\n\r\n合约只有短短几行：\r\n\r\n```solidity\r\ncontract ChainTalk {\r\n    uint256 private _postIdCounter;\r\n    event Posted(uint256 indexed id, uint256 indexed replyTo, address indexed author, string content);\r\n    function post(string calldata content, uint256 replyTo) external {\r\n        require(bytes(content).length > 0, \"Content cannot be empty\");\r\n        require(replyTo   0：回复指定帖子（支持楼中楼）\r\n- 所有内容存在事件日志里，只要以太坊链在，数据就在\r\n- 用 The Graph 索引事件，前端不需要钱包就能浏览\r\n\r\n### 成本\r\n\r\n得益于最近主网 Gas 很低：\r\n- 部署合约：约 $0.06 （一次性）\r\n",
+   "url": "https://www.v2ex.com/t/1246367",
+   "meta": "V2EX/create"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wx9o9w",
+   "title": "Commits vs. Push-ups - macOS app that pits today's GitHub commits against the push-ups you log, and nudges you off the chair on a timer.",
+   "body": "Hey everyone!    I want to quickly tell you the story of this app.    I spend a lot of time behind the screen building cool stuff, and especially at my 9–5, I push a lot of commits throughout the day.    I don’t find enough time to hit the gym since I’m a dad of a toddler, and my daily routine is basically family → work. At some point, I started feeling like a bag of potatoes looking at a screen all day without much of an active lifestyle.    So I decided to build a Mac app  ForcePush.fit  that forces me to get up from the screen and do push-ups. Well... compete with my commit numbers, basically.    It doesn’t block your commits tho. I know we all sometimes need to push hotfixes, so...    Instead, it gently fades in a break screen across all your screens, reminding you to do push-ups. And ",
+   "url": "https://www.reddit.com/r/SideProject/comments/1wx9o9w/commits_vs_pushups_macos_app_that_pits_todays/",
+   "meta": "r/SideProject"
+  },
+  {
+   "source": "rss",
+   "ext_id": "CBMif0FVX3lxTFBlNFNXQzZXcGNxMl9peVVpZ1ZrVDI0Y1B3aWFkT1pEODBPZjI0cU9VTldtdWJTRUVObENtaWdBNmY3WWZ1Mk5YbTBGODR1OFIxdDZHRHRvMGFuMDBnNWx4WHFkNU03NlU5c1F3a0t3WUw2QzlVM1A5OVhsZzNhU1U",
+   "title": "Reddit is shutting down RSS and public API access. Blame AI. - Mashable",
+   "body": "Reddit is shutting down RSS and public API access. Blame AI.    Mashable",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBlNFNXQzZXcGNxMl9peVVpZ1ZrVDI0Y1B3aWFkT1pEODBPZjI0cU9VTldtdWJTRUVObENtaWdBNmY3WWZ1Mk5YbTBGODR1OFIxdDZHRHRvMGFuMDBnNWx4WHFkNU03NlU5c1F3a0t3WUw2QzlVM1A5OVhsZzNhU1U?oc=5",
+   "meta": "\"\"shutting down\" OR \"sunsetting\" OR \"end of life\" when:7d\" - Google News"
+  },
+  {
+   "source": "steam",
+   "ext_id": "1515799-top_sellers",
+   "title": "Transport Fever 3 - Deluxe Edition",
+   "body": "Steam 畅销榜上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/1515799",
    "meta": "Steam 畅销榜"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wx6xxj",
-   "title": "I built a free app to track maintenance for everything you own (home, cars, tools). Looking for testers",
-   "body": "I kept forgetting when I last changed the furnace filter, rotated the tires or flushed the water heater, so I built **Maintainly**: one place for everything that needs regular upkeep.   **What it does**   - Add your home, cars, appliances and tools from 30+ built-in maintenance schedules, or answer a 1-minute setup quiz   - Tasks come due by date **or** by miles/hours, whichever comes first   - A budget view estimates what's coming up each month, and learns from what you actually paid   - Share a location with family, a roommate or a tenant, as an editor or view-only   - Keep a service log with notes, readings and costs   **Try it without signing up:** tap \"Continue as guest\". It's free, with no ads.    https://maintainly.netlify.app/    **Built with:** plain HTML/CSS/JS (a single file, no",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wx6xxj/i_built_a_free_app_to_track_maintenance_for/",
+   "ext_id": "t3_1wx9jyf",
+   "title": "Finland's first prediction market, built solo.",
+   "body": "Polymarket made prediction markets mainstream, but none of them cover what Finns actually care about: our elections, our hockey players, our TV shows, our electricity prices. So I built one: Povaamo.   I built it with Next.js, Postgres and Claude Code as my pair programmer.    How it works:  every question has a price that equals the crowd's probability. If you disagree, you buy the other side and the price moves. When the event happens, the market resolves.    Design decisions I'm happy with:       Play money only.  The currency is the Finnish markka, which disappeared in 2002. It can't be bought or cashed out, which keeps it out of gambling law. The best forecaster each month still gets a real gift card.    No ads, no tracking cookies, and nobody else can see your predictions.  Political",
+   "url": "https://www.reddit.com/r/SideProject/comments/1wx9jyf/finlands_first_prediction_market_built_solo/",
+   "meta": "r/SideProject"
+  },
+  {
+   "source": "rss",
+   "ext_id": "CBMiiwFBVV95cUxNdlUwLVVnVlVvWlc2bUhGcEQtMjdxSzZ3TnZIMm5DbHZENDZNY21oLWJTb3Y3bF9hdzM0TmFLYnZERVgxLUg4VUhCTWJ6aGNYQ3VHNWlndFNibWpHYTN4NktrMVJkeldPaWZmWF9mVmFpc3pEXzZ2NHRJT0tVdE5IS0tDUzZua0FhYkVv",
+   "title": "ICU nurses create toolkit to improve end-of-life care - hospitalnews.com",
+   "body": "ICU nurses create toolkit to improve end-of-life care    hospitalnews.com",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdlUwLVVnVlVvWlc2bUhGcEQtMjdxSzZ3TnZIMm5DbHZENDZNY21oLWJTb3Y3bF9hdzM0TmFLYnZERVgxLUg4VUhCTWJ6aGNYQ3VHNWlndFNibWpHYTN4NktrMVJkeldPaWZmWF9mVmFpc3pEXzZ2NHRJT0tVdE5IS0tDUzZua0FhYkVv?oc=5",
+   "meta": "\"\"shutting down\" OR \"sunsetting\" OR \"end of life\" when:7d\" - Google News"
+  },
+  {
+   "source": "steam",
+   "ext_id": "1585100-new_releases",
+   "title": "Snow War",
+   "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/1585100",
+   "meta": "Steam 新品热门"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wx9i09",
+   "title": "My uni project just got its first tips",
+   "body": "I built Stat Potato ( statpotato.com ), which is site for Valorant e-sports. This started out as a uni project (for rating players and team elo only) but wanted to expand more.   This week, someone dm'd me and want to tip small amount ($5) and said I should setup Kofi, so I did. Yesterday, someone tipped another $5 and left really encouraging message. I know it's small😭, but it's the first money anyone has paid for something I made.    What it does:  live scores, win chances for every match, map form with a predicted veto, and player + team stats.  This website also has round-by-round log (what happened in each round, so we can have stats that other websites dont)       submitted by     /u/iCxtz       [link]       [comments]",
+   "url": "https://www.reddit.com/r/SideProject/comments/1wx9i09/my_uni_project_just_got_its_first_tips/",
    "meta": "r/SideProject"
   },
   {
    "source": "steam",
-   "ext_id": "4001890-top_sellers",
-   "title": "How to Fish",
-   "body": "Steam 畅销榜上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/4001890",
-   "meta": "Steam 畅销榜"
+   "ext_id": "5297910-tag-Casual",
+   "title": "Monster Farm Simulator Demo",
+   "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/5297910",
+   "meta": "Steam Casual新品"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wx9gmx",
+   "title": "6 things i check on every Lovable app before sharing the link",
+   "body": "i've been building a scanner for AI-built apps, so i end up looking at a lot of Lovable and Bolt sites. the same few problems show up over and over, and none of them need you to be a security person to fix.   RLS on every table. the anon key sits in your frontend bundle, that's normal. but if a table has RLS off, anyone can grab the key from devtools and read the whole table with one request. go through Supabase table editor and check every table, especially ones you added later with SQL.   a policy like using (true) is basically no RLS. search your policies for it.   secret keys in the frontend. open your live site, look through the JS files, search for sk_ and service_role. if anything shows up, rotate it today.   source maps in production. if  yoursite.com/assets/index-xxxx.js.map  load",
+   "url": "https://www.reddit.com/r/SideProject/comments/1wx9gmx/6_things_i_check_on_every_lovable_app_before/",
+   "meta": "r/SideProject"
   },
   {
    "source": "steam",
-   "ext_id": "5261710-tag-Casual",
-   "title": "Hazard Ready",
+   "ext_id": "5139820-tag-Casual",
+   "title": "鱿鱼游戏：僵尸 Squid Game: Zombie",
    "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/5261710",
+   "url": "https://store.steampowered.com/app/5139820",
    "meta": "Steam Casual新品"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wx9e6q",
+   "title": "How my indie web app subdomain managed to rank #3 on Google, right below the official Colombo Stock Exchange (cse.lk)",
+   "body": "Hey everyone,   I wanted to share a small SEO and building win that surprised even me. I've been working on a project hosted on a simple subdomain ( .lovable.app ), and for one of my target keywords, it managed to climb all the way to  #3 on Google , sitting right behind the official Colombo Stock Exchange website ( cse.lk ).   For a long time, people told me that doing SEO on a free/subdomain platform is practically useless and that you can't compete with massive institutional domains. But by focusing heavily on on-page relevance, structured content, and matching user intent, it actually worked out.   Here is a quick look at what I learned from the process:      Don't sleep on on-page optimization:  Even if domain authority is low, making your content precisely match what people are searc",
+   "url": "https://www.reddit.com/r/SideProject/comments/1wx9e6q/how_my_indie_web_app_subdomain_managed_to_rank_3/",
+   "meta": "r/SideProject"
+  },
+  {
+   "source": "steam",
+   "ext_id": "3958410-tag-Casual",
+   "title": "Cancer Crusher USA",
+   "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/3958410",
+   "meta": "Steam Casual新品"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wx9c3o",
+   "title": "I made a CLI that keeps noisy commands readable and saves the full log",
+   "body": "I made Squelchy for a small terminal view while a command runs, with the full output available when something goes wrong. It starts the process directly, saves exact stdout and stderr bytes, and returns the original exit code. The printed recovery command opens the saved logs.   My deterministic fixture writes 5,000 records and exits 7. Squelchy produced 10 final report lines, and all 98,901 output bytes were recoverable. The benchmark and tests are in the repository. That measurement excludes live terminal redraws.   It has no runtime dependencies and installs from GitHub with one npm command. PTY and full screen applications are out of scope. I'd like feedback on the default line budget and whether the selected errors help with your builds or test runs.    https://github.com/Arthur031221",
+   "url": "https://www.reddit.com/r/SideProject/comments/1wx9c3o/i_made_a_cli_that_keeps_noisy_commands_readable/",
+   "meta": "r/SideProject"
+  },
+  {
+   "source": "steam",
+   "ext_id": "5268550-tag-Casual",
+   "title": "The Demon Lurking in Osaka Castle – Episode 1",
+   "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/5268550",
+   "meta": "Steam Casual新品"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wx9blm",
+   "title": "I built a browser strategy game where players vote on laws—and on what their companies do",
+   "body": "My project is Leviathan War, a persistent multiplayer strategy game. I’m the developer.   You play one person in a shared world: work, trade resources, own companies, join political parties, and take part in wars. The part I find most interesting is how the systems intersect. Companies with multiple owners vote on decisions, so owning shares gives you a say in how a business operates. Governments and territorial control add another layer.   It runs in the browser. The stack is React + TypeScript, a Bun/Hono API, and PostgreSQL. There’s also a public wiki if you want to understand the systems before making an account.   The community is still small, and I’m looking for people who enjoy economy/politics sandboxes to try the first session. My main question: does the game make it clear what yo",
+   "url": "https://www.reddit.com/r/SideProject/comments/1wx9blm/i_built_a_browser_strategy_game_where_players/",
+   "meta": "r/SideProject"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wx94lq",
+   "title": "OnlyFans AI",
+   "body": "Hello!   I know some of you guys from here run AI Onlyfans. My question is regarding the chatting, do you use AI for chattings? I came across TOS of OF that they prohibit using AI for message sendings, do you guys have any experience towards that? If it that prohibited then how third party apps are doing that? Is there specific technical implementation way to that safely? like pulling messages to my dashboard and then using AI to read/text back or headless browser or..       submitted by     /u/Capital-Lab-6809       [link]       [comments]",
+   "url": "https://www.reddit.com/r/SideProject/comments/1wx94lq/onlyfans_ai/",
+   "meta": "r/SideProject"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wx90v3",
+   "title": "Anyone want to beta test a trends/market signals tool?",
+   "body": "Trying out Trends Radar - a tool which is used for discovering trending products, search terms, and other market signals.   It looks at new products launches, search trends, performance of content pieces and other signals from the market, and then uses the power of ai combined with human-based research to uncover emerging topics.   It makes a comparison between the last completed week and the previous week and uncovers where there is an emerging, consistently rising, or re-emerging product activity (excluding spikes and falling topics).   If you want to help me test it:  https://growthupdate.io/radar        submitted by     /u/ptrmkh       [link]       [comments]",
+   "url": "https://www.reddit.com/r/SideProject/comments/1wx90v3/anyone_want_to_beta_test_a_trendsmarket_signals/",
+   "meta": "r/SideProject"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wx8suh",
+   "title": "I lost a Best Man's speech article in my own browser history, so I built Chrome a memory",
+   "body": "Last year I spent  40 minutes  hunting for an article on  \"Writing the perfect Best Man's Speech\"  I'd read the week before. I remembered the gist, roughly what the page looked like and even a picture. Chrome history gave me  30 tabs  with none matching the missed page. Google gave me the marketing/SEO farm pages for  professional speech writers  and listings from  UpWork .   That kept happening to me. Browsers remember where you went, not what you read.   So in Aug 2025 I shipped a small extension that searched the text inside your open tabs. A few dozen people used it, rated it 4.9, and every single piece of feedback was some version of \"cool,  but the page I need is the one I already closed. \"   Fair. So I rebuilt  TabX  (Install  Link ) from scratch.   TabX is a side panel (Cmd/Ctrl+I)",
+   "url": "https://www.reddit.com/r/SideProject/comments/1wx8suh/i_lost_a_best_mans_speech_article_in_my_own/",
+   "meta": "r/SideProject"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wx9mg3",
+   "title": "Built something that is pain point for all founder",
+   "body": "Built a investor directory for founders to look up and find their most matching investor and also unlock their work email, and a free tool to write linkedin and email message that is professional so that the reach out becomes easier and to the point.  But now the main challenge is distribution and marketing, how do you market your tool as a solo founder and without investing much money into it?       submitted by     /u/DotHot6       [link]       [comments]",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wx9mg3/built_something_that_is_pain_point_for_all_founder/",
+   "meta": "r/SaaS"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wx9l7p",
+   "title": "Anyone who built AI based blogging automation or similar products",
+   "body": "How do you manage to humanize your texts? Is it really important to humanize as long as the provided value is good enough? I request only who worked on subjects like this to assist me please. Thanks either way       submitted by     /u/Ok_Highway_9515       [link]       [comments]",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wx9l7p/anyone_who_built_ai_based_blogging_automation_or/",
+   "meta": "r/SaaS"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wx9e34",
+   "title": "Hi I saw this game earning 40k monthly (HOW)",
+   "body": "Hi I saw this game earning 40k monthly     https://geosports.app/    how true is this ? and how do they even earn 40k per month ? does the ads earning can really achieve that 40k a month ?    im curious as Software engineer       submitted by     /u/stringness       [link]       [comments]",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wx9e34/hi_i_saw_this_game_earning_40k_monthly_how/",
+   "meta": "r/SaaS"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wx8y4w",
+   "title": "How deleting my free tier made more in 3 days than it made all year",
+   "body": "i know \"kill your free tier\" is the most repeated advice on this sub. i ignored it for a year, so here's what it cost me.   i sell a database of business ideas, one payment. for the first year there was a free version that showed most of it. people signed up, poked around, and left. 2,000 people on the waitlist, 5 paid, about $197 for the entire year.   i deleted the free version in an afternoon. no new features, no redesign, nothing else changed. the next three days made about $500, more than the free version had made in twelve months.   what i think was happening is the free tier answered the question people came with. they wanted to see if it was any good, it was good enough, so they had no reason to pay. once that was gone the only way to find out was to buy it.   the part nobody menti",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wx8y4w/how_deleting_my_free_tier_made_more_in_3_days/",
+   "meta": "r/SaaS"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wx8ux4",
+   "title": "Opus is actually insane in terms of 3d motion video.",
+   "body": "Tools I have used:    For audio: XT surge    Video & composition: blender    Model: opus 5.5       submitted by     /u/Noob_prime       [link]       [comments]",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wx8ux4/opus_is_actually_insane_in_terms_of_3d_motion/",
+   "meta": "r/SaaS"
   }
  ]
 }
