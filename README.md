@@ -12,9 +12,11 @@
 
 ```
 每日（ZCode 定时触发）
-  → 抓取: HN Algolia + Reddit(OAuth) + RSS（Lobsters/dev.to/GameLook 关键词）
-          + 游戏陀螺·小游戏频道 + Steam 畅销榜/新品热门 + App Store 竞品差评
-  → SQLite 去重（14 天同题冷却）+ 规则预筛 → data/pending.json
+  → 抓取: HN Algolia + Reddit(OAuth 或免凭证 .rss 降级)
+          + RSS（Lobsters/dev.to/GameLook/GameRes/白鲸出海/Google News 关停检索式/itch.io HTML5）
+          + 游戏陀螺·小游戏频道 + Steam 畅销榜/新品/Casual 标签榜 + Killed by Google 关停数据
+          + V2EX 分享创造 + App Store 竞品差评（可选）
+  → SQLite 去重（14 天同题冷却）+ 规则预筛 + 按源轮转采样（max_score_per_day 上限内各源公平分名额）
   → agent 按 RUBRIC 分类评分：每条信号先定赛道
      · product 产品订阅：付费意愿/竞争结构/获客通道/人群质量/时机窗口/独立交付（B1-B6）
      · traffic 流量站：意图抗性/词可赢性/变现效率/需求规模/独有数据/达门槛（A1-A6）
