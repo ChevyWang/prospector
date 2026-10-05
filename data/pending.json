@@ -1,1177 +1,1209 @@
 {
- "date": "2026-10-05",
+ "date": "2026-10-06",
  "stats": {
-  "fetched": 413,
-  "fresh": 159,
-  "scored": 146
+  "fetched": 384,
+  "fresh": 170,
+  "scored": 150
  },
  "items": [
   {
+   "source": "hn",
+   "ext_id": "49968434",
+   "title": "Ask HN: Anyone Accepted into OpenAI \"Codex for Open Source\"?",
+   "body": "Anyone been successfully accepted into Codex for Open Source? (https://openai.com/form/codex-for-oss/) I was accepted on Aug. 10th with an Email \"You can just build things, enjoy 6 months on us\", but couldn't redeem my code because I had an existing paid subscription. I was told to let the subscription expire, which I did. A month later I tried to redeem the code, but it's saying my promo is invalid. I reached out to OpenAI support and they said they can't regenerate the code and that I'm no longer eligible. Anyone else had this issue, or was it a smooth acceptance process for you?",
+   "url": "https://news.ycombinator.com/item?id=49968434",
+   "meta": "AskHN 2p/0c"
+  },
+  {
    "source": "reddit",
-   "ext_id": "t3_1wxqlnf",
-   "title": "An app that lets you see what used to be there",
-   "body": "So how I imagine it, you could either type in an address or use a sort of street view map to find out what a business or public place used to be. There are a lot of places that used to be other things. Sometimes it’s obvious, like when you see a restaurant that used to be a Pizza Hut. It’s a distinct building. But it’s not always as obvious as a Pizza Hut.   I always find it interesting to find out the history of a building. It could be a crowdsourced project where people can submit histories for review and once approved they get added to the location.       submitted by     /u/LocalCretin       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SomebodyMakeThis/comments/1wxqlnf/an_app_that_lets_you_see_what_used_to_be_there/",
+   "ext_id": "t3_1wykchl",
+   "title": "Desktop Wallpaper Agent that keeps creating somewhere new",
+   "body": "Desktop Wallpaper Agent    I had an idea for an AI desktop tool that continually creates wallpapers you’re unlikely to ever see twice.   Instead of having to write an AI image prompt, you could enter simple keywords like:    rain • ruins • peaceful • night • blue    The agent would take those fragments and turn them into a coherent wallpaper.   You could mark individual keywords as  Must / Maybe / Avoid , adjust a  Surprise  level to control how much freedom the AI has, and like or dislike results so it gradually learns what you enjoy.   The part I find most interesting is its  memory .   It would remember what it has already generated and deliberately avoid making wallpapers that are too similar. Maybe similar ideas wouldn't appear again for months or even years.   After enough time, an o",
+   "url": "https://www.reddit.com/r/SomebodyMakeThis/comments/1wykchl/desktop_wallpaper_agent_that_keeps_creating/",
    "meta": "r/SomebodyMakeThis"
   },
   {
    "source": "rss",
-   "ext_id": "https://lobste.rs/s/dsoh2w",
-   "title": "ncdu: NCurses Disk Usage (an updated fork)",
+   "ext_id": "https://lobste.rs/s/2svplr",
+   "title": "Gleam doesn't compile to Erlang source anymore",
    "body": "Comments",
-   "url": "https://github.com/rcalixte/ncdu",
+   "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
    "meta": "Lobsters"
   },
   {
+   "source": "tuoluo",
+   "ext_id": "534920",
+   "title": "西方游戏厂商，为何开始集体“唱衰”自己？",
+   "body": "过去一年里，我们时不时就会写点揶揄调侃欧美厂商的文章，渲染一下其“雄风不再”的境地——并非故意，而是相关的素材和新闻着实有点多。_游戏陀螺",
+   "url": "https://www.youxituoluo.com/534920.html",
+   "meta": "游戏陀螺·小游戏"
+  },
+  {
    "source": "steam",
-   "ext_id": "4729900-new_releases",
-   "title": "FussyCraft Survival: Sandbox",
+   "ext_id": "5128520-new_releases",
+   "title": "Pogo Gnom",
    "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/4729900",
+   "url": "https://store.steampowered.com/app/5128520",
    "meta": "Steam 新品热门"
   },
   {
    "source": "v2ex",
-   "ext_id": "1246438",
-   "title": "[问书] 自主学习网站",
-   "body": "简介：将任意电子书蒸馏知识为 skills ，然后对话提问学习，自行配置模型信息，可导出导入蒸馏后的 skills ，有本地书架功能\r\n\r\n寻找免费电子书地址：\r\nhttps://z-library.biz/\r\n\r\n项目地址：\r\nhttps://github.com/ns2250225/ask-book\r\n\r\n项目预览图：\r\n![url]( https://github.com/ns2250225/ask-book/blob/main/demo.gif?raw=true)",
-   "url": "https://www.v2ex.com/t/1246438",
+   "ext_id": "1246567",
+   "title": "做了一个 AI Zombie Video 小工具：如果变成丧尸，他还会记得你吗？",
+   "body": "大家好，最近做了一个面向海外用户的 AI 视频小工具，叫 AI Zombie Video ，想发到 V2EX 和大家交流一下。\r\n\r\n它的玩法比较具体：上传照片，生成一段带有剧情反转的丧尸短视频。故事开头是末日场景，一个熟悉的人变成丧尸向你走来，你以为接下来会遭到攻击，结果他认出了你，最后给了你一个拥抱。\r\n\r\n可以把它理解成一个围绕 Zombie Love Story （丧尸爱情故事）制作的 AI Zombie Video Generator 。\r\n\r\n为什么做这个方向？\r\n\r\n我觉得这个题材有意思的地方，是它能在很短的时间里完成一次情绪变化：从害怕，到认出彼此，再到拥抱。\r\nAI Zombie Hug Trend 这种形式把恐怖场景和温情结尾放在一起，画面容易理解，也适合用自己、伴侣或宠物的照片去尝试。换一个主角，同样的故事就会有不同的感觉。\r\n\r\n所以我做了一个流程比较集中的网站，希望用户从一张照片和一个故事想法出发，就能尝试制作自己的短片。\r\n目前可以怎么玩？\r\n\r\n网站采用 Photo to Video 的方式，上传参考照片，选择场景和时长，再提交生成。\r\n\r\n目前提供了这些选项：\r\n- 预设剧情：围绕“变成丧尸后依然记得你”的故事展开。\r\n- 自定义故事：可以修改故事想法，尝试不同的相遇方式和结尾。\r\n- 宠物版本：也就是 AI Zombie Pet Video ，让宠物成为故事主角。\r\n- 多种时长：支持 6 、9 、12 、15 秒，默认 12 秒。\r\n- 竖屏视频：采用 9:16 比例，方便后续分享到短视频平台。\r\n- \r\n生成采用按次购买额度的方式，价格从 $9.99 起，没有订阅。AI 对人物外观、动作和剧情细节的还原会有波动，生成后需要自己检查效果。\r\n\r\n除了生成器，也整理了一些玩法说明\r\n\r\n网站里还放了 Zombie Love Story Pr",
+   "url": "https://www.v2ex.com/t/1246567",
    "meta": "V2EX/create"
   },
   {
+   "source": "hn",
+   "ext_id": "49960159",
+   "title": "Topscan.me – a new security platform with a new approach to scanning",
+   "body": "Topscan.me is a security scanning platform for companies where security is somebody's second job, usually a CTO or a DevOps lead. It covers what is normally bought from three vendors: code analysis, scanning of running web applications and monitoring of the external perimeter, all in one workspace with a deadline on every finding. What distinguishes it is a handful of decisions about how scanning should behave, described below. What it covers - Code. GitHub or GitLab repositories, self-managed included, connected with a read-only token: risky patterns, exposed secrets, vulnerable dependencies. The clone is deleted when the scan ends; only the finding and a snippet of the affected lines remain. - Running web applications. External scanning, with an optional deep mode that crawls the app and",
+   "url": "https://news.ycombinator.com/item?id=49960159",
+   "meta": "AskHN 1p/0c"
+  },
+  {
    "source": "reddit",
-   "ext_id": "t3_1wxlzmk",
-   "title": "Python scripts, web scrapers, Telegram bots, small automations",
-   "body": "I can build this for you! I'm a Python developer specializing in    automation and bots. Timeline: 2-3 days.    Portfolio:  https://imnick009.github.io     DM me if interested!       submitted by     /u/Osmnick       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SomebodyMakeThis/comments/1wxlzmk/python_scripts_web_scrapers_telegram_bots_small/",
+   "ext_id": "t3_1wy9zv1",
+   "title": "Not knowing how a PI is before joining a research lab",
+   "body": "Hey everyone, this is for those in research.    Being a person in STEM and trying to pursue a career in research, I think it can be difficult to choose a lab where you want to spend quite sometime (Phd is 5 to 6 years) and I have seen people hating their PI (Principal Investigator, the professor who runs the lab). I think it would be great to find out about a PI before joining a lab. Yes, I understand the reviews might be biased but I think we can all get an idea of the PI reading comments. Sometimes, the reviews might be bad but the comments might actually make you want to talk to the lab members and PI.    Not saying we need to join a lab after reading a review. It can help us filter out who do we wanna talk with in the first place.    Fill out the google form to let me know how the comm",
+   "url": "https://www.reddit.com/r/SomebodyMakeThis/comments/1wy9zv1/not_knowing_how_a_pi_is_before_joining_a_research/",
    "meta": "r/SomebodyMakeThis"
   },
   {
    "source": "rss",
-   "ext_id": "https://lobste.rs/s/xkwswd",
-   "title": "We’re going to need default hard budget caps on pretty much everything",
+   "ext_id": "https://lobste.rs/s/okk4bg",
+   "title": "Async Rust: Where does the scheduler live?",
    "body": "Comments",
-   "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+   "url": "https://herecomesthemoon.net/2026/10/async-rust-where-does-the-scheduler-live/",
    "meta": "Lobsters"
   },
   {
    "source": "steam",
-   "ext_id": "3308260-new_releases",
-   "title": "ChessXpanse",
+   "ext_id": "4610080-new_releases",
+   "title": "Bering Tonnage",
    "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/3308260",
+   "url": "https://store.steampowered.com/app/4610080",
    "meta": "Steam 新品热门"
   },
   {
    "source": "v2ex",
-   "ext_id": "1246437",
-   "title": "[开源] Precedent Loop：让 Agnet 换个会话也记得项目里踩过的坑",
-   "body": "用 Codex 和 Claude Code 写代码久了，最头疼的是它不记事。上周跟它一起查了一下午，根因找到了，方案也定了。这周开个新会话，它又从头猜一遍，有时还会把当初否掉的方案再提出来。\r\n\r\n我试过两种办法，都不太顺手。\r\n\r\n一种是写进 `AGENTS.md` / `CLAUDE.md`。放\"必须遵守的规则\"没问题。但\"这个接口为什么要做幂等\"\"那个报错其实是连接池配置引起的\"这类经验，一条条加进去，文件很快就几百行。每次会话都全量塞给模型，真正相关的那几句反而被淹没了。\r\n\r\n另一种是用客户端自带的记忆。记什么由模型自己决定，我看不全，也不知道哪条在哪次起了作用，记错了也很难发现。\r\n\r\n所以我做了 Precedent Loop ，思路很简单：经验让 Agent 来提，入不入库我说了算，用的时候按需去取。\r\n\r\n实际用起来是这样一个循环：\r\n\r\n1. 方案定下来，或者根因查清楚的时候，Agent 会整理一条\"候选\"，写明背景、结论和适用范围。\r\n2. 候选出现在桌面 App 里。我可以改，可以让 AI 重写，也可以直接拒掉。点了确认才会入库，入库的就是我看到的那一版。\r\n3. 之后的会话里，Agent 碰到相关任务会自己去查。一次最多拿 8 条、总共不超过 5000 字，先看标题和摘要，需要了再读全文。\r\n4. 真正影响了它判断的那几条，它会标记\"用上了\"。用的时候发现内容过时，它会提一条修订，同样由我确认。\r\n\r\n和前面两种办法比，好处主要有这几点：\r\n\r\n- **库里每一条都是我看过的。** Agent 只能提候选，不能直接往库里写，所以不会越记越乱。\r\n- **上下文不会膨胀。** 库里有几百条也没关系，每次只取和当前任务相关的几条，而且有上限。\r\n- **知识会跟着项目更新。** 旧结论不对了，是在用的时候顺手发现、顺手提修订，不需要我定期去翻。\r\n- *",
-   "url": "https://www.v2ex.com/t/1246437",
+   "ext_id": "1246566",
+   "title": "做了个 prlctl 风格的 VMware CLI",
+   "body": "先贴地址和安装...目前暂时只支持了 Homebrew 。手动安装可以自行编译或走 GitHub Release 。\r\n\r\n- 开源地址： https://github.com/normal-coder/vmctl\r\n- Homebrew 安装：**brew install --cask normal-coder/tap/vmctl**\r\n\r\n## 为什么写这个\r\n\r\n**核心还是解决自己的使用问题（笑。**\r\n\r\n出于对环境纯粹的洁癖，一般各种新工具的尝试还是选择在干净的 OS 内去解决。\r\n\r\n考虑到各种安全、隔离问题，有些环境不想/不适用用容器。于是常年在重装各种系统和各种初始化中来来去去，每次操作都相当耗费心神。\r\n\r\n**初始化系统的活儿交给 Agent 干，心里又不踏实😩。。** \r\n\r\n于是反复在各种老牌虚拟化方案和新晋虚拟机中来回捯饬。最终。。**对个人免费的 VMware 还是真香** 😂😂😂\r\n\r\nVMware 漫长的历史和博通的产品调性。让 VMware 比起 PD/OrbStack/Lima 一众产品，开发者友好程度不太够。\r\n\r\n- `vmrun` 的参数太反人类了——快照、克隆、往 guest 里拷个文件，每样都要记一长串路径参数，用完就忘；敲起來还费手\r\n- 用惯了 Parallels 的 `prlctl`，换到 VMware 之后发现没有对应手感的 CLI\r\n- 想脚本化批量操作，GUI 点不动；管 vSphere 又不想开浏览器\r\n- ...\r\n\r\n**为了手感**。照着 `prlctl` 的命令风格写了一个，底层用统一的 Driver 接口把两种后端收进同一套命令里。\r\n\r\n## 快速感受\r\n\r\n```console\r\n$ vmctl list\r\n┌────────────┬───────┬─────┬─────────┬────────",
+   "url": "https://www.v2ex.com/t/1246566",
    "meta": "V2EX/create"
   },
   {
+   "source": "hn",
+   "ext_id": "49964045",
+   "title": "Tell HN: Uceprotect is extorting website owners",
+   "body": "I recently discovered by accident that our website was being blocked by Orange's security filters. After a quick check, I found that our IP address is listed on UCEPROTECT Level 3. The listing is based on the reputation of the entire ASN 14061 (DigitalOcean, US) [1]. In other words, even if your IP did nothing wrong, it will still be listed because of its ASN. If your site is innocent and listed only because it's hosted on DigitalOcean, UCEPROTECT offers to whitelist it for about $30/month or $108/year [2]. I checked the ASNs of several other popular hosting providers, and they're all listed too. So if your site is hosted on DigitalOcean or any other major provider, it's probably blacklisted as well. That can cut you off from customers on mobile networks like Orange, whose \"cybersecurity p",
+   "url": "https://news.ycombinator.com/item?id=49964045",
+   "meta": "AskHN 97p/58c"
+  },
+  {
    "source": "reddit",
-   "ext_id": "t3_1wxdxye",
-   "title": "A physical camera shutter for mobile phones?",
-   "body": "I'm thinking of smth like built-in physical shutter for the front and rear cameras along with phones/phone covers?   it could give people more privacy and peace of mind.       submitted by     /u/Hot_Lead_8100       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SomebodyMakeThis/comments/1wxdxye/a_physical_camera_shutter_for_mobile_phones/",
-   "meta": "r/SomebodyMakeThis"
+   "ext_id": "t3_1wyhvji",
+   "title": "Built a B2B competitor intelligence tool for automotive/motorcycle promotions – looking for a commercial co-founder",
+   "body": "I’ve been building a B2B competitor intelligence product called  CompWatch  and I’m looking to connect with someone commercially minded who might be interested in helping validate and potentially build this with me.  The problem I’m trying to solve is pretty simple: manufacturers and commercial teams need to understand what competitors are doing with promotions, but the information is fragmented across different brands, countries and websites and changes constantly.  CompWatch automatically monitors promotional activity and structures things like:  Finance/APR offers  Cash discounts and savings  Deposit contributions  Promotional pricing  Trade-in incentives  Free accessories/items  Start/end dates   New, changed and ended campaigns   I currently have a working prototype monitoring  12 mot",
+   "url": "https://www.reddit.com/r/Startup_Ideas/comments/1wyhvji/built_a_b2b_competitor_intelligence_tool_for/",
+   "meta": "r/Startup_Ideas"
   },
   {
    "source": "rss",
-   "ext_id": "https://lobste.rs/s/xpyahx",
-   "title": "grubby: static site generator for git repos written in Ruby",
+   "ext_id": "https://lobste.rs/s/a9kwzv",
+   "title": "Friendship ended with Deno, now Node is my best friend",
    "body": "Comments",
-   "url": "https://git.btxx.org/grubby",
+   "url": "https://dbushell.com/2026/10/03/deno-to-node/",
    "meta": "Lobsters"
   },
   {
    "source": "steam",
-   "ext_id": "2322080-new_releases",
-   "title": "Banana Clicker",
+   "ext_id": "5237770-new_releases",
+   "title": "Starbloom Ranch",
    "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/2322080",
+   "url": "https://store.steampowered.com/app/5237770",
    "meta": "Steam 新品热门"
   },
   {
    "source": "v2ex",
-   "ext_id": "1246427",
-   "title": "看 YouTube 总要反复开关字幕？我做了个字幕插件，送大家一年 Pro 权益",
-   "body": "V 友们好啊，我最近做了一个专门用于 YouTube 的 Chrome 字幕管理插件 **subtitle.im**，解决看视频时反复开关字幕的麻烦。\r\n\r\n这次给 V 友准备了 **200 个免费领取一年 Pro 的名额**，活动开放一个月。也想请大家多用用，分享下真实使用体验，帮我们把插件打磨好。领取入口放在文末。\r\n\r\n**YouTube 字幕，该开就开，该关就关。**\r\n\r\n有些视频已经把字幕压在画面里，再打开 YouTube 字幕，就会出现两层字幕。另一些视频的画面字幕和 YouTube 字幕语言不同，两层都有用，又不一定想关掉。\r\n\r\nsubtitle.im 会在本机识别画面中的硬字幕，再按你的偏好处理可开关的软字幕。\r\n\r\n### 1. 重复字幕，自动关闭\r\n\r\n识别到重复字幕后，自动关闭多余的 YouTube 软字幕，保留画面中的硬字幕；需要时，也可以随时恢复软字幕。\r\n\r\n对于有可用软字幕的视频，还可以自动开启字幕，减少每次打开视频后手动切换的操作。\r\n\r\n![字幕重复，自动关闭]( https://i.imgur.com/COD8KvQ.png)\r\n\r\n### 2. 字幕语言不同，由你决定\r\n\r\n比如画面里有日语字幕，同时打开了英语软字幕。你可以选择保留、先询问，或按设置自动关闭，让字幕处理符合自己的观看习惯。\r\n\r\n![字幕语言不同，由你决定]( https://i.imgur.com/1wVrTXS.png)\r\n\r\n### 3. 你的字幕，你的规则\r\n\r\n直接在 YouTube 播放器中调整字幕、查看检测状态、重新检测或恢复软字幕。\r\n\r\nPro 还支持持续自动处理、频道专属规则、单个视频的例外，以及记住已确认的关闭结果。常看的频道可以设好偏好，下次继续按规则处理。\r\n\r\n![你的字幕，你的规则]( https://i.imgur.com/lN80E",
-   "url": "https://www.v2ex.com/t/1246427",
+   "ext_id": "1246562",
+   "title": "免费使用浏览器内置大模型来给自己的网页提供优化建议",
+   "body": "(可以使用 nano_v3_gpu_component 、gemma4_component 、gemma4_12b_component 、gemma4_4b_component 等)\r\n\r\n原理是利用 Chrome 浏览器内置的 API prompt_api 等来免费使用大模型\r\n\r\n这是效果图\r\nhttps://i.v2ex.co/35YEJM6o.png\r\n\r\n\r\n现在介绍一下如何实现利用浏览器插件安装内置大模型来实现免费提网页建议\r\n1. 安装插件，[插件正式版]( https://chromewebstore.google.com/detail/piokpdkhnfegkfpcmpjfndocaimepkgk?utm_source=v2ex_1005) 在审核中...\r\n2. 可以先使用[Beta 版本]( https://github.com/task2money/taskChromePlugin/releases) 来体验\r\n3. 下载最新最新的 Release ，然后解压 zip 包，打开 [网页扩展程序安装页面]( chrome://extensions/ )   打开`开发者模式`, 点击`打开未打包的扩展程序`, 选择刚才解压的目录，即可安装插件\r\n4. [安装插件]( https://i.v2ex.co/5pf0V2ez.png ), 点击插件图标，调出插件 sidebar panel\r\n5. [整个过程]( https://i.v2ex.co/sxyfG48l.png)\r\n\r\n\r\n插件使用:\r\n1. 切换选项为 `使用浏览器内置模型(不同机子速度不一样，我的机子耗费时间 130s)`\r\n2. 然后点击`下载模型`, 下载模型需要的时候，根据大家的网速不同而不同，具体进度可以在页面 chrome://on-device-internals  进行查看\r",
+   "url": "https://www.v2ex.com/t/1246562",
    "meta": "V2EX/create"
   },
   {
+   "source": "hn",
+   "ext_id": "49968747",
+   "title": "Against Artifice: A Hardline Futurist Manifesto",
+   "body": "SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI\n  SI AGAINST ARTIFICE : A HARDLINE Futurist Manifesto                                                   SI\n  SI we demand the real.                                                                                SI\n  SI we reject that which alienates the artist from poesis.                                             SI\n  SI we insist upon the citation and attribution of all works.                                          SI\n  SI we demand that ALL agents which use the internet obey the prime axiom <see>Universal Constition.   SI\n  SI we assert that ALL data-centers be ECO data-centers which do not pollute the water.                SI\n  SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI ",
+   "url": "https://news.ycombinator.com/item?id=49968747",
+   "meta": "AskHN 1p/0c"
+  },
+  {
    "source": "reddit",
-   "ext_id": "t3_1wxmffa",
-   "title": "Which startup would you invest $100k in?",
-   "body": "submitted by     /u/Motor_Peanut_3849       [link]       [comments]",
-   "url": "https://www.reddit.com/r/Startup_Ideas/comments/1wxmffa/which_startup_would_you_invest_100k_in/",
+   "ext_id": "t3_1wyhdwe",
+   "title": "Looking for Backlink Exchange(Barter)",
+   "body": "Hey,  I am a small business owner trying to increase my outreach for my company, if you are also someone who are looking for same, DM me.  We are an accounting software.       submitted by     /u/aivankum       [link]       [comments]",
+   "url": "https://www.reddit.com/r/Startup_Ideas/comments/1wyhdwe/looking_for_backlink_exchangebarter/",
    "meta": "r/Startup_Ideas"
   },
   {
    "source": "rss",
-   "ext_id": "https://lobste.rs/s/4bzoft",
-   "title": "The complement of true is true, except when it's false",
+   "ext_id": "https://lobste.rs/s/tpxwfe",
+   "title": "Using docker-compose with Podman rootless",
    "body": "Comments",
-   "url": "https://dryperspective.github.io/posts/complement-of-true/",
+   "url": "https://elou.world/en/tutorial/podman-docker-compose",
    "meta": "Lobsters"
   },
   {
    "source": "steam",
-   "ext_id": "4772220-new_releases",
-   "title": "Jump Bait",
+   "ext_id": "5278370-new_releases",
+   "title": "Night Study",
    "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/4772220",
+   "url": "https://store.steampowered.com/app/5278370",
    "meta": "Steam 新品热门"
   },
   {
    "source": "v2ex",
-   "ext_id": "1246425",
-   "title": "[送码] macOS 的活动记录和回顾软件「日影」",
-   "body": "## 功能介绍\r\n\r\n我是一个喜欢记录的人，通过记录，我可以减少生活里的虚无感，让自己多一点活过的实感。\r\n\r\n出于自己的记录需求，我首先去网络上找了这方面的软件，但是 ActivityWatch、Qbserve 不怎么好看，Timing 太贵而且感觉比较复杂……于是起了自己做 macOS 上的时间记录 app「日影」的念头。\r\n\r\n「日影」的基本功能是活动记录，我做了以日和月为单位的统计页面，可以看到自己用 Mac 的时间里都在做什么。\r\n ![]( https://i.imgur.com/C2yf2lp.png) \r\n ![]( https://i.imgur.com/gpD1Fgl.png) \r\n ![]( https://i.imgur.com/EB7Fydu.png) \r\n ![]( https://i.imgur.com/DF34zml.png)  \r\n\r\n还可以看到 app 之间的关系：\r\n![]( https://i.imgur.com/tCGH0YE.png) \r\n\r\n除了统计，还做了一些别的功能，比如和系统日历的集成，日影可以自动把项目活动写入系统日历，这样的话就可以在日历里回顾自己的一天了。我喜欢把日历作为一个回顾用的软件。\r\n\r\n ![]( https://i.imgur.com/WzGGeKQ.png) \r\n\r\n基于对活动的记录，日影还有基于活动的提醒功能，比如站立提醒（使用很久电脑后提醒站立）、专注提醒（持续专注后提醒休息）等等。\r\n\r\n ![]( https://i.imgur.com/02rqZJY.png) \r\n\r\n## 隐私\r\n\r\n记录是在本地进行的，不会上传任何记录数据（除非主动开启备份）。更详细的可以看官网的隐私政策说明。\r\n\r\n## 官网链接和软件下载\r\n\r\nhttps://hikage.app/zh-CN/\r\n\r\n## 送码\r\n\r",
-   "url": "https://www.v2ex.com/t/1246425",
+   "ext_id": "1246547",
+   "title": "把自己放进加油站跳舞视频里：我做了一个 AI Gas Station Dance 小工具",
+   "body": "大家好，最近做了一个偏娱乐向的 AI 小工具，叫 AI Gas Station Dance ，现在已经上线，可以付费生成。\r\n\r\n它的玩法很直接：把照片里的自己放进加油站跳舞视频，体验一把“这段视频的主角居然是我”。\r\n\r\n这是一个围绕固定模板做的 AI Dance Video Generator 。不用写 Prompt ，也不用自己剪辑，上传照片、选择模式，生成完成后就能预览和下载 MP4 。\r\n\r\n目前有两种玩法：\r\n- Solo Mode：上传一张自己的照片，一个人出演跳舞、自拍和下车三个镜头。\r\n- Trio Mode：上传自己和两位朋友的照片，分别出演三个角色，做一段朋友之间的整活视频。\r\n\r\n做这个项目时，我想把 Image to Video AI 变成一个更具体、也更容易上手的玩法。打开网站先看模板，觉得有意思，就把自己放进去，不需要先研究模型和参数。\r\n\r\n生成的视频可以下载，用来发 TikTok 、Instagram Reels 、YouTube Shorts ，或者直接丢进朋友群里。采用一次性购买积分的方式，无需订阅。\r\n\r\n项目主要面向英文用户，定位是一个专门做 Gas Station Dance AI Video 的小工具。技术上用了 React 、TanStack Start 和 Cloudflare ，视频处理接入 Replicate 。\r\n\r\n欢迎大家来看看模板，也想听听你们的意见：这种围绕一个具体玩法做的 AI Video Generator ，什么样的视频场景会让你愿意掏钱试一次？\r\n\r\n地址：AI Gas Station Dance — AI Dance Video Generator\r\n\r\n欢迎拍砖，也欢迎交流 AI 视频工具和出海小产品的开发经验。",
+   "url": "https://www.v2ex.com/t/1246547",
    "meta": "V2EX/create"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxk7x5",
-   "title": "WellKept - Solo founder, launched my first app on my birthday: a health record for Indian families. What would make you actually use this?",
-   "body": "submitted by     /u/PublicPace4576       [link]       [comments]",
-   "url": "https://www.reddit.com/r/Startup_Ideas/comments/1wxk7x5/wellkept_solo_founder_launched_my_first_app_on_my/",
+   "ext_id": "t3_1wyh3zh",
+   "title": "Built something. Launched it. Still at $0 MRR? Drop it below.",
+   "body": "submitted by     /u/OkStrawberry8389       [link]       [comments]",
+   "url": "https://www.reddit.com/r/Startup_Ideas/comments/1wyh3zh/built_something_launched_it_still_at_0_mrr_drop/",
    "meta": "r/Startup_Ideas"
   },
   {
    "source": "rss",
-   "ext_id": "https://lobste.rs/s/qcgjpu",
-   "title": "Kolibri: A Sovereign Open-Weight Model",
-   "body": "Comments",
-   "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+   "ext_id": "https://lobste.rs/s/bw7k1r",
+   "title": "Golang tool to check SPF, DKIM, TLSA, and TLS settings for mailservers",
+   "body": "Yes, I admit, this is 100% vibecoded, but it scratches an itch i've had for a while. Seems to work for my usecases at this time, but might add some more features in the future. \n  Comments",
+   "url": "https://git.sig-io.nl/Sig-IO/mailcheck/",
    "meta": "Lobsters"
   },
   {
    "source": "steam",
-   "ext_id": "2957160-new_releases",
-   "title": "Private Mining Company",
+   "ext_id": "4761400-new_releases",
+   "title": "Stolemates",
    "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/2957160",
+   "url": "https://store.steampowered.com/app/4761400",
    "meta": "Steam 新品热门"
   },
   {
    "source": "v2ex",
-   "ext_id": "1246422",
-   "title": "[开源] 小伴：像给豆包打电话一样，打开浏览器就能和 AI 语音聊天",
-   "body": "做了个叫「小伴」的 AI 语音伙伴，交互是像给豆包打电话一样：点一下「开始通话」，直接开口说，它会用声音回答，你可以继续聊，也可以在它说到一半时打断。\r\n\r\n现在 MIT 开源了，可以用自己的 API Key 在本机跑，也可以拿去改成自己的语音搭子。\r\n\r\n源码： https://github.com/Peiiii/xiaoban\r\n\r\n在线体验： https://xiaoban-voice.gemigo.app （需要登录，有用量限制；自己在本地跑不需要 GemiGo 账号）\r\n\r\n![小伴界面]( https://raw.githubusercontent.com/Peiiii/xiaoban/main/docs/images/desktop.jpg)\r\n\r\n通话时不用一直按住录音键，也不用一句一句点发送。想闲聊就闲聊，想梳理事情就说出来；切到英语模式，也能和它练口语。可以关麦、静音，换音色和语速；聊完点「结束通话」。\r\n\r\n桌面和手机版式都做了，聊天记录保存在当前浏览器，可以导出或清空。\r\n\r\n声音目前有两种模式：默认等一段回复的音频收齐再连续播放，网络到包不均匀时更容易完整听完，代价是开口前多等一会儿；也可以切成边收边播，先听到回答。网络太差时仍可能等待或断续，扬声器回声也受设备影响，建议先戴耳机试。\r\n\r\n自己跑需要 Node.js 22+ 和已开通实时模型的百炼 Key：\r\n\r\n```sh\r\ngit clone https://github.com/Peiiii/xiaoban.git\r\ncd xiaoban\r\nnpm ci\r\ncp .env.example .env\r\n# 填写自己的百炼 Key 和业务空间实时接口地址\r\nnpm start\r\n```\r\n\r\n打开 http://localhost:4318 就能开始通话。语音用千问 Qwen 3.8 Omni ",
-   "url": "https://www.v2ex.com/t/1246422",
+   "ext_id": "1246538",
+   "title": "做了个自动记录足迹的 iPhone App：小鹿足迹，发布了 100+ 版本",
+   "body": "![]( https://deergo.app/imgs/retrace-banner-zh.webp)\r\n\r\n小鹿足迹是我自己做的 iPhone App 。装上以后不用打卡，它会自己记下你每天去了哪、待了多久、路上怎么走的。\r\n\r\n起因是有段时间工作很忙，到了年底回想这一年，每天去了哪、时间花在哪，几乎想不起来。手动记坚持不下来，就做了个自动记的。\r\n\r\n过去 12 个月发了 100+ 个版本，应该很少比我更新更频繁的吧？\r\n\r\n这是因为我和朋友们真的非常喜欢这个 App ！\r\n\r\n下面是现在的几个主要功能。\r\n\r\n### 自动时间轴\r\n\r\n![]( https://deergo.app/imgs/posts/2026-10-v2ex/01-timeline.webp)\r\n\r\n每天去过的地方、在每个地方待了多久、中间怎么过去的，自动排成一条时间轴，当天拍的照片也按时间插进去。\r\n\r\n停留的地方记的是具体地名，不是一串坐标。你确认过、改过名字的地方，下次再去会优先认成它；离你停留的位置太远的候选不用，宁可显示「 XX 附近」让你自己挑，也不乱填一个。国内的地点认得比较准，欢迎拿常去的地方试试。\r\n\r\n### 轨迹和足迹地图\r\n\r\n![]( https://deergo.app/imgs/posts/2026-10-v2ex/02-map.webp)\r\n\r\n走过的路线画在地图上，去过的城市都记着。\r\n\r\n后台 GPS 的策略：移动时开着，记完整路线；在一个地方 85 米范围内待满 60 分钟，就自动关掉，同时在原地设一个 150 米的地理围栏，离开时系统把 App 叫醒，接着记。常驻 GPS 确实耗电，省电主要靠停着的时候不开它。不想暂停的，设置里可以切成「始终开启」。\r\n\r\n### 旅程\r\n\r\n![]( https://deergo.app/imgs/posts/2026-",
+   "url": "https://www.v2ex.com/t/1246538",
    "meta": "V2EX/create"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxjk9h",
-   "title": "I want the strategic validation to my idea of creating ads for brand.",
-   "body": "​   I can create good Ai Ads and want to start working strategically on it, i approached 300 plus brands via email and nobody had a single good response, even when I'm giving 1 ad for free as i want to build my portfolio and want word of mouth plus some early reviews, but whole 300 brand not even one responded properly! Very disappointed.      Can any one let me know how I get my services to people in a way where they least see it!     Realistic amount people will pay, these are above avg to high grade work.     How do I approach people and do lead generation!      I want to know from you guys what you think! This is not an Ad please don't ban me.       submitted by     /u/Top_Addendum_9936       [link]       [comments]",
-   "url": "https://www.reddit.com/r/Startup_Ideas/comments/1wxjk9h/i_want_the_strategic_validation_to_my_idea_of/",
+   "ext_id": "t3_1wyes8q",
+   "title": "\"Sacrifice your family for the business\" story is a myth. The real cause is a business with no systems.",
+   "body": "A thread here recently asked whether most successful founders end up divorced or without a family life. The pattern people notice is real, but the conclusion they draw from it is wrong.    First, you're seeing the loudest people.   The founders posting about 5am routines and 90-hour weeks get the reach. The ones who close the laptop at 5:30 and eat dinner with their kids have nothing dramatic to post. Visibility skews the sample heavily.    Second, the sacrifice has a mechanical cause.   In most of the businesses where the founder disappears from home life, everything runs through the founder.   Every approval, every client fire, every \"quick question\" lands on one person. If that person steps away for a weekend, the business stalls. So they never step away, and the family absorbs the cost",
+   "url": "https://www.reddit.com/r/Startup_Ideas/comments/1wyes8q/sacrifice_your_family_for_the_business_story_is_a/",
    "meta": "r/Startup_Ideas"
   },
   {
    "source": "rss",
-   "ext_id": "https://lobste.rs/s/jba52r",
-   "title": "Self-hosted HTTP tunnels with SSH and nginx",
-   "body": "Comments",
-   "url": "https://vincent.bernat.ch/en/blog/2026-http-over-ssh",
+   "ext_id": "https://lobste.rs/s/nvkrb9",
+   "title": "What are you doing this week?",
+   "body": "What are you doing this week? Feel free to share! \n Keep in mind it’s OK to do nothing at all, too.",
+   "url": "https://lobste.rs/s/nvkrb9/what_are_you_doing_this_week",
    "meta": "Lobsters"
   },
   {
    "source": "steam",
-   "ext_id": "5052280-new_releases",
-   "title": "Tunnel Brawl",
+   "ext_id": "4930810-new_releases",
+   "title": "Drone n Gone",
    "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/5052280",
+   "url": "https://store.steampowered.com/app/4930810",
    "meta": "Steam 新品热门"
   },
   {
    "source": "v2ex",
-   "ext_id": "1246418",
-   "title": "开源 Bibo：成本极低，内置笔记、文件、任务和日历的 personal agent",
-   "body": "我把 Bibo 开源了，MIT 协议。先说最想做好的三件事：\r\n\r\n1. **成本极低。** 日常使用不需要常驻电脑，也不用一直开着 Linux 容器。只有需要运行代码时，才启动沙箱。\r\n2. **内置个人管理工具。** 笔记、文件、任务和日历都有专门的界面。你可以直接查看、编辑和管理，也可以让 AI 来做。\r\n3. **开源，可以自己部署。** 用自己的 Cloudflare 账号和模型 API Key ，数据存在自己的部署里，代码也可以自己改。\r\n\r\nGitHub：[Peiiii/bibo]( https://github.com/Peiiii/bibo)\r\n\r\n在线体验：[app.bibo.bot]( https://app.bibo.bot)\r\n\r\n我希望它能成为每天都用得上的 personal agent 。想到什么可以随手记，需要做的事可以放进任务和日历，资料可以整理成文件；这些内容长期留着，之后还能接着用。\r\n\r\n下面把界面都放出来。截图来自实际运行的 Bibo ，销售、订单和日程内容都是示例数据。\r\n\r\n### 概览\r\n\r\n打开就能看到笔记、任务、日程和待处理信息。\r\n\r\n![Bibo 概览]( https://raw.githubusercontent.com/Peiiii/bibo/a121e9290c9da52646be4ebb546fd912f0b6b4e1/images/screenshots/v2ex-2026-10-04/bibo-overview.jpg)\r\n\r\n### 对话\r\n\r\n让 Bibo 阅读销售数据、总结重点，也可以让它继续整理报告和安排后续工作。\r\n\r\n![Bibo 对话与报告]( https://raw.githubusercontent.com/Peiiii/bibo/a121e9290c9da52646be4ebb546fd",
-   "url": "https://www.v2ex.com/t/1246418",
+   "ext_id": "1246537",
+   "title": "[开源] ALTRun: 不到 1 MB 的 Windows 启动器, 操作方式参照 Alfred, 支持拼音首字母和 Everything",
+   "body": "大家好, 分享一个我自己每天在用的小工具: ALTRun, 一个 Windows 上的启动器 (类似 macOS 的 Alfred, 以及 Windows 上的 Listary, Wox、PowerToys Run、Raycast, ALTRun(Pascal)、RunZ)。\r\n\r\n按 `Alt+Space`, 输入几个字母, 按 `Enter`: 打开程序、找文件、算数、搜网页、翻剪贴板历史, 都在一个窗口里完成。\r\n\r\n![搜索窗口]( https://raw.githubusercontent.com/zhugecaomao/ALTRun/main/docs/images/screenshots/search.png)\r\n\r\n## 为什么又做一个启动器\r\n以前一直用老牌的 [ALTRun]( https://github.com/etworker/ALTRun) (etworker 用 Pascal / Delphi 写的) 和 [RunZ]( https://github.com/goreliu/runz) (AutoHotkey), 小巧顺手, 但我还想要拼音首字母、Everything 文件搜索、剪贴板历史、文字片段这些功能, 以及更现代的界面。也试过 Wox、PowerToys Run、Listary 等, 不是太大 (几十上百 MB, 常驻占内存), 就是中文支持一般, 或者和 Total Commander 配合不好。\r\n\r\n所以用 AutoHotkey v2 重新写了一个: 名字沿用 ALTRun, 向原作致敬, 也借鉴了 RunZ 的设计; 操作方式参照 Alfred; 之后一直按自己每天的使用习惯打磨。\r\n\r\n## 几个特点\r\n- **小**: 下载不到 1 MB, 解压后约 2 MB, 不需要 .NET、Electron 或其他运行库\r\n- **便",
+   "url": "https://www.v2ex.com/t/1246537",
    "meta": "V2EX/create"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxgjyl",
-   "title": "Here are 40 subreddits that should allow you to promote your startup idea",
-   "body": "also you can always submit your app to     appscout.co    a platform to discover web and mobile apps from across the internet.    You can list your app here  appscout.co/submit    subreddit --- weekly visitors      r/vibecoding  — 422k    r/saas  — 211k    r/founder  — 56k    r/buildinpublic  — 46k    r/chrome_extensions  — 42k    r/micro_saas  — 41k    r/appbusiness  — 30k    r/startupideas  — 26k    r/sideprojects  — 20k    r/imadethis  — 18k    r/appideas  — 16k    r/sideproject  — 16k    r/saasbuild  — 15k    r/saasdevelopers  — 12k    r/vibecodedevs  — 10k    r/startupsolofounder  — 8.7k    r/alphaandbetausers  — 8.6k    r/vibecodingcommunity  — 6.2k    r/solopreneur  — 5.6k    r/promotemyapp  — 4.6k    r/appbuilding  — 4.6k    r/webapps  — 4.5k    r/creativecoding  — 4.4k    r/indie_",
-   "url": "https://www.reddit.com/r/Startup_Ideas/comments/1wxgjyl/here_are_40_subreddits_that_should_allow_you_to/",
+   "ext_id": "t3_1wye6fg",
+   "title": "Share what you are building, I want to give product feedback",
+   "body": "For context, I have a background in business analysis and product management.   It's simple, share:      The problem your product is solving     Your solution to solving the problem     Share a link if you have one      I'll provide honest feedback ☺️       submitted by     /u/thrivewithtolu       [link]       [comments]",
+   "url": "https://www.reddit.com/r/Startup_Ideas/comments/1wye6fg/share_what_you_are_building_i_want_to_give/",
    "meta": "r/Startup_Ideas"
   },
   {
    "source": "rss",
-   "ext_id": "https://lobste.rs/s/ul9krj",
-   "title": "Hacking the Go compiler to efficiently map IPv4 to IPv6",
+   "ext_id": "https://lobste.rs/s/qcafwq",
+   "title": "Reverse Engineering Comanche Terrain Maps",
    "body": "Comments",
-   "url": "https://vincent.bernat.ch/en/blog/2026-go-netip-addrto6",
+   "url": "https://pikuma.com/blog/comanche-maps-reverse-engineering",
    "meta": "Lobsters"
   },
   {
    "source": "steam",
-   "ext_id": "5139970-new_releases",
-   "title": "Dumpling Delight",
+   "ext_id": "3892280-new_releases",
+   "title": "Bloody Bunny 3D",
    "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/5139970",
+   "url": "https://store.steampowered.com/app/3892280",
    "meta": "Steam 新品热门"
   },
   {
    "source": "v2ex",
-   "ext_id": "1246410",
-   "title": "Aesthetic Bio Maker - 免费审美风 IG 简介生成器",
-   "body": "## 项目概述\r\n\r\n**Aesthetic Bio Maker** 是一个免费的在线工具，用来生成适合 Instagram 、TikTok 、Discord 和 Linktree 的审美风简介（ bio ）。不需要注册，打开就能用。\r\n\r\n**在线地址：** https://aestheticbios.com\r\n\r\n**目标用户：** Instagram / TikTok 年轻人、内容创作者、想快速做出好看主页简介的人\r\n\r\n## 核心功能\r\n\r\n### 1. 五种风格\r\ngrunge / y2k / minimalist / vintage / classic aesthetic —— 每种风格都有独立页面、专属模板和生成器\r\n\r\n### 2. 一键复制\r\n输入名字和兴趣，自动组合模板生成成品简介，点一下复制就能粘贴到主页\r\n\r\n### 3. 平台字符数自适应\r\n自动按平台限制调整长度（ Instagram 150 、TikTok 80 、Discord 200 ），粘贴不会截断\r\n\r\n### 4. 免费字符计数器\r\n附带一个检查任意文本是否符合 Instagram 150 字符限制的小工具\r\n\r\n## 技术栈\r\n\r\nTanStack Start + Cloudflare Workers + D1 数据库，纯前端生成无 LLM 依赖，加载快（ SSR 直出 ~14ms ）\r\n\r\n欢迎试用和建议，也欢迎反馈新风格需求",
-   "url": "https://www.v2ex.com/t/1246410",
+   "ext_id": "1246534",
+   "title": "edgeTTS 适用于 STranslate 的语音合成插件",
+   "body": "前文： /t/1244818 \r\n\r\n现在，你可以在 [STranslate]( https://github.com/STranslate/STranslate) 里面使用自托管的 [edgeTTS]( https://github.com/DejavuMoe/edgeTTS) 语音合成 API\r\n\r\nhttps://github.com/DejavuMoe/STranslate.Plugin.Tts.edgeTTS\r\n\r\nhttps://imgur.com/a/z4QRo6E",
+   "url": "https://www.v2ex.com/t/1246534",
    "meta": "V2EX/create"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxges0",
-   "title": "I built a website where you can discover, create, buy, and sell custom t-shirts online",
-   "body": "I built a site where you can discover, create, buy, and sell custom t-shirts online. You can browse and buy designs created by others over at    https://shop.popcartapp.com    or quickly bring your own ideas to life at    https://shop.popcartapp.com/tshirts/create/    It’s still a basic, early-stage version, but feel free to check it out and share your thoughts!       submitted by     /u/SnooCats6827       [link]       [comments]",
-   "url": "https://www.reddit.com/r/Startup_Ideas/comments/1wxges0/i_built_a_website_where_you_can_discover_create/",
+   "ext_id": "t3_1wy73x3",
+   "title": "What’s wrong with this idea? A skill-exchange marketplace for freelancers",
+   "body": "I'm exploring a startup idea for freelancers/gig workers and I was looking for feedback before building anything.   The basic concept is a marketplace where freelancers can  exchange skills  instead of always paying cash or using card.    Example: I'm a developer who needs graphic design. A designer needs development work. We exchange services.    The obvious problem is that direct barter only works when both people need each other's skills. So I'm considering a  credit system  that would look like something like this:    Do work for someone → earn credits → use those credits to hire someone else on the platform.    I'm also wondering if the bigger opportunity is not barter itself, but a  freelancer collaboration network,  meaning finding trusted people with complementary skills, exchangin",
+   "url": "https://www.reddit.com/r/Startup_Ideas/comments/1wy73x3/whats_wrong_with_this_idea_a_skillexchange/",
    "meta": "r/Startup_Ideas"
   },
   {
    "source": "rss",
-   "ext_id": "https://lobste.rs/s/4bzboj",
-   "title": "Protocol-aware recovery for consensus-based storage (2018)",
+   "ext_id": "https://lobste.rs/s/xmir2s",
+   "title": "Making a GTK application in Haskell, part 1",
    "body": "Comments",
-   "url": "https://www.usenix.org/system/files/conference/fast18/fast18-alagappan.pdf",
+   "url": "https://floreal.tech/blog/2026/making-a-gtk-app-in-haskell-part-1/",
    "meta": "Lobsters"
   },
   {
    "source": "steam",
-   "ext_id": "5240670-new_releases",
-   "title": "Corpse Sea Defense",
+   "ext_id": "5001350-new_releases",
+   "title": "Sinever: First Seal",
    "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/5240670",
+   "url": "https://store.steampowered.com/app/5001350",
    "meta": "Steam 新品热门"
   },
   {
    "source": "v2ex",
-   "ext_id": "1246404",
-   "title": "开源 Bibo：带按需 Linux 沙箱的个人 AI 工作空间，日常操作不用常驻容器",
-   "body": "把自己做的 Bibo 开源了，MIT 。\r\n\r\n想做的是一个能一起做事的个人 AI 搭档。对话、任务、日程、笔记和文件放在同一个网页里：让它处理一件事，结果保存下来，自己能接着看、改、安排后续。\r\n\r\n比较想分享的是沙箱和运行成本这部分。Agent 在 Cloudflare Worker / Durable Object 上运行，普通聊天、建任务、读写文件不需要启动容器。要跑 Python 、Shell 等系统工具时，才按需使用隔离的 Linux 沙箱。个人文件放在 R2 ，可以挂载到沙箱；临时环境回收后，保存的文件还在。默认空闲五分钟后沙箱休眠。\r\n\r\n我用一组示例咖啡店销售数据跑了一遍：让 Python 算一周总额、日均和周末占比，生成报告写进文件空间，再让 Bibo 建三个后续待办。截图里是实际运行后打开的报告和任务，经营数字是示例数据。\r\n\r\n![Bibo 对话与已保存的销售报告]( https://raw.githubusercontent.com/Peiiii/bibo/main/images/screenshots/bibo-chat-report.png)\r\n\r\n还试了一个订单去重案例：七行示例 CSV ，用 Python 删掉两行重复记录，得到五笔订单、九件商品、总额 214 。清理后的 CSV 和说明都存回了文件空间，说明里保留了实际执行的 Linux 、Python 版本。\r\n\r\n![Python 清理订单后的结果与实际运行环境]( https://raw.githubusercontent.com/Peiiii/bibo/main/images/screenshots/bibo-sandbox-execution.png)\r\n\r\n开源版支持部署到自己的 Cloudflare 账号，是单人私有空间。需要 Workers Paid 、R2 、Contai",
-   "url": "https://www.v2ex.com/t/1246404",
+   "ext_id": "1246531",
+   "title": "[送码] 给 Navidrome 写的安卓播放器 Mu3ic：现代 UI、智能歌单、混音、断网也能听，基础版免费",
+   "body": "我的歌放在家里服务器上的 Navidrome 里，五千多首，标签都是自己整理的，上个月还让 Agent 批量标准化一遍。电脑上听没问题，手机上一直没找到用着顺手的客户端，于是便有了[Mu3ic]( https://mu3ic.xyz)。\r\n\r\n- 主页： https://mu3ic.xyz\r\n- 直接下载 APK： https://dl.robb3n.site/mu3ic/Mu3ic-stable.apk\r\n- GitHub 镜像： https://github.com/robb3n/mu3ic-releases/releases/latest\r\n\r\n![Mu3ic]( https://i.imgur.com/BA2D4TN.jpeg)\r\n\r\n先说明一下：Mu3ic 是播放器，连的是你自己搭的服务器，不提供任何音乐。Navidrome 之外，兼容 Subsonic / OpenSubsonic 的服务端也能连。原生 Kotlin + Jetpack Compose ，安卓 7.0 以上，安装包 8 MB 左右。\r\n\r\n## 为什么自己写\r\n\r\n安卓上的 Subsonic 客户端其实不少，我前后装过好几个。\r\n\r\n音流功能比较全，但界面不够现代，用起来不顺手。界面现代的是 Symfonium ，功能也全，可它同时要管本地文件、网盘、Plex 、Jellyfin ，对 Navidrome 的适配反而一般，缓存机制也不好用；设置项多到要专门花时间调，买它还得走 Google Play 。开源的那几个，要么界面停在好多年前，要么能做的事太少。\r\n\r\n我要的其实就几样：界面好看、好用，天天要用的东西，光这一条就筛掉了大半播放器；打开要快；只管连服务器听歌，别的不管。所以 Mu3ic 从一开始就定成只做流播，不扫描手机里的本地文件。手机上存的缓存和下载，都只是为了断网的时候还能接着听。",
+   "url": "https://www.v2ex.com/t/1246531",
    "meta": "V2EX/create"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxe33m",
-   "title": "A marketplace for human verification of AI content",
-   "body": "As AI-generated documents become common, some businesses will need quick human review from people with specific knowledge.   The idea is a marketplace where reviewers check a narrow claim or section, rather than rewriting an entire document. For example, a science student verifies a citation, a translator checks a phrase, or an accountant reviews a calculation explanation.   AI would prepare the material and identify uncertain sections. Humans would focus only on the parts that need judgment.   Could this create a useful new type of work, or would quality control become too difficult to manage?       submitted by     /u/yi111       [link]       [comments]",
-   "url": "https://www.reddit.com/r/Startup_Ideas/comments/1wxe33m/a_marketplace_for_human_verification_of_ai_content/",
+   "ext_id": "t3_1wxw74k",
+   "title": "Procurando sócios",
+   "body": "Sou brasileiro, me chamo Matheus Chaves e tenho 28 anos.    Tenho experiência em marketing e vendas, tenho a ideia de criar um portal de notícias (site,programação online no YouTube, conteúdo nas plataformas sociais e uma revista)    Já pensei em programas, quadros, reportagens e etc.    Já pensei desenvolvi um método para fazer o negócio se tornar pagável e rentável.    Mas estou encontrando dificuldades para encontrar sócios e investidores.    Alguma ideia ?    ( eu gostaria de ser o responsável por encontrar clientes e a liderança criativa desse projeto e tenho dificuldade de encontrar pessoas para as outras áreas)       submitted by     /u/comunicador-popular       [link]       [comments]",
+   "url": "https://www.reddit.com/r/Startup_Ideas/comments/1wxw74k/procurando_sócios/",
    "meta": "r/Startup_Ideas"
   },
   {
    "source": "rss",
-   "ext_id": "https://lobste.rs/s/wbpt5y",
-   "title": "Improving and Stabilizing the racoon2 IKE Daemon in NetBSD",
+   "ext_id": "https://lobste.rs/s/okq4dm",
+   "title": "You don't need an effect system",
    "body": "Comments",
-   "url": "https://blog.netbsd.org/tnf/entry/gsoc2026_racoon2",
+   "url": "https://burningwitness.github.io/blog/posts/against-effect-systems/",
    "meta": "Lobsters"
   },
   {
    "source": "steam",
-   "ext_id": "4459980-new_releases",
-   "title": "Catventure",
+   "ext_id": "5239930-new_releases",
+   "title": "The Oktoberfest Armor Set",
    "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/4459980",
+   "url": "https://store.steampowered.com/app/5239930",
    "meta": "Steam 新品热门"
   },
   {
+   "source": "v2ex",
+   "ext_id": "1246529",
+   "title": "做了个查 AI 用量的 App",
+   "body": "做了个 App 叫 **usAge**：连上账号，用了多少、什么时候重置、还剩多少钱，一屏看清；放个小组件在桌面，抬头就能看到。\r\n\r\n![]( https://source.usage.o-c.do/site/posts/v2ex/cover.jpg)\r\n\r\n## 支持哪些服务\r\n\r\nClaude 、Codex 、Cursor 、智谱 GLM / Z.ai 、Kimi 、MiniMax 、Xiaomi MiMo 、Qoder 、OpenRouter 、DeepSeek （鸿蒙版的 Qoder 在下个版本）。\r\n\r\n- 订阅制看已用比例和重置倒计时，按量付费看余额和花销\r\n- 网页登录或者填 API Key 都能连\r\n- 没有你在用的？ App 里可以申请接入，直接回帖也行\r\n\r\n## 主要功能\r\n\r\n- **一屏看全部额度**：5 小时窗口、每周额度、Token 消耗、账号信息，点开就有\r\n- **五种小组件**：基础、数码管、贡献图、LED 、卡包，小中大三种尺寸，一个最多放 4 个账号。小组件上能直接切换额度、刷新，Codex 有重置卡时也能在小组件上直接用掉\r\n- **分享卡片**：Token 战绩、额度状态、AI 花销三种，可以拿来晒\r\n- **多设备同步**：Apple 设备走 iCloud ，华为设备走云空间，手机上连一次，其他设备自动出现\r\n\r\n![]( https://source.usage.o-c.do/site/posts/v2ex/iphone.jpg)\r\n\r\n![]( https://source.usage.o-c.do/site/posts/v2ex/widgets.jpg)\r\n\r\nMac 版除了主窗口还有菜单栏，会读本机日志，显示今天 Codex CLI 和 Claude Code 用了多少 Token 、大概花了多少钱； Siri 、快捷",
+   "url": "https://www.v2ex.com/t/1246529",
+   "meta": "V2EX/create"
+  },
+  {
    "source": "reddit",
-   "ext_id": "t3_1wx9qwh",
-   "title": "Looking for feedback and beta testers / Targeting de-addiction",
-   "body": "I am looking for deep conversations around my new project:  https://bythestrokes.com  and I am going to support you in helping me as best I can.   I will support you fully when you visit my website through chat and the forum. I will also be forever grateful.   I am also looking for beta testers who will pay hardware cost and nothing more. You will get these features        Select Features                          Declaration   You can make 1 goal public on a unique URL. We want you to think of this as the biggest pursuit you are in life. A carefully tended, meticulously constructed inspiration. A goal for till you die.           Repository    On the App you can store as many goals as you want. Life is a whole. In it we have many flags to plant. We walk on multiple tracks, some we tend, som",
-   "url": "https://www.reddit.com/r/Startup_Ideas/comments/1wx9qwh/looking_for_feedback_and_beta_testers_targeting/",
+   "ext_id": "t3_1wxt1u1",
+   "title": "Ok asking a question",
+   "body": "submitted by     /u/Early_Clothes6311       [link]       [comments]",
+   "url": "https://www.reddit.com/r/Startup_Ideas/comments/1wxt1u1/ok_asking_a_question/",
    "meta": "r/Startup_Ideas"
   },
   {
    "source": "rss",
-   "ext_id": "https://dev.to/arbrahimbadsa/how-3000-people-ended-up-sending-cat-cards-4m37",
-   "title": "How 3,000 people ended up sending cat cards",
-   "body": "In August I built a website that makes cat greeting cards. Two months later, more than 3,000 people have used it to tell someone they love them, miss them, or are sorry about the thing with the cake. \n\n I did not plan for any of that. I planned to sell a few cards and then stare at the analytics dashboard for an unreasonable amount of time. I did do the staring. Here is what the staring taught me. \n\n \n  \n  \n  It started with cat videos\n \n\n It began with cat videos. I posted a few just for fun, the kind with a cat saying something it definitely shouldn't know how to say, and people loved them way more than anything I'd ever made on purpose. So I thought: what if the cat could say  your  thing, to  your  person? \n\n My first guess was that this was for grandparents. Older people love a sweet ",
-   "url": "https://dev.to/arbrahimbadsa/how-3000-people-ended-up-sending-cat-cards-4m37",
+   "ext_id": "https://lobste.rs/s/az2lgv",
+   "title": "spoonful: static site generator written in Nix",
+   "body": "Comments",
+   "url": "https://tangled.org/poacher.dev/spoonful",
+   "meta": "Lobsters"
+  },
+  {
+   "source": "steam",
+   "ext_id": "4914240-new_releases",
+   "title": "Veillombre",
+   "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/4914240",
+   "meta": "Steam 新品热门"
+  },
+  {
+   "source": "v2ex",
+   "ext_id": "1246511",
+   "title": "做了个开源的 plist 在线编辑器，不装 Xcode 也能打开二进制 plist",
+   "body": "各位 V 友好，分享一个自己做的小工具：**OpenPlist**，可以直接在浏览器里查看、编辑和转换 Apple 的 plist 文件。\r\n\r\n它想解决的需求很简单：有时候只是想看一眼配置、改几个字段，或者把二进制 plist 转成能读的 XML ，希望打开网页就能处理。在 Windows 、Linux 上也能用，不依赖 Mac 或 Xcode 。\r\n\r\n在线使用：[OpenPlist]( https://openplist.com/zh)  \r\n源码：[GitHub]( https://github.com/chenz24/openplist)\r\n\r\n目前主要支持：\r\n\r\n- **查看和编辑**：打开 XML 、二进制（`bplist00`）和 OpenStep 格式的 plist ，在树形视图里修改键、值和类型，也可以切到 XML / JSON 源码编辑。\r\n- **格式转换**：XML 与二进制 plist 互转，以及 plist 和 JSON 互转。\r\n- **日常操作**：搜索键和值、新增和复制条目、撤销重做、未保存提醒。\r\n\r\n另外也做了一些 Apple 开发相关的小工具，比如查看 `.mobileprovision` 的有效期、团队和设备信息，编辑 `.mobileconfig`、`.entitlements`、`.strings`、`.stringsdict` 和 `.xcconfig`，以及对 OpenCore 配置做一些基础检查。\r\n\r\n**核心查看、编辑和转换都在浏览器本地完成，不上传文件内容。** 配置描述文件另外有可选的 AI 分析，只有主动使用时才会向配置的服务商发送经过部分字段脱敏的内容。\r\n\r\n项目采用 MIT 协议开源，可以自行部署；界面支持中文、英文和日文。\r\n\r\n两个使用时需要留意的地方：plist 导出会重新生成排版，不保留原注释；",
+   "url": "https://www.v2ex.com/t/1246511",
+   "meta": "V2EX/create"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wyl60m",
+   "title": "In marketing your Saas where did you have the Best reaction in getting Customers or Website visits?",
+   "body": "Im Curious where you all got the best reaction and best roi in driving customers or traffic to your site (preferably customers). Especially nowadays with ai If its still similar for you or your main drivers and methods have changed from Cold mails,calls,dms,ads(organic or not),seo,social media etc. So im Interested in hearing where you had the most success?       submitted by     /u/Annual_Power_5066       [link]       [comments]",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wyl60m/in_marketing_your_saas_where_did_you_have_the/",
+   "meta": "r/SaaS"
+  },
+  {
+   "source": "rss",
+   "ext_id": "https://lobste.rs/s/yj99wd",
+   "title": "A new, bespoke static site generator to replace Jekyll",
+   "body": "Comments",
+   "url": "https://nullprogram.com/blog/2026/10/04/",
+   "meta": "Lobsters"
+  },
+  {
+   "source": "steam",
+   "ext_id": "3878440-new_releases",
+   "title": "Solo Cultivation 独修",
+   "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/3878440",
+   "meta": "Steam 新品热门"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wykzal",
+   "title": "Take the challenge and try to break my tool.",
+   "body": "Hi everyone.   I work on Epure , a lightweight self-hosted error tracking for production apps, same Sentry SDK, change the DSN, two containers (Rust + Postgres).   I want real floods, not synthetic load scripts, so I opened a public box:    https://burst.epure.sh    One button sends errors from your browser for about 7 seconds. Or copy the DSN / curl and hit it from your own client. Goal is to kill the ingester container. The VM and the dashboard stay up.   Box is sized like a small VPS (2 GB RAM, 2 vCPU). There is a spike valve so duplicate spam does not instantly win , still curious how far it goes when a lot of people click at once.   Send what you can. Let's see what breaks first.       submitted by     /u/Suitable-Ad5348       [link]       [comments]",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wykzal/take_the_challenge_and_try_to_break_my_tool/",
+   "meta": "r/SaaS"
+  },
+  {
+   "source": "rss",
+   "ext_id": "https://lobste.rs/s/hmu7ym",
+   "title": "Tufte's Razor: an interactive guide to the data-ink ratio",
+   "body": "Comments",
+   "url": "https://tuftesrazor.scienceux.org/",
+   "meta": "Lobsters"
+  },
+  {
+   "source": "steam",
+   "ext_id": "2101640-new_releases",
+   "title": "GACHA AND SLEEP",
+   "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/2101640",
+   "meta": "Steam 新品热门"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wyk8m4",
+   "title": "Our cheapest customers generate our most expensive tickets. What did you change?",
+   "body": "The big accounts barely write in. The low-tier ones open a ticket for everything, and every one of those tickets costs the same support hour.   I started tracking hours by plan instead of by ticket, and the picture flipped. The accounts that pay the least burn the most time.   For the rest of you running support, do you track cost per tier, and what did you change when you saw it?       submitted by     /u/arslannasir128       [link]       [comments]",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wyk8m4/our_cheapest_customers_generate_our_most/",
+   "meta": "r/SaaS"
+  },
+  {
+   "source": "rss",
+   "ext_id": "https://lobste.rs/s/qf2mtz",
+   "title": "We ported the original Doom to SQL",
+   "body": "Comments",
+   "url": "https://cedardb.com/blog/sqldoom/",
+   "meta": "Lobsters"
+  },
+  {
+   "source": "steam",
+   "ext_id": "3419140-new_releases",
+   "title": "Stickility",
+   "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/3419140",
+   "meta": "Steam 新品热门"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wyk1go",
+   "title": "My open-source project hit 9k GitHub stars, so I'm turning it into a SaaS. Here's how I'm doing it without paywalling the open-source version.",
+   "body": "At the end of 2024 I started Kaneo as a small, unserious side project: a project manager that's fast and simple, because every tool I tried was either bloated or locked into someone else's cloud.   It's MIT licensed and you can self-host it for free. Somehow it grew: 9k+ stars on GitHub, 100+ contributors, 150+ releases, and people running it on everything from homelabs to company servers.   A couple of months ago I decided to try making it a business. A few decisions I made, and I'd love your take on them:     The paid product is hosting, not features. Kaneo Cloud is $4/month for one person and $5/user for teams. The self-hosted version gets every feature, including SSO. I watched other open-source tools move features like SSO into paid tiers and their communities hated it, so I'm betting",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wyk1go/my_opensource_project_hit_9k_github_stars_so_im/",
+   "meta": "r/SaaS"
+  },
+  {
+   "source": "rss",
+   "ext_id": "https://lobste.rs/s/oevwp5",
+   "title": "Dostoevsky: Better Space-Time Trade-Offs for LSM-Tree Based Key-Value Stores via Adaptive Removal of Superfluous Merging",
+   "body": "Comments",
+   "url": "https://nivdayan.github.io/dostoevsky.pdf",
+   "meta": "Lobsters"
+  },
+  {
+   "source": "steam",
+   "ext_id": "4917250-new_releases",
+   "title": "Midwest Goodbye",
+   "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/4917250",
+   "meta": "Steam 新品热门"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wyjzsd",
+   "title": "I am working on a platform for share and validate Ideas before spending days on them.",
+   "body": "I’ve been working on this platform for a long time, and I’m finally ready to share it with more people. I’m still trying to get the first group of early users.   One thing I’ve realized while building it is that this is the first product I’ve made that I genuinely built based on feedback from real users.   And honestly, I think there’s a huge difference between building what you imagine people want and building what people actually tell you they need.   You can spend days, weeks, or months building something based entirely on your own assumptions, only to launch it and discover that nobody cares.   That’s actually the problem this platform is trying to solve.   The idea is simple:  share an idea before you invest heavily in building it, get feedback from people who  care , find people who ",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wyjzsd/i_am_working_on_a_platform_for_share_and_validate/",
+   "meta": "r/SaaS"
+  },
+  {
+   "source": "rss",
+   "ext_id": "https://dev.to/nesimtunc/what-if-we-brought-back-the-feeling-of-msn-messenger-4j85",
+   "title": "What If We Brought Back the Feeling of MSN Messenger?",
+   "body": "Remember when we coded things just for fun? \n\n Before feeds, algorithms, engagement metrics and infinite scrolling, the internet felt a lot smaller. \n\n You sat down at your computer. \n\n You opened MSN Messenger. \n\n You saw who was online. \n\n Then... \n\n  ding  \n\n Someone you knew just came online. \n\n You'd start chatting, send a nudge, disappear for three hours and somehow that was the entire evening. 😄 \n\n I've been thinking: \n\n  What if we brought that feeling back?  \n\n I'm calling the idea  Messonger . \n\n A desktop-only, open-source instant messenger inspired by the golden age of MSN Messenger, ICQ, Yahoo Messenger, Jabber and the early internet. \n\n   \n  \n \n\n The idea isn't to build another social network. \n\n No algorithmic feed. \n\n No endless scrolling. \n\n No engagement mechanics. \n\n Jus",
+   "url": "https://dev.to/nesimtunc/what-if-we-brought-back-the-feeling-of-msn-messenger-4j85",
    "meta": "DEV Community: sideprojects"
   },
   {
    "source": "steam",
-   "ext_id": "5182380-new_releases",
-   "title": "BEYOND XII",
+   "ext_id": "5223280-new_releases",
+   "title": "THE MIDNIGHT QUEENS 2",
    "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/5182380",
+   "url": "https://store.steampowered.com/app/5223280",
    "meta": "Steam 新品热门"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxsel6",
-   "title": "My open source book tracking website now offered as hosted service too",
-   "body": "Hey all, you guys asked and I listened. Last week I got great feedback on my open source app, so decided to make it hosted for others to use too.    http://www.bookplate.eu    Let me know what you think, and how it can be improved.        submitted by     /u/Mysterious-Zebra9580       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxsel6/my_open_source_book_tracking_website_now_offered/",
-   "meta": "r/SideProject"
+   "ext_id": "t3_1wyjzb7",
+   "title": "Distribution partner - medical software",
+   "body": "I’ve built a platform that is SOC2 compliant which clears the referral backlog that medical specialty clinics face. The long story short is that office managers at medical clinics are usually busy with patients in front of them and don’t have the time to essentially cold call those patients who have been referred to the clinic for an appointment. Patients can’t just walk in to see a specialist; they have to be referred there. Our platform calls and books those referral patients for medical clinics.   The challenge has been distribution. Doctors are notoriously difficult to get a hold of and this has made pitching them difficult. Does anyone work at (or own) an EHR platform that has small or medium size clinics as customers? I’m looking for distribution partners who can help us get in front",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wyjzb7/distribution_partner_medical_software/",
+   "meta": "r/SaaS"
   },
   {
    "source": "rss",
-   "ext_id": "https://dev.to/nagendra_prasadbk_61b8b7/chatbots-can-only-show-text-inside-bubble-i-built-slider-and-rating-that-lives-inside-bubble-itself-fem",
-   "title": "Chatbots can only show text inside bubble. I built slider and rating that lives inside bubble itself",
-   "body": "Most chatbot UIs only allow text inside the bubble. \n\n If you want a slider, rating, calendar, file upload - you have to build it as a separate page outside the chat. \n\n I built a way to put controls INSIDE the bubble itself where they live and calculate. \n\n Live demo no install (10 seconds): \n https://huggingface.co/spaces/Nagendra75/noth5-free-lite  \n\n GitHub + pip wrapper you can read: \n https://github.com/Nagendra75/NOTH5-FREE-LITE  \n\n What it does: \n\n \n Slider and Star Rating render INSIDE chat bubble, not outside \n Values calculate inside bubble \n Offline - no data sent anywhere \n \n\n Why EXE? \nNOTH5 has its own compiler (Python alone can't do controls inside bubble), so EXE contains NOTH5 engine. Pip version is just a 10-line wrapper you can read in demo_app.py. \n\n I'm testing waters",
-   "url": "https://dev.to/nagendra_prasadbk_61b8b7/chatbots-can-only-show-text-inside-bubble-i-built-slider-and-rating-that-lives-inside-bubble-itself-fem",
+   "ext_id": "https://dev.to/pagedrop_pro/i-published-31-seo-blog-posts-in-six-months-google-sent-me-10-clicks-48l5",
+   "title": "I Published 31 SEO Blog Posts in Six Months. Google Sent Me 10 Clicks",
+   "body": "In March I launched  PageDrop , a one-person service that builds one-page websites for local businesses for $297, once. I'm a developer with 20 years behind me, I knew SEO mattered, and I did what every guide says: pick low-competition keywords, publish consistently, make the pages fast. \n\n Six months later I have 31 blog posts, each checked for 95+ on mobile PageSpeed when it went out, structured data on all of them, a sitemap Google reads within hours of each deploy, and 35 of 36 URLs indexed. The 36 are the 31 posts plus the homepage, the blog index, a Romanian version of the homepage, a landing page and the privacy page. \n\n Google has sent 10 clicks. Every one I can attribute came from someone typing some spelling of the brand name. No blog post has ever received a click. \n\n  The short",
+   "url": "https://dev.to/pagedrop_pro/i-published-31-seo-blog-posts-in-six-months-google-sent-me-10-clicks-48l5",
    "meta": "DEV Community: sideprojects"
   },
   {
    "source": "steam",
-   "ext_id": "5268080-new_releases",
-   "title": "CURSORLOOM",
-   "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/5268080",
-   "meta": "Steam 新品热门"
+   "ext_id": "5311520-tag-Casual",
+   "title": "Back on Your Feet Demo",
+   "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/5311520",
+   "meta": "Steam Casual新品"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxscvh",
-   "title": "Squishy Lab — happiness is squeezable",
-   "body": "I built a tiny 3D squishy playground — it became much more technical than I expected    I started this as a very small side project: I wanted a cute object in the browser that you could actually grab, press and deform.   No real product idea behind it. I mostly wanted to see whether a soft-body toy could feel satisfying directly in a web page.   It gradually turned into  Squishy Lab .   There are now 10 different squishies, custom faces and finishes, personal messages, pressure-responsive sounds, PNG export and an optional AI material editor.   The part that consumed most of the work was the deformation itself.   Under the cute surface there’s a small XPBD soft-body simulation running on a 216-particle / 750-tetrahedron cage, with a 5,402-vertex Three.js surface following it at runtime.   ",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxscvh/squishy_lab_happiness_is_squeezable/",
-   "meta": "r/SideProject"
+   "ext_id": "t3_1wyjuxl",
+   "title": "Looking for advice on a Google Ads/SaaS website audit",
+   "body": "I’ve just launched a new SaaS and I’m planning to start Google Ads with a brand-new Google Ads account.   Before spending anything, I want to get a full audit of the website specifically for Google Ads policy/compliance, including things like pricing/trial wording, billing and cancellation, legal pages, business transparency, claims, landing page quality and anything that could potentially cause a disapproval or suspension.   What’s the correct way to get this done, and who would you recommend using? I’ve already enquired with a few people on Upwork, but I’d like to hear from people who have actually done this before.   Also, what would be a reasonable price and TAT for a proper audit?       submitted by     /u/guccisterling       [link]       [comments]",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wyjuxl/looking_for_advice_on_a_google_adssaas_website/",
+   "meta": "r/SaaS"
   },
   {
    "source": "rss",
-   "ext_id": "https://dev.to/yowaye/i-tested-my-crs-calculator-against-the-canadian-governments-own-code-on-5000-random-profiles-3b47",
-   "title": "I tested my CRS calculator against the Canadian government's own code on 5,000 random profiles",
-   "body": "Canada picks skilled immigrants through  Express Entry , and every candidate gets a  CRS score  (Comprehensive Ranking System, out of 1,200). The score decides who gets invited, so people check it obsessively — and dozens of websites offer \"CRS calculators\". \n\n When I looked at the popular ones, many were simply wrong. In March 2025 the government (IRCC) removed the points for job offers, which used to be worth 50 or 200 points. A year and a half later, several well-ranked calculators still asked about job offers, and one still claimed a job offer was worth 600 points. \n\n So I built my own, and made one rule:  it has to agree with the official calculator, and I have to be able to prove it.  \n\n \n  \n  \n  The scoring rules are simple. The edge cases aren't.\n \n\n On paper, CRS is a set of looku",
-   "url": "https://dev.to/yowaye/i-tested-my-crs-calculator-against-the-canadian-governments-own-code-on-5000-random-profiles-3b47",
-   "meta": "DEV Community: sideprojects"
+   "ext_id": "https://www.gameres.com/901203113.html",
+   "title": "《游戏项目系统工程手册》合订本vol.6",
+   "body": "包含游戏项目预算管理（编制、监控、生命周期成本等）与需求剪裁调整指南，面向制作人、项目经理等游戏项目相关岗位。",
+   "url": "https://www.gameres.com/901203113.html",
+   "meta": "GameRes游资网"
   },
   {
    "source": "steam",
-   "ext_id": "5225460-new_releases",
-   "title": "Wickling",
-   "body": "Steam 新品热门上榜（无简介，按游戏名与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/5225460",
-   "meta": "Steam 新品热门"
+   "ext_id": "5318430-tag-Casual",
+   "title": "Department of Final Judgment Demo",
+   "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/5318430",
+   "meta": "Steam Casual新品"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxs1qa",
-   "title": "Made a kids channel about emotions with a child psychologist friend, using AI because we have no budget. Would love honest feedback on our intro",
-   "body": "Hey everyone,    Me and a friend (we both have normal 9-5 jobs) started a small YouTube channel for kids around 3-5 years old. The idea is short animated stories that help little kids with the big stuff: getting angry, being scared of the dark, the first day at kindergarten, things like that.    Being honest from the start: we don't have the skills or the money to animate this the \"proper\" way, so we're making the visuals and animation with AI tools. What we do put our own work into is the writing. A friend of ours has a master's in child psychology and she reviews every script, so the stories actually say the right things to kids (no \"you're too big to be scared\", that kind of stuff). Every episode will also have a short note for parents in the description: what the episode is about, how ",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxs1qa/made_a_kids_channel_about_emotions_with_a_child/",
-   "meta": "r/SideProject"
+   "ext_id": "t3_1wyjr48",
+   "title": "Marketing Construction SAAS",
+   "body": "Hey,   Completely new to this, and way outside my comfort zone. I built an app recently that i used as my daily driver to run a few jobs - alternative to asta powerproject in the basic way i can explain it right now. The idea was to build a programme tool that anyone can use in construction, however speaking to other industries i never knew so many people use gantt charts. It runs really well, and having to use i daily meant a lot of improvements fast, but it is only me.   Issue i have now, is getting users. I have no idea where to find people other than the cold emails and Linkedin jargon. How did anyone with a small network manage to get people to use their apps? Any help would be much appreciated.       submitted by     /u/jaz_24       [link]       [comments]",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wyjr48/marketing_construction_saas/",
+   "meta": "r/SaaS"
   },
   {
    "source": "rss",
-   "ext_id": "CBMiXkFVX3lxTE45Tk8xam9zSlJieTFORm00UWpMaFhVWWJhelhJNFFiMy1IbnFoN0N5UmdfQWZlbENQaGNwei1hOGlSYUJvSk92REFnam11ZV9TN2N3ZXlrRlZpUGd0emc",
-   "title": "Death is certain but few of us are really prepared - Medical Xpress",
-   "body": "Death is certain but few of us are really prepared    Medical Xpress",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE45Tk8xam9zSlJieTFORm00UWpMaFhVWWJhelhJNFFiMy1IbnFoN0N5UmdfQWZlbENQaGNwei1hOGlSYUJvSk92REFnam11ZV9TN2N3ZXlrRlZpUGd0emc?oc=5",
+   "ext_id": "CBMiuwFBVV95cUxONlJ4VmF0VmlLT1lhYnNKYklSbE1ZeDVDWm1Na0dSZUVqY004VUppN1pUSHBNOEQtM3hYY2ZGVkxvWTNXaWZPMkpvV1EwSXlSZ1ZNbVdwbkg0ZEc1elU0cU00VDJaVWxYdGp5cWtnR0I4MGFKbFRDbGRvWXJTc1ZMd1ZaRHNncW5TLU5zNXZEY2lVWWd2WXpweGx0SG5QYWw4NktLM1FhQm1ONmhIbGhsVV9TeVRxUHFSOFBj",
+   "title": "Valley Hospice Continues End-of-Life Care Conversation with Second Theatrical Performance - Valley Health System",
+   "body": "Valley Hospice Continues End-of-Life Care Conversation with Second Theatrical Performance    Valley Health System",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONlJ4VmF0VmlLT1lhYnNKYklSbE1ZeDVDWm1Na0dSZUVqY004VUppN1pUSHBNOEQtM3hYY2ZGVkxvWTNXaWZPMkpvV1EwSXlSZ1ZNbVdwbkg0ZEc1elU0cU00VDJaVWxYdGp5cWtnR0I4MGFKbFRDbGRvWXJTc1ZMd1ZaRHNncW5TLU5zNXZEY2lVWWd2WXpweGx0SG5QYWw4NktLM1FhQm1ONmhIbGhsVV9TeVRxUHFSOFBj?oc=5",
    "meta": "\"\"shutting down\" OR \"sunsetting\" OR \"end of life\" when:7d\" - Google News"
   },
   {
    "source": "steam",
-   "ext_id": "5236630-tag-Casual",
-   "title": "FINITE JEST Demo",
+   "ext_id": "5314740-tag-Casual",
+   "title": "101 Circuits Demo",
    "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/5236630",
+   "url": "https://store.steampowered.com/app/5314740",
    "meta": "Steam Casual新品"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxrv17",
-   "title": "Hello! I created a website that allows users to know if their Amazon Flex Station is closed",
-   "body": "Millions of gig workers in America work for Amazon Flex; however, no website tells users whether their station is closed. A closed station = free money.     stationclosed.com        submitted by     /u/Itismrwonderful       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxrv17/hello_i_created_a_website_that_allows_users_to/",
-   "meta": "r/SideProject"
+   "ext_id": "t3_1wyitfw",
+   "title": "What would be a no brainer lead gen deal for you?",
+   "body": "Hi guys. I’m looking to start working alone utilizing my best skill - biz dev using LinkedIn.    I have 6 years of first hand experience doing LinkedIn outreach, handling Founders LinkedIn accounts, all manual without automation. Best results are from SaaS products with a good market fit.   I’m in a position to focus on a couple of pilot clients, but I do want to cover some of the time I will spend building the case studies.   Honest question: what business model would do accept without hesitation for someone to post on your LinkedIn, find and engage with your ICP, book sales calls?       submitted by     /u/blawblahh       [link]       [comments]",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wyitfw/what_would_be_a_no_brainer_lead_gen_deal_for_you/",
+   "meta": "r/SaaS"
   },
   {
    "source": "rss",
-   "ext_id": "CBMiZkFVX3lxTE1QMDAxRko5S240blhHdzc5UlhDRTc5OXZsMGpLMlBQQ3RhSnFPWnk1TlFBQWVWMEdkVXZrY19YQ3ZhcDNMSFE3YUxsN1Jla09DS1F4RjA1QnZjNUdhMnFSdVUxX3ZXdw",
-   "title": "卢拉竞选团队请求选举法院调查美使领馆暂停服务一事 - 东方财富",
-   "body": "卢拉竞选团队请求选举法院调查美使领馆暂停服务一事    东方财富",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1QMDAxRko5S240blhHdzc5UlhDRTc5OXZsMGpLMlBQQ3RhSnFPWnk1TlFBQWVWMEdkVXZrY19YQ3ZhcDNMSFE3YUxsN1Jla09DS1F4RjA1QnZjNUdhMnFSdVUxX3ZXdw?oc=5",
+   "ext_id": "CBMinAFBVV95cUxPazVHdW9HQmtUc1AxY09HYUpsWUdXczlXRzZKYXpMd1N5QU9NOWk4dXNyQU13ZlRYZGgtc2hPTzF4NE1uR1Q1N3hYa0VfOFE5QVpVWEllXzBTbUxSVi0xOXE4Q3B5c3JyVWVmSTJJcGxzSmZTdDc2cnVLNmdOcnd3LXJPdFBpMFpZWERnS1RZQ2dWNkJLbnMteHJnR0g",
+   "title": "Goodyear Chemical shutting down Niagara Falls facility - Spectrum News NY1",
+   "body": "Goodyear Chemical shutting down Niagara Falls facility    Spectrum News NY1",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPazVHdW9HQmtUc1AxY09HYUpsWUdXczlXRzZKYXpMd1N5QU9NOWk4dXNyQU13ZlRYZGgtc2hPTzF4NE1uR1Q1N3hYa0VfOFE5QVpVWEllXzBTbUxSVi0xOXE4Q3B5c3JyVWVmSTJJcGxzSmZTdDc2cnVLNmdOcnd3LXJPdFBpMFpZWERnS1RZQ2dWNkJLbnMteHJnR0g?oc=5",
+   "meta": "\"\"shutting down\" OR \"sunsetting\" OR \"end of life\" when:7d\" - Google News"
+  },
+  {
+   "source": "steam",
+   "ext_id": "5177360-tag-Casual",
+   "title": "Books Hate You Demo",
+   "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/5177360",
+   "meta": "Steam Casual新品"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wyiaqg",
+   "title": "congratulations",
+   "body": "submitted by     /u/Secure_Vermicelli873       [link]       [comments]",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wyiaqg/congratulations/",
+   "meta": "r/SaaS"
+  },
+  {
+   "source": "rss",
+   "ext_id": "CBMisgFBVV95cUxNWTVjeTd2dEZQUl9iSkdDOHpMaEtockRzdjlUMElzT3FxRkZjZG5oeldHLVB1ZW5CY3FVNXRFZjNPVkpKX1FpLVRiYkFOdy1Dc05ZQWZaWFM3MVZNUGZTVUNWZWtWUC1JZ1JUMlZDTnBYcTRSeHpYRmRkNWxmeVhXNk5vWTRINzB4MDlXaTZ3bkQ4cU5SS3BZMFhtYkhIOUh3Qm5XY3g2a05iQmNDd1Jnb3J3",
+   "title": "Marvel Unlimited Shuttering After 19 Years, Will Be Replaced by Webtoon Comics App - IGN",
+   "body": "Marvel Unlimited Shuttering After 19 Years, Will Be Replaced by Webtoon Comics App    IGN",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWTVjeTd2dEZQUl9iSkdDOHpMaEtockRzdjlUMElzT3FxRkZjZG5oeldHLVB1ZW5CY3FVNXRFZjNPVkpKX1FpLVRiYkFOdy1Dc05ZQWZaWFM3MVZNUGZTVUNWZWtWUC1JZ1JUMlZDTnBYcTRSeHpYRmRkNWxmeVhXNk5vWTRINzB4MDlXaTZ3bkQ4cU5SS3BZMFhtYkhIOUh3Qm5XY3g2a05iQmNDd1Jnb3J3?oc=5",
+   "meta": "\"\"shutting down\" OR \"sunsetting\" OR \"end of life\" when:7d\" - Google News"
+  },
+  {
+   "source": "steam",
+   "ext_id": "5248180-tag-Casual",
+   "title": "Starbloom Ranch - Supporter Pack",
+   "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/5248180",
+   "meta": "Steam Casual新品"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wyiap5",
+   "title": "Shutting Down my SaaS After a Year",
+   "body": "Hi all,   I wanted to share my experience with my latest SaaS startup attempt. For about a year, my partner and I tried to launch a software tool that would help make federal compliance easier for our niche. Even though we ended up with a few demos and strong leads from major firms, we ultimately weren't able to ever close a deal or get users. I wanted to share my biggest takeaways to help others avoid my mistakes.       Selling to a cost center is really hard. If you're not saving them money on day one or doing something they're legally required to do, it's going to be very hard to get traction in the space. Selling to a profit center is less of a challenge.      Market conditions make a big difference. We accidentally launched into a very difficult market. Had we launched a few years ago",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wyiap5/shutting_down_my_saas_after_a_year/",
+   "meta": "r/SaaS"
+  },
+  {
+   "source": "rss",
+   "ext_id": "CBMi1AFBVV95cUxOS3BuMEZ3NFhFNkEwNVkyUlNTODVmaldoRWh0VjhSWUNwcmxRd2ZhR1k4LVNOUEU0WkoyM2ZoVnBOUlZ0ekZHeXF3bzlnVDgtbnBsdWVYUVhqd19ZWHVQS2pVM2tEX2xQWGFMdVg2djBVWFp0amwwcWl0LVQ0UC1PbkNWcXlyM3kzVTBUS3ZzVlpORnRDbE5mdTdRVWt2R3pGYUpQb3R4cEtXUHQ2dlppY1VkLUsxRlpBdTdzM3hLVVlIQnVKUWtqUWloLUkzY0V0RjhzTA",
+   "title": "Pedestrian killed after being struck by train, shutting down several Fort Lauderdale roads: Cops - WPLG Local 10",
+   "body": "Pedestrian killed after being struck by train, shutting down several Fort Lauderdale roads: Cops    WPLG Local 10",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOS3BuMEZ3NFhFNkEwNVkyUlNTODVmaldoRWh0VjhSWUNwcmxRd2ZhR1k4LVNOUEU0WkoyM2ZoVnBOUlZ0ekZHeXF3bzlnVDgtbnBsdWVYUVhqd19ZWHVQS2pVM2tEX2xQWGFMdVg2djBVWFp0amwwcWl0LVQ0UC1PbkNWcXlyM3kzVTBUS3ZzVlpORnRDbE5mdTdRVWt2R3pGYUpQb3R4cEtXUHQ2dlppY1VkLUsxRlpBdTdzM3hLVVlIQnVKUWtqUWloLUkzY0V0RjhzTA?oc=5",
+   "meta": "\"\"shutting down\" OR \"sunsetting\" OR \"end of life\" when:7d\" - Google News"
+  },
+  {
+   "source": "steam",
+   "ext_id": "5301290-tag-Casual",
+   "title": "Dead Set Warriors Demo",
+   "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/5301290",
+   "meta": "Steam Casual新品"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wyi88d",
+   "title": "I built a portfolio and marketplace for all my products. Roast it and tell me what to fix",
+   "body": "Hey everyone,   I'm a developer with a day job, and I've been building small SaaS products and tools on the side. Until now they were scattered across different domains, so I put them all in one place:  https://kriosity.in/    It's a portfolio and storefront where you can see everything I've built, try the products, and buy the ones that are ready.   I'd love honest feedback on:   First impression: is it clear what this is within 5 seconds?   Design and layout: anything confusing, cluttered, or ugly?   Product pages: do they explain each product well enough to make you try it?   Trust: would you feel safe buying here? What's missing?   Speed and mobile: anything slow or broken on your device?   Don't hold back. Blunt feedback helps me more than polite feedback.   Thanks in advance!       s",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wyi88d/i_built_a_portfolio_and_marketplace_for_all_my/",
+   "meta": "r/SaaS"
+  },
+  {
+   "source": "rss",
+   "ext_id": "CBMiW0FVX3lxTE9jR1NPZm8tblVKM2hsVmwzMUJ0dVpybDN6RHRWNnNERFNlRml6a1NPMmtGWkZQSGxPbzVMcU1MM0dZUVRNTFdwN1doRi1aWGdYa29WU3R4SzFlOUnSAWBBVV95cUxQUjEySUwzN0lpS1pTUHRRdDhJTmkxczhPQjNGZDJVb2NvSldnYVdDYWs2Y2lfdUJJaVZ0VzRtMHJpUy1Ga2hnQTM1cUJmdDJKWnJOVzZHQWZkOUFVRko3cWY",
+   "title": "North Memorial Medical Center leading charge in honoring Hmong end of life tradition - FOX 9 Minneapolis-St. Paul",
+   "body": "North Memorial Medical Center leading charge in honoring Hmong end of life tradition    FOX 9 Minneapolis-St. Paul",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jR1NPZm8tblVKM2hsVmwzMUJ0dVpybDN6RHRWNnNERFNlRml6a1NPMmtGWkZQSGxPbzVMcU1MM0dZUVRNTFdwN1doRi1aWGdYa29WU3R4SzFlOUnSAWBBVV95cUxQUjEySUwzN0lpS1pTUHRRdDhJTmkxczhPQjNGZDJVb2NvSldnYVdDYWs2Y2lfdUJJaVZ0VzRtMHJpUy1Ga2hnQTM1cUJmdDJKWnJOVzZHQWZkOUFVRko3cWY?oc=5",
+   "meta": "\"\"shutting down\" OR \"sunsetting\" OR \"end of life\" when:7d\" - Google News"
+  },
+  {
+   "source": "steam",
+   "ext_id": "5304100-tag-Casual",
+   "title": "Protocol: Assimilation Demo",
+   "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/5304100",
+   "meta": "Steam Casual新品"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wyi2r1",
+   "title": "Day 2 → Day 3: got a lot more done than I expected",
+   "body": "So I’m building a small invoice SaaS and today I ended up finishing both Day 2 and Day 3.   Day 2 was mostly client management.   Added:   - add client   - client name + email   - client list   - delete client   - Supabase database   - RLS so users can only access their own clients   Then I started working on invoices and it went faster than I expected.   Now I can:   - create an invoice   - select a client   - add amount + currency   - set due date   - add a payment URL   - save everything to Supabase   - see invoices in the dashboard   - delete invoices   Still pretty basic right now, but the main stuff is working.   Next I’m working on payments + webhooks.   The flow I’m aiming for:   Create invoice → customer pays → payment confirmed → invoice becomes paid   Trying to build the MVP ins",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wyi2r1/day_2_day_3_got_a_lot_more_done_than_i_expected/",
+   "meta": "r/SaaS"
+  },
+  {
+   "source": "rss",
+   "ext_id": "CBMiU0FVX3lxTE5aZUN6MnhDMWVxZEoyMHp4XzJuOXAyUW1QV3NYbDI5T1NlMGZ3QWE3VVVoc084dHZGLU85OURhaVZXVjFPTWlYYkhsbXROdC1MZjU4",
+   "title": "沙特东西输油管道再遭袭击停运？油价急升后回落，报道称管道运营正常 - 华尔街见闻",
+   "body": "沙特东西输油管道再遭袭击停运？油价急升后回落，报道称管道运营正常    华尔街见闻",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5aZUN6MnhDMWVxZEoyMHp4XzJuOXAyUW1QV3NYbDI5T1NlMGZ3QWE3VVVoc084dHZGLU85OURhaVZXVjFPTWlYYkhsbXROdC1MZjU4?oc=5",
    "meta": "\"停止服务 OR 停运 when:7d\" - Google 新闻"
   },
   {
    "source": "steam",
-   "ext_id": "5268390-tag-Casual",
-   "title": "YOU IN? Demo",
+   "ext_id": "5192570-tag-Casual",
+   "title": "Jellystar Empires: When Space Bunnies Attack!! Demo",
    "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/5268390",
+   "url": "https://store.steampowered.com/app/5192570",
    "meta": "Steam Casual新品"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxrt8n",
-   "title": "I’ve been running a basic quote generator site for six years and decided to spruce it up",
-   "body": "So this actually started as a random project I took on one day because I was bored. I’ve kept it running for about six years, but recently decided to really flesh it out and see what I could turn it into.   I know there are a million quote sites out there, so I’m definitely not oblivious that this is a very saturated niche lol, but just curious what people thought and what features might be missing.    https://quotefor.today    Anyway, just throwing this out into the universe. Thanks for taking a look!       submitted by     /u/timothylm       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxrt8n/ive_been_running_a_basic_quote_generator_site_for/",
-   "meta": "r/SideProject"
+   "ext_id": "t3_1wyh9un",
+   "title": "My last app made $4k, and I still can't make myself work on it.",
+   "body": "Four months ago I launched a speaking confidence app called Magnetic. It has made about $4,000, and I've more or less stopped working on it. I picked the idea because similar apps were making money, not because I cared about the problem.    I posted simple shorts where I act surprised and use a text hook like “25 years of fearing public speaking, and now I find this??”    In the beginning, 2/3 went viral at the same time; I generated 3 million views in one month, and on my best day I got 200 downloads.   But the more I posted, the more the format stopped working.   I then tried new formats, spending hours scrolling Instagram to find the next viral format, but so far have failed to generate anywhere near the same amount of views.    I decided I had enough and listed it on TrustMRR for sale;",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wyh9un/my_last_app_made_4k_and_i_still_cant_make_myself/",
+   "meta": "r/SaaS"
   },
   {
    "source": "rss",
-   "ext_id": "CBMiigFBVV95cUxNVnZSNkdDVEhLb2tMeXktMHJHX2poeTNQMHl2ZVYzVnBHa0JSUXB5OXF3MHdlUXpkU09WN0VMaURNck5iQkh3cUU0UkJfV0UxVHRhY21SSDkxUnRwNUJpSFFzbXV6NXdZdE5vTGFUdWtfX2tvX3hWa3J4Ym00dnV5VTBXSzMzMFpBQUE",
-   "title": "受火山灰影响 意大利西西里岛一机场持续停运 - jpchinapress.com",
-   "body": "受火山灰影响 意大利西西里岛一机场持续停运    jpchinapress.com",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVnZSNkdDVEhLb2tMeXktMHJHX2poeTNQMHl2ZVYzVnBHa0JSUXB5OXF3MHdlUXpkU09WN0VMaURNck5iQkh3cUU0UkJfV0UxVHRhY21SSDkxUnRwNUJpSFFzbXV6NXdZdE5vTGFUdWtfX2tvX3hWa3J4Ym00dnV5VTBXSzMzMFpBQUE?oc=5",
+   "ext_id": "CBMiiwFBVV95cUxORXo4SkZZcTB3VTNEQWNGZDBOUHJESWl4Wll5MzBLS1h1WDh4VXpNTERPWUk5N1pPZjA3V01fdVc5RzlieE1ua3ZiN2doWWpCRHNMakRHRDl2VVBMUWUxZEZyeHhKbGV5emZDeFAtWGNLZ09SVjNhZktGOTYwaDVZVTJpUWF3LXVCd0p3",
+   "title": "黑客攻击取代导弹…伊朗让英发电厂停运4天 - 朝鮮日報中文版",
+   "body": "黑客攻击取代导弹…伊朗让英发电厂停运4天    朝鮮日報中文版",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORXo4SkZZcTB3VTNEQWNGZDBOUHJESWl4Wll5MzBLS1h1WDh4VXpNTERPWUk5N1pPZjA3V01fdVc5RzlieE1ua3ZiN2doWWpCRHNMakRHRDl2VVBMUWUxZEZyeHhKbGV5emZDeFAtWGNLZ09SVjNhZktGOTYwaDVZVTJpUWF3LXVCd0p3?oc=5",
    "meta": "\"停止服务 OR 停运 when:7d\" - Google 新闻"
   },
   {
    "source": "steam",
-   "ext_id": "5259030-tag-Casual",
-   "title": "BugPot Demo",
+   "ext_id": "5243250-tag-Casual",
+   "title": "Snakez Arena Demo",
    "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/5259030",
+   "url": "https://store.steampowered.com/app/5243250",
    "meta": "Steam Casual新品"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxrpt5",
-   "title": "Found an old project in my files.",
-   "body": "Its my nagging buddy. Its been built to help with my ADHD. It will pop up every 3-5 minutes I'm not actively working. This helps me keep my focus. Its still in BETA on my part but i will eventually release this for free :)       submitted by     /u/DeletedTheClock       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxrpt5/found_an_old_project_in_my_files/",
-   "meta": "r/SideProject"
+   "ext_id": "t3_1wygstl",
+   "title": "Hybrid mobile app is lagging way behind our web platform",
+   "body": "Our subscription software runs smooth in desktop browsers, but the hybrid mobile app feels sluggish whenever users try to load complex data tables or do anything offline. I've spent the last three weeks trying to optimize our web wrapper myself, but state management desyncs every time network conditions fluctuate.   Enterprise customers expect native speed on their phones, and the laggy UI is driving up churn on mobile. Balancing cross-platform code reuse with native performance is a constant engineering bottleneck.   Maybe you've hit a similar performance drop in your mobile app, or you know how to speed up hybrid rendering? What steps should I take? I could really use your guidance here.       submitted by     /u/oldabba       [link]       [comments]",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wygstl/hybrid_mobile_app_is_lagging_way_behind_our_web/",
+   "meta": "r/SaaS"
   },
   {
    "source": "rss",
-   "ext_id": "CBMiU0FVX3lxTE12SFZDNEZ5NHAtMllRTU9PcTZaTE9JNGJyZFM2U3BNV0J0djBTQ3RLZDlGU1ZxTFhZc3FGWWZaaWZWVnFuX1VKVDdwZEUzRk5TQUVv",
-   "title": "QClaw停运背后：腾讯不养虾要当塘主 腾讯QClaw服务停止行业深度解读 - 36Kr",
-   "body": "QClaw停运背后：腾讯不养虾要当塘主 腾讯QClaw服务停止行业深度解读    36Kr",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12SFZDNEZ5NHAtMllRTU9PcTZaTE9JNGJyZFM2U3BNV0J0djBTQ3RLZDlGU1ZxTFhZc3FGWWZaaWZWVnFuX1VKVDdwZEUzRk5TQUVv?oc=5",
+   "ext_id": "CBMiY0FVX3lxTE9fai1ZakI4a2hfZlFQLVZIaEt5U2YwSjVDNkYwajlKSlRvR3VaX2cxalp3T3BSQW5PVHZnajJvM2gydnlzUEZIUDVBNUlqR2tJZ1duUEgxYnlBM19hLU45X1c5VQ",
+   "title": "🔻报案+拉黑。 #东航再通报空姐下跪事件##热点现场# ​ - 手机新浪网",
+   "body": "🔻报案+拉黑。 #东航再通报空姐下跪事件##热点现场# ​    手机新浪网",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9fai1ZakI4a2hfZlFQLVZIaEt5U2YwSjVDNkYwajlKSlRvR3VaX2cxalp3T3BSQW5PVHZnajJvM2gydnlzUEZIUDVBNUlqR2tJZ1duUEgxYnlBM19hLU45X1c5VQ?oc=5",
    "meta": "\"停止服务 OR 停运 when:7d\" - Google 新闻"
   },
   {
    "source": "steam",
-   "ext_id": "5241790-tag-Casual",
-   "title": "The Ones Who Answered Demo",
+   "ext_id": "5278850-tag-Casual",
+   "title": "Hush Hush: Bootleg Spirits Demo",
    "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/5241790",
+   "url": "https://store.steampowered.com/app/5278850",
    "meta": "Steam Casual新品"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxrpem",
-   "title": "I built an interactive 3D robot lab you can take apart (and make moonwalk)",
-   "body": "Meet Aether, a fictional robot explorer I built for Things I Ponder. You can inspect its head and hand, separate the assembly, reveal the internals, switch between three robots, and choose a movement—including a moonwalk.   This is a real screen recording of the interactive app. The robot, internal geometry and motion are illustrative; it is not a physical robot or validated engineering simulation.   I’m sharing the 20-second walkthrough below. Which interaction would make it more useful or fun to explore?       submitted by     /u/Small_Resolution1016       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxrpem/i_built_an_interactive_3d_robot_lab_you_can_take/",
-   "meta": "r/SideProject"
+   "ext_id": "t3_1wygrkm",
+   "title": "How do Clay, Apollo, ZoomInfo etc. actually get their data?",
+   "body": "I've been wondering about this for a while.  They somehow have millions of companies, employees, emails, job titles, tech stacks, funding info, etc. But where does all this data actually come from?   Is it mostly scraped from public sources, bought from data providers, user-contributed, or a mix of everything?   And why is it so expensive?   If a lot of the underlying information is publicly available, why can't someone build an open-source version that continuously crawls,  cleans and enriches the data?   Is the real difficulty in collecting the data, keeping it accurate/fresh, verifying emails, or  dealing with anti-scraping/legal issues ?    Would love to hear from anyone who's actually worked on this kind of platform. What am I missing?       submitted by     /u/yogthinks       [link] ",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wygrkm/how_do_clay_apollo_zoominfo_etc_actually_get/",
+   "meta": "r/SaaS"
   },
   {
    "source": "rss",
-   "ext_id": "CBMiZkFVX3lxTFBNWks5WVlGM3FWVWRia0lCZUR1YkUtdWtFbm5BUnB3akJGWTI4MXotVXRfSHpvdkdHZHZjcWZKVExrXzY3ZExWV2FPcmJVZnFvUU1ZQVhtcXUwRC02eVp6aFd4cVh5dw",
-   "title": "叙利亚天然气管线爆炸致三座电厂停运，供气正逐步恢复| 乌克兰新闻 - mezha.net",
-   "body": "叙利亚天然气管线爆炸致三座电厂停运，供气正逐步恢复| 乌克兰新闻    mezha.net",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBNWks5WVlGM3FWVWRia0lCZUR1YkUtdWtFbm5BUnB3akJGWTI4MXotVXRfSHpvdkdHZHZjcWZKVExrXzY3ZExWV2FPcmJVZnFvUU1ZQVhtcXUwRC02eVp6aFd4cVh5dw?oc=5",
+   "ext_id": "CBMiqwFBVV95cUxNVkZ3amFraEFTTmIwaVhJaTRGYUQtVzZGTU5SVjd1WXNtR1U5aDhzMHlCVldqalVCdUhwLVJqOTZuYjIwb3R3dDk5TEhCcGtyZmtRbUdwdGhXbUxkOFNtZG04TjhKdm9LSFI4RWlCQzVMU2ZTa3BrdWhrdTlrVGVtdGFMalBwUXlQQjlTZVlsYks4UlhOZlJaSHJ4QURURlpDenI3STUzbFVlY0U",
+   "title": "大马士革附近天然气管道爆炸致三座发电站停运——Asharq Al-Awsat - UA.NEWS",
+   "body": "大马士革附近天然气管道爆炸致三座发电站停运——Asharq Al-Awsat    UA.NEWS",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVkZ3amFraEFTTmIwaVhJaTRGYUQtVzZGTU5SVjd1WXNtR1U5aDhzMHlCVldqalVCdUhwLVJqOTZuYjIwb3R3dDk5TEhCcGtyZmtRbUdwdGhXbUxkOFNtZG04TjhKdm9LSFI4RWlCQzVMU2ZTa3BrdWhrdTlrVGVtdGFMalBwUXlQQjlTZVlsYks4UlhOZlJaSHJ4QURURlpDenI3STUzbFVlY0U?oc=5",
    "meta": "\"停止服务 OR 停运 when:7d\" - Google 新闻"
   },
   {
    "source": "steam",
-   "ext_id": "5204790-tag-Casual",
-   "title": "Hotel 13 Demo",
+   "ext_id": "5322420-tag-Casual",
+   "title": "Razor Squadron Demo",
    "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/5204790",
+   "url": "https://store.steampowered.com/app/5322420",
    "meta": "Steam Casual新品"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxrowp",
-   "title": "I built a lottery number checker that can't predict anything, on purpose",
-   "body": "Hey  r/SideProject ! 👋   I just launched Wisenum this week and would love your feedback.   The idea   Every lottery line has exactly the same chance of being drawn, but not the same number of people playing it. Birthdays, lucky 7s and neat patterns are super common, so if they come up, the prize gets split more ways. In 2005, 110 people matched five Powerball numbers at once, because they'd all played the numbers from the same fortune cookie 🥠   What it does   🔁 Replays your line against every past draw and shows what it would have won   👥 Tells you whether your numbers are a popular pick or a rare one   ✨ Suggests versions that keep the numbers you love but fewer people play. For example: if 100 people play your line, maybe only 40 play the new version, so a win would be shared with far f",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxrowp/i_built_a_lottery_number_checker_that_cant/",
-   "meta": "r/SideProject"
+   "ext_id": "t3_1wygc3b",
+   "title": "my first saas crossed 50 paid customers 🤩",
+   "body": "submitted by     /u/Junior-Ranger3007       [link]       [comments]",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wygc3b/my_first_saas_crossed_50_paid_customers/",
+   "meta": "r/SaaS"
   },
   {
    "source": "rss",
-   "ext_id": "https://mookichuu.itch.io/overdose",
-   "title": "OVERD0SE [Free] [Visual Novel] [Windows] [macOS]",
-   "body": "Side effects may vary.",
-   "url": "https://mookichuu.itch.io/overdose",
+   "ext_id": "CBMiWEFVX3lxTE5wcHBHTUlST05HaDBwN3dxYjlRZjd4N1RXYkswcEJ2T3Y4SmR5VmV5bnRSMDRXa1FxLXF0dExndjBNbjdrcnRMN2dvVFN6alNGemNGcDBhcjY",
+   "title": "L2 Blast 宣告停运，Upbit、Bithumb 标记 BLAST 为注意名单，币价大跌 40% - CryptoRank",
+   "body": "L2 Blast 宣告停运，Upbit、Bithumb 标记 BLAST 为注意名单，币价大跌 40%    CryptoRank",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5wcHBHTUlST05HaDBwN3dxYjlRZjd4N1RXYkswcEJ2T3Y4SmR5VmV5bnRSMDRXa1FxLXF0dExndjBNbjdrcnRMN2dvVFN6alNGemNGcDBhcjY?oc=5",
+   "meta": "\"停止服务 OR 停运 when:7d\" - Google 新闻"
+  },
+  {
+   "source": "steam",
+   "ext_id": "5329310-tag-Casual",
+   "title": "Mind the Clown: Reborn Demo",
+   "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/5329310",
+   "meta": "Steam Casual新品"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wyfpsu",
+   "title": "Tell me about your experience using Reddit Ads.",
+   "body": "Hi everyone, I’d love to hear about your experiences using Reddit Ads to distribute your SaaS products. I was thinking of trying it out with a small budget for testing purposes, but I also wanted to ask how the service has worked out for you.       submitted by     /u/tarel_       [link]       [comments]",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wyfpsu/tell_me_about_your_experience_using_reddit_ads/",
+   "meta": "r/SaaS"
+  },
+  {
+   "source": "rss",
+   "ext_id": "CBMi1AJBVV95cUxPSEF3YWNXOEZQc21MalNGZkUySVNiclR1TjJGR05oUjlDdzJCNl95OGdseWItU05oQW5oTl94dzY0YWdQcFY4TUo0TkV1RHhfeXBqejNHU1IxLVhZS3JtNEIySFFqTnpidHZzcjREcXpmTWZfSGhncFBtZVVlMktTVzdLY3V4NFdNWWlYXzRaT3NRQmVKSFE5RXJpanJDTjltd3l3OUdMdHpkN2xUbWd1d1lPLXhaakhlR043SmlubVFZNGZZdjZ0Z1RablkwVlZlNldDaDk0X2JjOFg1VlRpMW1VRzlDa3pHVTNFTUoyaXQwLVhTaVVLNTFMMkNRdlAtell2TjctckJEcjEyajEzaHFpTnN3S1NHMkMzdGxCZVVFZjlFTFM4RUtGN19KbF9faGlVRWIxdVhPX0xEYVRiVkZCVFEzb1NCVHMxaDJkZFJFbEs0",
+   "title": "TTC两条地铁线本周晚间提前停运 周末Line 2西段将全天关闭 - frequencynews.ca",
+   "body": "TTC两条地铁线本周晚间提前停运 周末Line 2西段将全天关闭    frequencynews.ca",
+   "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxPSEF3YWNXOEZQc21MalNGZkUySVNiclR1TjJGR05oUjlDdzJCNl95OGdseWItU05oQW5oTl94dzY0YWdQcFY4TUo0TkV1RHhfeXBqejNHU1IxLVhZS3JtNEIySFFqTnpidHZzcjREcXpmTWZfSGhncFBtZVVlMktTVzdLY3V4NFdNWWlYXzRaT3NRQmVKSFE5RXJpanJDTjltd3l3OUdMdHpkN2xUbWd1d1lPLXhaakhlR043SmlubVFZNGZZdjZ0Z1RablkwVlZlNldDaDk0X2JjOFg1VlRpMW1VRzlDa3pHVTNFTUoyaXQwLVhTaVVLNTFMMkNRdlAtell2TjctckJEcjEyajEzaHFpTnN3S1NHMkMzdGxCZVVFZjlFTFM4RUtGN19KbF9faGlVRWIxdVhPX0xEYVRiVkZCVFEzb1NCVHMxaDJkZFJFbEs0?oc=5",
+   "meta": "\"停止服务 OR 停运 when:7d\" - Google 新闻"
+  },
+  {
+   "source": "steam",
+   "ext_id": "5260260-tag-Casual",
+   "title": "Just A Dice Game Demo",
+   "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/5260260",
+   "meta": "Steam Casual新品"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wyfovi",
+   "title": "How do I use MinMax H3 in my Saas?",
+   "body": "How should I use MinMax H3 one of the best video generation model available in the market in my Saas, when it's use has been restricted in countries like USA, UK ? This is a genuine question as I am designing ny first saas which has video generation as it's component but as u all must be aware API Costs for video generating models are very high like 0.08-0.1$ per second so even i 60 sec video might cost u 6-7$ without considering the fact that not every video clip generated will be perfect and will need regeneration, but that's not the case with MinMax as it's an open source model so the pricing problem is sorted but what about its usage problem how do I use it in such a way that I can sell this Saas that i am building in countries like USA too without getting any restriction.    The Saas ",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wyfovi/how_do_i_use_minmax_h3_in_my_saas/",
+   "meta": "r/SaaS"
+  },
+  {
+   "source": "rss",
+   "ext_id": "CBMiakFVX3lxTE1zYkxjTzdmZkFzLU54dUEtRnBVa3ZSbk4yakF1VHlORmdnYVZXQk9Da0JBTTVlQVpKbkFmbjF6bkU2QUJzemVvcUlDcmowU2FzbnpkZm5zT1pfUDdDbXBaX2ZiaV9ZMmVINVE",
+   "title": "数据中心持续遭炮击，乌克兰动物国家统一登记册无限期停运 - Межа. Новини України.",
+   "body": "数据中心持续遭炮击，乌克兰动物国家统一登记册无限期停运    Межа. Новини України.",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zYkxjTzdmZkFzLU54dUEtRnBVa3ZSbk4yakF1VHlORmdnYVZXQk9Da0JBTTVlQVpKbkFmbjF6bkU2QUJzemVvcUlDcmowU2FzbnpkZm5zT1pfUDdDbXBaX2ZiaV9ZMmVINVE?oc=5",
+   "meta": "\"停止服务 OR 停运 when:7d\" - Google 新闻"
+  },
+  {
+   "source": "steam",
+   "ext_id": "5289080-tag-Casual",
+   "title": "Pouring Pints Demo: First Rounds On Us",
+   "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/5289080",
+   "meta": "Steam Casual新品"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wyfou4",
+   "title": "Day 5 of getting 10 paying customers in 30 days: my Ai agent guardrails post hit 81k views, and the comments taught me more cool things",
+   "body": "Day 5. Short one, most of today went to my agency work.   What moved:   - The newsletter feature went out (Sunday Picks, 2,500+ readers), and the written interview for a maker series is done. Links when it's live.   - Crossed 200 followers on X.   - First Google Search milestone: 5 clicks in the last 28 days. Tiny, but it's the one channel that works while I sleep.   - My post on guarding an AI agent on your site (4 steps, after someone tried to jailbreak mine) passed 81k views on  r/SaaS .   The best part was the comments. Two things people added that I'm putting in:      Rate limiting alone isn't enough for anonymous visitors. Give them about half the limit a signed-in user gets.     Put Cloudflare Turnstile in front of the public chat, so nobody can script it and hit your AI over and ov",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wyfou4/day_5_of_getting_10_paying_customers_in_30_days/",
+   "meta": "r/SaaS"
+  },
+  {
+   "source": "rss",
+   "ext_id": "CBMiVEFVX3lxTE01OW9kU3k4UFZtWFA4WWRoSEdiSGpaYWF6c1dTMG5sQUJKTUZuM2QyVmJXRWxTQVhPRUVOekJtMFRMcEtvT1BUaXhPdUROSll1MzU5OQ",
+   "title": "腾讯内部赛马落幕！AI助手QClaw停运，用户数据迁移至WorkBuddy - 手机网易网",
+   "body": "腾讯内部赛马落幕！AI助手QClaw停运，用户数据迁移至WorkBuddy    手机网易网",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE01OW9kU3k4UFZtWFA4WWRoSEdiSGpaYWF6c1dTMG5sQUJKTUZuM2QyVmJXRWxTQVhPRUVOekJtMFRMcEtvT1BUaXhPdUROSll1MzU5OQ?oc=5",
+   "meta": "\"停止服务 OR 停运 when:7d\" - Google 新闻"
+  },
+  {
+   "source": "steam",
+   "ext_id": "5305010-tag-Casual",
+   "title": "Kachow Kart Racing Demo",
+   "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
+   "url": "https://store.steampowered.com/app/5305010",
+   "meta": "Steam Casual新品"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wyfoqp",
+   "title": "$1.6M ARR, 370 B2B customers, almost half pay late. Looking for advice on finding a mentor or coach.",
+   "body": "Hardware-enabled SaaS: GPS tracking and AI dashcams for commercial fleets. 12 years in, ~370 customers, average account around $4k/year, ~$1.6M ARR, on track for ~30% growth in our main market (Caribbean).   On paper it's going fine. But I've reached the point where I don't fully trust my own read on the business anymore. I built most of it by figuring things out as I went, and I'm starting to suspect some of what I see as normal is actually a blind spot.   Here's a concrete example. Almost half our clients, about 170 of 370, pay late. They don't default, they're just consistently late. We get paid by wire transfer because that's how most businesses in the region pay, and we bill across 20+ territories with different banks and payment habits. I've lived with this for so long that I honestl",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wyfoqp/16m_arr_370_b2b_customers_almost_half_pay_late/",
+   "meta": "r/SaaS"
+  },
+  {
+   "source": "rss",
+   "ext_id": "https://dalichrome.itch.io/house-rules",
+   "title": "Rulehouse [Free] [Puzzle] [Windows]",
+   "body": "Think you know chess? Forget some of that. Rulehouse is a pawn chess adventure where every stage rewrites the game.",
+   "url": "https://dalichrome.itch.io/house-rules",
    "meta": "Top HTML5 games - itch.io"
   },
   {
    "source": "steam",
-   "ext_id": "5146650-tag-Casual",
-   "title": "PUCKVPUCK Demo",
+   "ext_id": "5317000-tag-Casual",
+   "title": "Chess Path Dungeon Demo",
    "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/5146650",
+   "url": "https://store.steampowered.com/app/5317000",
    "meta": "Steam Casual新品"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxrnjd",
-   "title": "I built a virtual cafe where the barista misspells your name",
-   "body": "A funny tiny web app that recreates the most consistent customer service experience: your name, butchered lol       submitted by     /u/nalostta       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxrnjd/i_built_a_virtual_cafe_where_the_barista/",
-   "meta": "r/SideProject"
+   "ext_id": "t3_1wyflxb",
+   "title": "I’m building a commission tracking app, which name would you pick?",
+   "body": "I'm building a small internal web app for the retail company I'm working in, that helps employees track their commissions and bonuses   I've some names like MyBonuspay, MyPayTime, Checkday or PayHub. It's not nit something in collaboration with the company or anything, just a personal project to share with my coworkers, so it's not mandatory for it to be a \"serious name\", but since it's a big company, I don't want to have a \"cheap looking\" domain, I want something that people can look at it and think that it's truly an almost official app, if that makes sense       submitted by     /u/CharlyXero       [link]       [comments]",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wyflxb/im_building_a_commission_tracking_app_which_name/",
+   "meta": "r/SaaS"
   },
   {
    "source": "rss",
-   "ext_id": "https://ninja-muffin24.itch.io/funkin",
-   "title": "Friday Night Funkin' [Free] [Rhythm] [Windows] [macOS] [Linux]",
-   "body": "The coolest rhythm game",
-   "url": "https://ninja-muffin24.itch.io/funkin",
+   "ext_id": "https://3005jin.itch.io/sweet-instincts",
+   "title": "sweet instincts [Free] [Visual Novel] [Windows] [macOS] [Linux]",
+   "body": "Becoming a woman is hard. Being a vessel for a flesh eating creature might be harder.",
+   "url": "https://3005jin.itch.io/sweet-instincts",
    "meta": "Top HTML5 games - itch.io"
   },
   {
    "source": "steam",
-   "ext_id": "5297450-tag-Casual",
-   "title": "CLAWSTROPHOBIA Demo",
+   "ext_id": "4998000-tag-Casual",
+   "title": "AI Apocalypse Demo",
    "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/5297450",
+   "url": "https://store.steampowered.com/app/4998000",
    "meta": "Steam Casual新品"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxrjjd",
-   "title": "Publisher passed on my board game, now making a web version",
-   "body": "Submitted a dice dexterity game I made, to publishers who was looking for submissions of dice games.    The rejection email said \"Not that kind of dice games.\"    The game is Big Bean Battle. You flick dice into a garden of plots and the highest score on a plot claims it. I designed it as a physical game and played it a lot with my local board game group.    I just wanted to make it better and never stopped thinking of rules changes/ improvements. To test rule changes faster than one game day a week, I built a browser version on the side.    Now I have a side project of a side project. I'm also playing with physics engines and ever after making the web version I came up with MORE rules.    Now I play more Big Bean Battle than ever before:  https://bigbeanbattle.com    You can play for free",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxrjjd/publisher_passed_on_my_board_game_now_making_a/",
-   "meta": "r/SideProject"
+   "ext_id": "t3_1wyfghs",
+   "title": "From paper to phone",
+   "body": "I’m a co-founder of StoveOps, a SaaS for restaurant waitlists, reservations and guest messaging.   We built it around a specific problem: a restaurant has people waiting for tables, staff checking a paper list, and guests repeatedly asking whether their table is ready.   With our system, guests join the waitlist from their phone and receive updates through SMS, WhatsApp or email. Restaurants can also create a mini-site with their menu, waitlist and reservation links, and track which campaigns generate bookings or waitlist entries.   One design choice was keeping reservations and the waitlist connected through the same guest record. If someone arrives with a reservation and needs to wait, the team shouldn’t have to register them again.   The challenge I’m working through now is explaining t",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wyfghs/from_paper_to_phone/",
+   "meta": "r/SaaS"
   },
   {
    "source": "rss",
-   "ext_id": "https://lemoncosmos.itch.io/seeking-stardust",
-   "title": "Seeking Stardust [Free] [Puzzle]",
-   "body": "daily space puzzle",
-   "url": "https://lemoncosmos.itch.io/seeking-stardust",
+   "ext_id": "https://oddly-shaped-pixels.itch.io/alpine",
+   "title": "Alpine [Free] [Platformer] [Windows] [macOS]",
+   "body": "",
+   "url": "https://oddly-shaped-pixels.itch.io/alpine",
    "meta": "Top HTML5 games - itch.io"
   },
   {
    "source": "steam",
-   "ext_id": "5316030-tag-Casual",
-   "title": "ONE MAN'S DECEIT Demo",
+   "ext_id": "5187860-tag-Casual",
+   "title": "Capybara Clash Demo",
    "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/5316030",
+   "url": "https://store.steampowered.com/app/5187860",
    "meta": "Steam Casual新品"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxrh8l",
-   "title": "I built a free golf career sim you play in your browser: real courses, real tour players, and you hole the big putts yourself",
-   "body": "I've always wanted a proper golf career game I could pick up on my phone, so I made one. It's called  Sunday Pins , it's free, and it runs in your browser. No download, no account, no ads.   ▶️** Play**:  https://sunday-pins.com     What makes it different    ⛳  Real courses, hole by hole.  Every hole is mapped from real course data, with real fairways, bunkers and water. Augusta's 13th bends left round the creek just like it does on TV.   🏌️** Real tour players**. Around 250 pros, rated from their real PGA Tour stats, so Rory really does outdrive everyone and the short hitters really do have to lay up on par 5s.   🎯  You hole the big putts.  When it matters, the sim stops and hands you the putter: read the break, set the line, judge the pace.   📣  Live tournaments.  Leader alerts as rival",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxrh8l/i_built_a_free_golf_career_sim_you_play_in_your/",
-   "meta": "r/SideProject"
+   "ext_id": "t3_1wyf9il",
+   "title": "I built an exposure-therapy app. I've had good success with it so far, but looking for blunt feedback from others.",
+   "body": "I've been a sw dev since the 90's building software for network engineers. But what I really want is to build truly useful apps that make a positive difference in people’s lives. I've loved the journey, building my first mobile app has been very rewarding. Not only have I enjoyed building it, but I've really enjoyed using it too.   The idea for it was personal. I built the Fearless app because I felt blocked by my own brain, and yet I'm too stubborn to give up on my goals. I wanted to take action, to move the ball forward one step at a time, in spite of feeling anxious and afraid.    My one-sentence pitch: Are you sick of fear and anxiety holding you back from getting what you want out of life? Install Fearless and take the first step toward your goal within 5 minutes.   I've already used ",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wyf9il/i_built_an_exposuretherapy_app_ive_had_good/",
+   "meta": "r/SaaS"
+  },
+  {
+   "source": "rss",
+   "ext_id": "https://futotori.itch.io/the-commander-cant-communicate",
+   "title": "The Commander Can't Communicate [Free] [Visual Novel] [Windows] [Linux]",
+   "body": "Soulslike boss seeking eligible singles. The helm stays ON. Any recent murder rumors are false.",
+   "url": "https://futotori.itch.io/the-commander-cant-communicate",
+   "meta": "Top HTML5 games - itch.io"
   },
   {
    "source": "steam",
-   "ext_id": "5309910-tag-Casual",
-   "title": "The Beast Awoke To Eat Your Darlings Demo",
+   "ext_id": "5167370-tag-Casual",
+   "title": "Horror Stories: Social Problems Demo",
    "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/5309910",
+   "url": "https://store.steampowered.com/app/5167370",
    "meta": "Steam Casual新品"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxrdhi",
-   "title": "Its not a SaaS: Its Faded. a social app where photos gradually decay with time or views, until they eventually disappear forever.",
-   "body": "Like instagram, but all photos have a shelf life: they can be up for year, an hour or ten minutes, or up until they're viewed 100 times, 1000 times or a million times. The longer they're up, the more they fade - user chosen filters are applied gradually over the lifetime of the photo (be it measured in clicks or time), gradually obscuring it. If you want to see it, you have to catch it early.    This is a fun side project of mine , An experiment in digital persistence and scarcity. And, yes its vibe coded, built on replit.   Currently just a responsive web page (desktop, and works great on iOS devices, which I have). Native apps for android and iOS to follow.       submitted by     /u/Objective_Farm_1886       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxrdhi/its_not_a_saas_its_faded_a_social_app_where/",
-   "meta": "r/SideProject"
+   "ext_id": "t3_1wyf3yj",
+   "title": "I’d rather build for another 6 months than spend 6 hours doing marketing",
+   "body": "For the past 2 months, I have been building a product that competes with BannerBear, etc. umm, not close but it can do pretty much everything with canva like editor, except video generation.    I am totally stuck at the marketting man. I am not being consistent and also no interest in doing that. I have been developing for past 8 years on enterprise applications(mobile, web, api), I can do almost every stage of development lifecycle. But not trying to post on social media or marketting or seo stuff.   There are still tonne of things to be completed, such as email banners, onboarding email engagements, minor bug fixes, templates, distribution assets(i have attached one which i designed in figma for OG image, just removed my logo and website), .etc. but I am more worried on marketting side, ",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wyf3yj/id_rather_build_for_another_6_months_than_spend_6/",
+   "meta": "r/SaaS"
+  },
+  {
+   "source": "rss",
+   "ext_id": "https://pr1nted.itch.io/open-doctrines",
+   "title": "Open Doctrines [Free] [Strategy] [Windows] [macOS] [Linux] [Android]",
+   "body": "A grand strategy game about running a country: industry, armies, research, politics and neighbours.",
+   "url": "https://pr1nted.itch.io/open-doctrines",
+   "meta": "Top HTML5 games - itch.io"
   },
   {
    "source": "steam",
-   "ext_id": "5249760-tag-Casual",
-   "title": "Swinging Pier Clean Simulator Demo",
+   "ext_id": "4892420-tag-Casual",
+   "title": "DeckDEX - TCG Live Simulator DEMO",
    "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/5249760",
+   "url": "https://store.steampowered.com/app/4892420",
    "meta": "Steam Casual新品"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxrbwi",
-   "title": "I built Freekit, a free AI coding agent for VS Code that uses your existing web AI accounts (no API keys, no costs)",
-   "body": "Hey  r/vscode ,   I built Freekit because I was tired of paying $20/month for AI coding tools.   Freekit connects VS Code to your existing web AI accounts (DeepSeek, ChatGPT, Claude, Gemini, Mistral, Qwen) via browser automation, or to a local Ollama model.   What makes it different:   • $0 - uses your existing accounts   • 6 web providers + Ollama local   • Stealth typing (real keydown/keyup, anti-detection)   • Native VS Code diffs for every file change   • Git checkpoints per prompt   • Self-maintaining (auto-reports broken selectors)   • Hardware-aware Ollama recommendations (T0-T6 tiers)   Marketplace:  https://marketplace.visualstudio.com/items?itemName=builderweb.freekit    GitHub:  https://github.com/builderweb-app/freekit    Feedback welcome!       submitted by     /u/wandererbit ",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxrbwi/i_built_freekit_a_free_ai_coding_agent_for_vs/",
-   "meta": "r/SideProject"
+   "ext_id": "t3_1wyecte",
+   "title": "What steps did you take to gain consistent organic traffic to your platform?",
+   "body": "In most cases online, we'd here of ads and such, but I believe this applies when you have an already popular product, like let's say google releasing a new product, but in the event of small startups, what is a sure way to start gaining organic traffic and not just clicks with no conversion.       submitted by     /u/Silvercrown_       [link]       [comments]",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wyecte/what_steps_did_you_take_to_gain_consistent/",
+   "meta": "r/SaaS"
+  },
+  {
+   "source": "rss",
+   "ext_id": "https://kodub.itch.io/polytrack",
+   "title": "PolyTrack [Free] [Racing] [Windows] [macOS] [Linux] [Android]",
+   "body": "A high speed low-poly racing game.",
+   "url": "https://kodub.itch.io/polytrack",
+   "meta": "Top HTML5 games - itch.io"
   },
   {
    "source": "steam",
-   "ext_id": "5308270-tag-Casual",
-   "title": "Christmas Crackhead Soundtrack",
+   "ext_id": "5310650-tag-Casual",
+   "title": "Marble Stars Demo",
    "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/5308270",
+   "url": "https://store.steampowered.com/app/5310650",
    "meta": "Steam Casual新品"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxra3d",
-   "title": "Looking for 10 people to play our daily photo challenge — any phone works",
-   "body": "We’re building Beat AI, a free photo game: take your own photo for a theme, face an AI-generated image, and let people vote. We’re early and looking for our first 10 active players.   Try “Something red” (4 October): a mug, an apple or a detail on your usual walk. Take one original photo and sign in to enter it. That challenge closes on 11 October at 00:00 UTC. Browsing and voting don’t need an account.    https://beatai.co.uk/?utm_source=reddit&utm_medium=community_post&utm_campaign=first_10_players&utm_content=sideproject    If you try it, what stopped you entering—or would make you come back tomorrow? Happy to help in the replies. No positive review or upvote requested.       submitted by     /u/Competitive-Set7936       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxra3d/looking_for_10_people_to_play_our_daily_photo/",
-   "meta": "r/SideProject"
+   "ext_id": "t3_1wye6a9",
+   "title": "I built a note app because Notion got too heavy for me. Looking for honest feedback on positioning.",
+   "body": "Hey  r/SaaS ,  I'm a solo dev, and for the past [X months] I've been building  Note Essence  (noteessence.com), a note and knowledge app built around one idea:  simplicity .    https://apps.apple.com/us/app/note-essence/id6797305415     Why I built it   I kept bouncing off Notion and similar tools. They're powerful, but every time I just wanted to jot something down and find it later, I was fighting databases, templates, and nested pages. Most people I talked to used maybe 10% of those features and felt guilty about the other 90%.   Open it, write, done. No setup or templates required  Simple organization that doesn't need a system to maintain  Fast search to actually find things later    Where it's at   It's live with a small group of users, and I'm now shifting from building to growth. T",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wye6a9/i_built_a_note_app_because_notion_got_too_heavy/",
+   "meta": "r/SaaS"
+  },
+  {
+   "source": "rss",
+   "ext_id": "https://ncase.itch.io/wbwwb",
+   "title": "We Become What We Behold [Free] [Other]",
+   "body": "a game about news cycles, vicious cycles, infinite cycles",
+   "url": "https://ncase.itch.io/wbwwb",
+   "meta": "Top HTML5 games - itch.io"
   },
   {
    "source": "steam",
-   "ext_id": "5261520-tag-Casual",
-   "title": "Typo Arena Demo",
+   "ext_id": "5322660-tag-Casual",
+   "title": "Fill the Sky Demo",
    "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/5261520",
+   "url": "https://store.steampowered.com/app/5322660",
    "meta": "Steam Casual新品"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxr8ur",
-   "title": "Title: I wanted somewhere to keep my cycling history. It got slightly out of hand.",
-   "body": "Title: I wanted somewhere to keep my cycling history. It got slightly out of hand.    I've been building  Headwind , which started with a pretty simple problem: I wanted my years of cycling data somewhere that actually belonged to me.   I didn't want another subscription or another service holding the only useful copy of my ride history, so I started building my own self-hosted cycling archive.   That was the sensible part.   It now imports Garmin, FIT/GPX files and full Strava exports and gives me detailed ride history, maps, elevation, HR/power/cadence, historical weather and wind, best efforts, climbing records, performance trends and a GPS heatmap of everywhere I've ridden.   I wanted my own segments too, so you can draw a segment on an existing ride and Headwind scans your entire hist",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxr8ur/title_i_wanted_somewhere_to_keep_my_cycling/",
-   "meta": "r/SideProject"
+   "ext_id": "t3_1wye00k",
+   "title": "The bot's answer looked resolved. The team paid for it twice.",
+   "body": "The answer read perfectly. It was also wrong about the one detail that mattered, so a human reopened it and redid the whole thing from zero.   The deflection metric went up and the team's workload did not go down. The resolution was never real, it just sounded finished.   For the people running support with an AI layer, how do you tell a real resolution from one that only sounds done?       submitted by     /u/arslannasir128       [link]       [comments]",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wye00k/the_bots_answer_looked_resolved_the_team_paid_for/",
+   "meta": "r/SaaS"
+  },
+  {
+   "source": "rss",
+   "ext_id": "https://jokupelle.itch.io/ages-of-conflict",
+   "title": "Ages of Conflict: World War Simulator [$6.99] [Simulation] [Windows] [Linux]",
+   "body": "Create a massive Free-For-All across multiple maps with Randomization, Statistics and History tracking",
+   "url": "https://jokupelle.itch.io/ages-of-conflict",
+   "meta": "Top HTML5 games - itch.io"
   },
   {
    "source": "steam",
-   "ext_id": "4631190-tag-Casual",
-   "title": "Dead Hand Demo",
+   "ext_id": "5355630-tag-Casual",
+   "title": "Yakiniku!!! Demo",
    "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/4631190",
+   "url": "https://store.steampowered.com/app/5355630",
    "meta": "Steam Casual新品"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxr8kd",
-   "title": "I turned my free browser party games into a Discord activity",
-   "body": "I’ve been building Afterparty, a collection of six free multiplayer party games. It started as a website, and it’s now available as a Discord activity too.   There’s drawing, guessing, competing for the funniest answer and figuring out who the imposter is. Up to 10 players can play together directly in a voice channel, and the browser version is still available.   It’s built with Next.js and Supabase, with Discord’s embedded app SDK handling the activity integration.   You can try it at  https://afterparty.games/  or search \"afterparty\" in Discord’s activities.       submitted by     /u/Real-Car-1561       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxr8kd/i_turned_my_free_browser_party_games_into_a/",
-   "meta": "r/SideProject"
-  },
-  {
-   "source": "steam",
-   "ext_id": "4937580-tag-Casual",
-   "title": "Her Crown of Blood Demo",
-   "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/4937580",
-   "meta": "Steam Casual新品"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxr4yb",
-   "title": "I built Pokemon Go for golf courses",
-   "body": "Why I built it: I play a lot of different courses, and I had no real record of where I’d been beyond a fuzzy mental list. Every golf app I tried was built around scoring or GPS yardages. None of them cared where you played. So I built the thing I wanted: a “gotta play ’em all” app for golf courses.   How it works:   • Check in at any of 12,000+ US courses (all 50 states + DC), add your score and a photo   • Every course gets a rarity score from 0 to 100, from Common (your local muni) up to Legendary (major championship hosts and bucket-list icons). A Legendary check-in is worth about 8x the XP of a muni   • Badges for milestones like state-hopping, plus curated collections (coastal gems, championship venues) to work through   • Friends leaderboard and a “King of the Course” crown: post the",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxr4yb/i_built_pokemon_go_for_golf_courses/",
-   "meta": "r/SideProject"
-  },
-  {
-   "source": "steam",
-   "ext_id": "5327500-tag-Casual",
-   "title": "Magician Alisa Demo",
-   "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/5327500",
-   "meta": "Steam Casual新品"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxqytr",
-   "title": "Made this App Promo video with opus 5.5 (only 2% of weekly usage)",
-   "body": "I was literally surprised to see AI can now do this level of editing?   There was a time when we needed to brainstorm for hours, write long script, and edit video. but now with a simple prompt like this, , i am able to get this. The shocking part is it only took 2% of my weekly claude pro usage.   PROMPT:   hi, if i told you to create a saas video for this app. would you be able to do it? what extra tools would you need for it ? do you also need the app url (if so its, applink)   Then a few revisions was able to pull this off       submitted by     /u/Newbie_999       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxqytr/made_this_app_promo_video_with_opus_55_only_2_of/",
-   "meta": "r/SideProject"
-  },
-  {
-   "source": "steam",
-   "ext_id": "5187750-tag-Casual",
-   "title": "Swingy Spider",
-   "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/5187750",
-   "meta": "Steam Casual新品"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxqxh0",
-   "title": "What’s the one piece of health information you wish you always had with you?",
-   "body": "I’ve been thinking about this after talking with people who manage their own healthcare or help a parent/family member.   It could be something as simple as:     Your current medication list   Your latest lab results   A list of your doctors   Past diagnoses or procedures   Imaging reports   Your upcoming appointments   Emergency information   A record of what changed between appointments     For me, the frustrating part isn't always getting the information. It's  finding it when you actually need it.    Especially when you're dealing with multiple doctors, different patient portals, PDFs, pharmacy information, paper records, etc.   So I'm curious:    If you had one place that could keep your important health information organized, what would you want it to contain?    And if you already h",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxqxh0/whats_the_one_piece_of_health_information_you/",
-   "meta": "r/SideProject"
-  },
-  {
-   "source": "steam",
-   "ext_id": "5018160-tag-Casual",
-   "title": "9 Layers of Hell Demo",
-   "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/5018160",
-   "meta": "Steam Casual新品"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxquqn",
-   "title": "Give me your SaaS and I'll make you a short product demo for free",
-   "body": "I've been building Corgy ( https://www.corgy.ai ), a tool that turns a screen recording into a narrated product demo using agents, including the script, voiceover, zooms, and all the boring editing.   Here's one I made for my own product:    https://www.corgy.ai/v/dynamic-pages-on-stormkit-br35ubr6    The problem is that I've mostly been testing it on my own stuff, which obviously isn't a great test.   So I'd like to try it on  10 products I've never seen before.    If you want one, reply with:      Product link     Who it's for:  new visitors, existing users, investors, etc.    The one thing you want the demo to show (a prompt for instance)      I'll make the demo and post it as a reply here. In return, I'd love an honest answer to one question:    Would you actually use this for your pro",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxquqn/give_me_your_saas_and_ill_make_you_a_short/",
-   "meta": "r/SideProject"
-  },
-  {
-   "source": "steam",
-   "ext_id": "5171300-tag-Casual",
-   "title": "Skysunder Demo",
-   "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/5171300",
-   "meta": "Steam Casual新品"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxqssq",
-   "title": "I'm a psychotherapist and I built a genogram / family tree maker - which is prviacy first and stays locally on the users computer!",
-   "body": "A genogram is a family tree with clinical notation on it: who married who, who is cut off from who, who drank, who died and when. It's a tool used in therapy when working with relationships, kids and families. Therapists, social workers, psychologists, nurses and students draw them all the time, and nearly always about real people.   I've been working with children and families for about 8 years, and so far I've always drawn these by hand, or fiddled about in PowerPoint trying to get them to look good.   The tools I found were cloud accounts or subscription-based, so a client's family history ends up on someone else's server. They were also usually quite dated and ugly.   So I decided to make  GenoCanvas .    What it actually does      Right-click a person to add parents, partners, childre",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxqssq/im_a_psychotherapist_and_i_built_a_genogram/",
-   "meta": "r/SideProject"
-  },
-  {
-   "source": "steam",
-   "ext_id": "5199270-tag-Casual",
-   "title": "Mixed Martial Cards Demo",
-   "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/5199270",
-   "meta": "Steam Casual新品"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxq7bv",
-   "title": "Sonny-Personal-Assistant",
-   "body": "Sonny is a local-first AI assistant for Windows that can hear you, see through your camera, browse the web, control your computer, remember information, and speak back — with the core AI stack running directly on your machine.        submitted by     /u/ahmed-maher       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxq7bv/sonnypersonalassistant/",
-   "meta": "r/SideProject"
-  },
-  {
-   "source": "steam",
-   "ext_id": "5297290-tag-Casual",
-   "title": "Cats and Hats Demo",
-   "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/5297290",
-   "meta": "Steam Casual新品"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxq4r3",
-   "title": "I'm making TILEZ - little programmable machines.",
-   "body": "Open free playtest on Steam:  https://store.steampowered.com/app/4780630/TILEZ/        submitted by     /u/MARWINDev       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxq4r3/im_making_tilez_little_programmable_machines/",
-   "meta": "r/SideProject"
-  },
-  {
-   "source": "steam",
-   "ext_id": "5323160-tag-Casual",
-   "title": "Clown Around Demo",
-   "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/5323160",
-   "meta": "Steam Casual新品"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxq3mr",
-   "title": "agentic mail support, any thoughts?",
-   "body": "i decided to move my agents to a separate inbox and im curious which one would work. saw some mentions around lobstermail and hostinger agentic mail, curious to know which one works better and potentially see some suggestions other than those two.       submitted by     /u/InformalStart2346       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxq3mr/agentic_mail_support_any_thoughts/",
-   "meta": "r/SideProject"
-  },
-  {
-   "source": "steam",
-   "ext_id": "4002270-tag-Casual",
-   "title": "FrontWars",
-   "body": "Steam 标签[Casual]新品榜（按名称与已知玩法判断迁移潜力）",
-   "url": "https://store.steampowered.com/app/4002270",
-   "meta": "Steam Casual新品"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxq2xi",
-   "title": "Google Ads, day 3: ~100 new accounts and 35% retention",
-   "body": "You may have seen  our post here last week . Since then, we’ve started our second Google Ads campaign for Clash At Nightfall, and I wanted to share the early results.   We launched Clash At Nightfall on September 1. It’s a menu-based incremental vampire RPG for Android and iPhone, set in a modern dark-fantasy world. You choose 1 of 3 base vampire class, improve your stats and gear, develop abilities, complete missions, hunt abominations and battle rival players, at level 10 you pick a subclass and more gameplay features open up.  There’s no in game advertising or level cap, and it’s completely free to play with optional purchases.     You can also develop your mansion, recruit thralls that generate resources while you’re away, and trade equipment with other players. We’re a two-person team",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxq2xi/google_ads_day_3_100_new_accounts_and_35_retention/",
-   "meta": "r/SideProject"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxpvxh",
-   "title": "I make music and wanted visuals that hit on the kick, so I built an app for it",
-   "body": "Most visualizers pulse brightness with the bass. In Hypnogram each kick moves the structure exactly one step, so a loop can repeat forever without a seam. 1.5 just shipped 26 new ones, 34 total, on iPhone and Android.   The hard part was getting live playback and exports to match frame for frame on two different GPUs.   Free, no account. Blunt feedback on the first 30 seconds is welcome.  https://www.hypnogram.app     https://reddit.com/link/1wxpvxh/video/tobk2zhohith1/player        submitted by     /u/vibeydiscoball       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxpvxh/i_make_music_and_wanted_visuals_that_hit_on_the/",
-   "meta": "r/SideProject"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxpvb2",
-   "title": "Is AI actually useful for checking scientific claims?",
-   "body": "I use AI pretty often for research, but I’ve started wondering how reliable it is when I’m asking about scientific or medical claims. A normal AI answer can sound very convincing even when the sources aren't clear. Would it be better to use a tool that starts with the actual claim and then checks it against peer-reviewed studies?   Evidence Lens while looking into this. It seems to focus more on connecting individual claims to research rather than just generating an answer. Has anyone tested this approach?       submitted by     /u/Unlucky-Moment-3366       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxpvb2/is_ai_actually_useful_for_checking_scientific/",
-   "meta": "r/SideProject"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxpufp",
-   "title": "I got sick of sign-up walls and bloated dashboards just to do a simple task. So I built an anti-SaaS toolbox.",
-   "body": "Most utility websites today feel like marketing funnels. They force you to create an account, subscribe to a newsletter, or look at five banner ads just to check a time zone or calculate a price tier.   ​I built Do One Job to be the exact opposite.   ​No login.   ​No newsletter walls.   ​Runs entirely in your browser.   ​Each page does one job. Right now, the live tool handles timezone fairness for distributed teams (finding true overlap and golden hours without the headache). More single-purpose tools like a SaaS pricing calculator and a scam-check parser are on the way. If you hate web app clutter, take it for a spin!       submitted by     /u/Optimal_Effect2959       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxpufp/i_got_sick_of_signup_walls_and_bloated_dashboards/",
-   "meta": "r/SideProject"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxptlb",
-   "title": "I built MIDDLE — a coaching app that works entirely through text messages",
-   "body": "Hey  r/SideProject  👋 I built MIDDLE — a coaching app that works entirely through text messages. The idea: instead of another app you have to open, MIDDLE meets you where you already are — your text thread. It's a messaging-first coaching experience. You text your goals, your struggles, your wins — and your coach (AI-powered, with human oversight) responds right there in the conversation. No new app to download. No dashboard to check. Just text. 🔗  https://middle-production.up.railway.app  Would love feedback on: - The concept (messaging-first coaching) - The UX - Whether this is something you'd actually use Thanks for checking it out! 🙏       submitted by     /u/Advanced-Double-5397       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SideProject/comments/1wxptlb/i_built_middle_a_coaching_app_that_works_entirely/",
-   "meta": "r/SideProject"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxs8t5",
-   "title": "Looking for beta testers for my prepped and food storage saas",
-   "body": "Hi everyone!   I'm a solo founder and looking for beta testers.   Hit me with a DM and I'll set up an account for you.   Features   - Days of food and water based on your family and your goal   - Inventory by category, with items nearing expiration marked in red   - Rotation: use what expires first, so you don’t throw food away   - Shopping list: grains, legumes, oils, water, and hygiene items, based on what you’re missing   - Recipes using what you already have, plus other ideas with AI   - Garden: what you grow adds calories   - 72-hour kit, first-aid kit, and family profile   - Weather and UV for your city   - Alerts via Telegram       submitted by     /u/rjromo       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxs8t5/looking_for_beta_testers_for_my_prepped_and_food/",
+   "ext_id": "t3_1wydus2",
+   "title": "Second customer 🥀",
+   "body": "submitted by     /u/Busy-Smile989       [link]       [comments]",
+   "url": "https://www.reddit.com/r/SaaS/comments/1wydus2/second_customer/",
    "meta": "r/SaaS"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxs8lq",
-   "title": "What is harder: creating a SaaS product or finding customers for it?",
-   "body": "I’ve long wondered about this: personally, I find it harder to create a product, whereas advertising it is easy provided you have the budget for it.       submitted by     /u/u0life       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxs8lq/what_is_harder_creating_a_saas_product_or_finding/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxryo9",
-   "title": "I need help",
-   "body": "Guys, I'm about to drop a stock research platform but i don't have a budget and I want to promote/market my platform for free and I considered content creation but that's for later because requires you to build an audience but i just need help to get my first 10-15 paying customers and then after that, I can handle marketing myself.   Please drop suggestions in the comments.       submitted by     /u/Live_Inspection9395       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxryo9/i_need_help/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxqzh0",
-   "title": "Self-fulfilling prophecy",
-   "body": "Hey folks, I’m a small SaaS founder. We’ve been running this product for ten years and it’s been moderately successful, enough to provide one income for our family.    Lately, though, I’ve been wrestling with this nagging feeling. I keep seeing AI tools creeping closer to what my product does, and part of me thinks, why sink more cash and time into sales and marketing, if in five years, or two, who knows, AI will make it free or commoditize it. And part of me worries that thinking that way becomes a self-fulfilling prophecy. Like the product will definitely fail if I stop investing.   I’m trying to decide whether to double down or just harvest what the business can give me now and for the next few years. I’m curious if anyone else here is having that same tension with a steady, still-valua",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxqzh0/selffulfilling_prophecy/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxql91",
-   "title": "Every team shipping a support agent hand-builds the guardrail first.",
-   "body": "Everyone talks about what the agent can do. Nobody ships it without the part that stops it.   The gate comes before the first reply. Human approval on every write action, traces on everything, and a kill switch for the rest.   For the people here running agents in production, what is the one action you would never let yours take without a human in the loop?       submitted by     /u/arslannasir128       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxql91/every_team_shipping_a_support_agent_handbuilds/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxq1cc",
-   "title": "Looking for a seo guy for my signalsumo site",
-   "body": "I’ve recently reached to a point where I want a seo expert doing the link building, doing web2.0 and so on. I have other businesses to work on and hence I would want a help.   Interested seo people hook me up.       submitted by     /u/codebi       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxq1cc/looking_for_a_seo_guy_for_my_signalsumo_site/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxoasb",
-   "title": "I scraped billions of TikTok videos and profiles by reverse engineering the mobile API. Here's how it works + source code",
-   "body": "Hey everyone. I'm a data engineer and I've spent the past 8 years reverse engineering TikTok's mobile app.   Over that time, I've learned how to pull TikTok data at pretty ridiculous scale. Profiles, videos, comments, sounds, search results, follower graphs, trends, etc.   I finally put together a technical guide explaining how it all works.   It covers device registration, request signing, X-Argus/X-Ladon/X-Gorgon, TLS fingerprinting, regional endpoints, proxies, scaling, etc.   To give you an idea of the scale, I've collected over 5.6 billion TikTok videos using this approach. I uploaded the whole dataset to Hugging Face:    https://huggingface.co/datasets/datasocial/tiktok-5.6B-videos    If you don't want to download billions of rows just to play around with the data, you can also query",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxoasb/i_scraped_billions_of_tiktok_videos_and_profiles/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxo6uh",
-   "title": "Failing badly at marketing, looking for advice",
-   "body": "I am currently a solo founder. I have always had a passion for integrating apps and services that actually have measurable impacts and make people’s lives better.   I have a software/consulting business which I am looking to grow.    Looking for advice with marketing or where should I even start. I have looked on Upwork some but I just don’t know if that’s the right route to go.   I have some good products that I know have real world utility, just figuring out how to and where to market is where I’m at now. I have a SAAS app with a ton of different modules everything from Stripe integrations to Google. The SAAS app has MRR of $1400 3 customers 1 big customer. It was only for the contracts management portion of the platform.   I also have IOS apps about 3-4 marketable ones. Ran some Apple a",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxo6uh/failing_badly_at_marketing_looking_for_advice/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxo31v",
-   "title": "Anyone else's churn differ between Stripe and TrustMRR a lot? Direct Stripe is showing 24.48%!",
-   "body": "TrustMRR gets its data from Stripe here so the underlying data is obviously the same, must be a difference of how it's calculated I guess, and I don't see any resources on it.       submitted by     /u/TRO_KIK       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxo31v/anyone_elses_churn_differ_between_stripe_and/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxny4g",
-   "title": "Learning/ Content creation platform",
-   "body": "I’ve been working on a small learning/content platform and wanted to get some honest feedback from people who actually create courses or training content.   One thing I kept running into was how many different tools are involved just to create a course.    Record the video in one place, edit it somewhere else, add captions, images, text, branding, then move it into an LMS and finally publish it.    So I started building a platform that tries to bring some of that together.   The current version has a recording studio, basic video editing, captions, text/images, branding, course creation and publishing, along with the learner side.   I’ve also built some AI-assisted features around content creation, but I’m not making those available in the public version yet because they use paid AI models",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxny4g/learning_content_creation_platform/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxnrjx",
-   "title": "Can you build and run a SaaS without knowing how to code?",
-   "body": "I have two ideas I am working on. One came from problems I faced while building my ecommerce business. The other came from my time as an employee when I kept wishing there was a tool that could make certain tasks easier.   I am not a developer. I have been exploring Codex and Lovable and Claude. Getting a prototype together seems possible but I am unsure about what comes after that.   Once people start using it and paying for it can I manage the backend and fix problems with these tools? Or will I reach a point where I need someone technical?   I am willing to learn. I just want to understand how much coding I would need to know to keep the product running myself.   Has anyone here done this and launched a paid product?    What could you handle yourself and where did you need help?       s",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxnrjx/can_you_build_and_run_a_saas_without_knowing_how/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxnq6w",
-   "title": ".MD files are a mess seriously",
-   "body": "i use claude code and i tell it to do research and the results are always stored in .md files but as they are not visible across all the folders at one sometimes i repeate the same research to do and i have been facing this problem quite for some time now.   initially i was thinking about obsidian or any other note taker but its not the same like its kind of different i dont know obsidian or any other such app dosent feel like that    i am in a diallama to build an organising system like kind of dashboard for this like u can see all the md files at once and search through them and visually appealing UI kind of    if any one facing with this problem let me know in the comments like how they are solving it        submitted by     /u/C_Investigation_A       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxnq6w/md_files_are_a_mess_seriously/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxn75k",
-   "title": "I thought building a browser session manager would be a simple SaaS.",
-   "body": "I was totally wrong.   The first version was basically:   save tabs → store them → restore them.   Then reality happened.   Tab groups needed to survive.   Pinned tabs behaved differently.   Some tabs disappeared.   Some were already discarded.   Restoring 30+ tabs in the right order wasn't as simple as I expected.   Then I added cloud sync.   Then session sharing, because sending someone 20 individual URLs when you could send the whole workspace felt ridiculous.   The product ended up becoming much more complicated than the original idea.   The funny thing is that the actual user experience is still just:   Save a workspace → close it → come back later → restore it.   I'm building this as a solo founder, and one thing I'm learning is that the simplest-looking SaaS products can hide a ridi",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxn75k/i_thought_building_a_browser_session_manager/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxn0nk",
-   "title": "Read the HN piece on malleable software. The core claim is right: most apps today are built so you can use them, not so you can change them. You get the menu the vendor picked, not the lever you actually need.",
-   "body": "I do automation work for small businesses, and the most common request isn't \"add a feature.\" It's \"give me back the thing you took away.\" A field they used to edit directly. A report they could tweak without filing a ticket and waiting a week.   The hard part isn't letting someone poke at the software. The hard part is deciding what they're allowed to poke at without breaking what sits underneath it. I've seen a client-facing edit button wired straight to a column that three other features quietly depended on. One edit, three regressions, no error message to explain why.   So the real fix for locked-down software isn't more configurability. It's a clear boundary: here's what you can touch, here's what happens when you do, and here's the undo if you're wrong. Most products skip the undo be",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxn0nk/read_the_hn_piece_on_malleable_software_the_core/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxlim8",
-   "title": "Selling a dataset as an API: what has worked for you on pricing?",
-   "body": "I'm turning a nightly-refreshed job index into a paid API. It covers about 6,800 employer career sites, and the data refreshes every 24 hours. I'm considering per-result pricing instead of seats. For those who sell data or API access, what pricing unit has held up, and what churned buyers told you?       submitted by     /u/StraightControl3377       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxlim8/selling_a_dataset_as_an_api_what_has_worked_for/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxlgq2",
-   "title": "Built a SaaS for students, getting users but struggling to get anyone to pay. What am I doing wrong?",
-   "body": "Hey guys, I'm a young developer from Georgia (the country, not the US).   I've been working on a website called Litero. It's for students preparing for our national university entrance exams in 2027. Georgia is a pretty small country, around 3–4 million people, and roughly 50k students take these exams every year.   The idea is pretty simple. Students can take official exams from previous years, and AI explains their mistakes, why the correct answer is right, what they need to improve, and what score they might be able to get. There's also essay writing help, text correction, different subjects, years, exam variants, etc.   I've spent a lot of time building this thing. It has accounts, profiles, payments, AI features, and honestly, I've put a lot of effort into making the website look and ",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxlgq2/built_a_saas_for_students_getting_users_but/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxl5fu",
-   "title": "What's a tool you'd happily pay for that doesn't exist yet (or exists but sucks)?",
-   "body": "I'm a developer looking for my next project, and I'd rather build something people actually need than guess.   If you've got a problem that keeps annoying you, I'd love to hear it. The more specific, the better:      What's the problem?  (what you're trying to get done)    How do you solve it today?  (Excel, 3 tools duct-taped together, doing it manually...)    What's wrong with the current solution?  (price, time, quality)    Roughly how much time or money does it cost you?     Would you pay for a fix? How much per month?      I'll reply to every comment, and if I build something from this thread I'll give early access to whoever suggested it. Not selling anything, just researching.       submitted by     /u/Ill_Network_7580       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxl5fu/whats_a_tool_youd_happily_pay_for_that_doesnt/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxl0a7",
-   "title": "Day 1/14: I'm building a micro-SaaS that automatically reminds clients about unpaid invoices",
-   "body": "Hey everyone,   I'm giving myself 14 days to build and launch a small SaaS and try to get my first paying customer.   The idea is an automatic invoice/payment reminder tool for freelancers, agencies and small businesses.   The problem I'm targeting:   Clients don't always pay invoices on time, and constantly sending follow-up messages is annoying and time-consuming.   The MVP will eventually let a user:   Add a client   Create an invoice   Set a due date   Generate/send a payment link   Automatically send polite reminders   Stop reminders when the invoice is paid   Day 1 is done:   Next.js setup ✅   Supabase database✅   Authentication✅   Email verification✅   Login/signup✅   Protected dashboard✅   GitHub setup✅   Tomorrow I'm starting the client management system.   I'm going to post the p",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxl0a7/day_114_im_building_a_microsaas_that/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxkypy",
-   "title": "Deflection went up and churn did not move. What are we actually measuring?",
-   "body": "We watched the deflection number climb and called it a win. Then the churn line did not move.   The bot was closing conversations. The customers had just stopped asking and left quietly.   Deflection counts conversations ended. It never counted who was actually unstuck.   For the people here running support, do you measure reopens, or just closed?       submitted by     /u/arslannasir128       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxkypy/deflection_went_up_and_churn_did_not_move_what/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxkssg",
-   "title": "UI Automations to be sold as SaaS",
-   "body": "Can UI automations like automating some steps on already existing CRM UI be considered as a SaaS to be sold? For example Dolibarr CRM automation or some SAP automation, are there any companies which does so?   I have some experience in other niche but would like to understand this specific one.        submitted by     /u/Melodic_Gift2041       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxkssg/ui_automations_to_be_sold_as_saas/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxkmbg",
-   "title": "One thing that made my SaaS onboarding much easier",
-   "body": "I used to think onboarding needed to explain everything the product could do.   I've changed my mind.   The better approach seems to be getting someone to their first useful result as quickly as possible.   Instead of: “Here are 12 things you can do.” Try: “Let's get this one thing done first.”   Once someone gets value from the product, they're much more willing to explore the rest.   I've found that removing steps is often more useful than adding another onboarding tooltip.       submitted by     /u/FlatLiterature9702       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxkmbg/one_thing_that_made_my_saas_onboarding_much_easier/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxkjw9",
-   "title": "How do you find a high-quality test group for a new SaaS product that provides real value?",
-   "body": "Hey everyone. I am the co-founder and head up marketing and growth for my first and new SaaS product (an agentless vulnerability scanner). We have our Product Hunt launch set for late soon, but right now I am facing the classic cold-start problem.   My technical co-founder has the product ready, and my main goal right now is to gather a small, test group (20-30 people) to break our UX and give harsh feedback before the big day. Since we are starting from zero I am trying to figure out the best grassroots approach.   For those who handled early user acquisition from scratch:     How did you find your very first beta testers?   Did you rely on cold DM outreach on LinkedIn or X, and did it actually convert?   Are there specific directories, Discord servers, or communities that are genuinely r",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxkjw9/how_do_you_find_a_highquality_test_group_for_a/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxk3x2",
-   "title": "I MADE $927 IN ONE DAY! with my SaaS as a solo founder",
-   "body": "A few days ago I posted here after making $492 in a day.   Yesterday I hit  $927 in sales in a single day .   A lot of people asked me how I'm doing the outreach, so here's the scale behind it:   I currently have  150+ domains and 450+ mailboxes .   Each mailbox sends around 30 emails/day, which gives me capacity for roughly:    13,500 cold emails/day    405,000 cold emails/month    That's the part I underestimated for a long time.   At this volume, you don't need some insane conversion rate for the numbers to start getting interesting. Even tiny improvements in targeting, deliverability, copy and conversion compound pretty fast.   For perspective,  0.1% of 13,500 is 13.5 .   Obviously, I'm not assuming every campaign will convert at 0.1% directly into paying customers. Cold email doesn't ",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxk3x2/i_made_927_in_one_day_with_my_saas_as_a_solo/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxk2nt",
-   "title": "Organic marketing is a trap.",
-   "body": "Organic marketing is a trap for someone with 0 reach and audience. It can be a huge waste of time and be extremely demotivating for someone starting out even if their idea has huge potential.    It is rewarding for YouTubers and influencers to fool their audience into doing organic UGC. People like those types of content because it gives them false hope and makes them think that going viral will get them huge reach for free at the expense of spending weeks and months of creating content. Sadly thats what sells and attracts an audience, the only ones making money here are the influencers promoting organic marketing   Time is money and you are only wasting time making content on a completely new account in the false hope that it will go viral. People who succeed shouldn’t have their primary ",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxk2nt/organic_marketing_is_a_trap/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxk1ea",
-   "title": "starting cost low/normal",
-   "body": "Hey there, does anyone have the experience and could tell me if it's better to start charging very little for a business and build an audience up or start with charging normally? thank you and take care!       submitted by     /u/Beneficial-Day7238       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxk1ea/starting_cost_lownormal/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxjfsw",
-   "title": "I let an AI agent take only the small tickets on a live SaaS. The bottleneck moved to code review",
-   "body": "https://preview.redd.it/xq089dag4hth1.png?width=2880&format=png&auto=webp&s=4cfbbbcb858d6cb3c1750fa2fe905d62923acf09    put an AI agent on only the small-medium tickets for a SaaS i contract for, and the suprising part is the bottleneck just moved to code review, every PR still needs a human to approve and merge so now theres just alot more of it. disclosure, the agent is mine, but curious if anyone else running agents on a real codebase hit the same wall       submitted by     /u/Natural_Classroom201       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxjfsw/i_let_an_ai_agent_take_only_the_small_tickets_on/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxj2ar",
-   "title": "Is it possible to send cold emails on zero budget?",
-   "body": "Is there any way to start sending emails with zero budget please? I purchased domain and i need to start sending out few houndreds emails, does not have to be bulk. Is there a free trial that lets me send them? Idealy id send about 100 emails by end of next week. Is it possible or is it a risky number to start with?        submitted by     /u/No-Umpire-516       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxj2ar/is_it_possible_to_send_cold_emails_on_zero_budget/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxilzv",
-   "title": "As a solo developer, what specific activities did you undertake to acquire potential customers before launching your product?",
-   "body": "I'm a solo developer starting a consumer web app. I'm still in the very early build phase, and I want to avoid the classic mistake of launching to silence.   I have maybe 5 hours a week to spend on audience building, no ad budget, and I'm comfortable writing but not on camera. Here's what I'm trying to figure out:     If you built an audience before launch, what was the single channel that moved the needle, and what was a time sink that didn't?   Waitlist page vs. build-in-public posts vs. community participation: which would you prioritize with limited time?   How do you stop a pre-launch audience from being just \"other indie hackers\" who'll never be customers?   Roughly how big did your list or following need to be before launch for it to matter?     Would love real numbers or \"here's wh",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxilzv/as_a_solo_developer_what_specific_activities_did/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxi575",
-   "title": "Free cloud hosting for app?",
-   "body": "Guys , I'm Building mobile app which may include 10k user live interaction.    Tell me for initial scaling which one should I choose , who will offer me free DB hosting and Can work without crashing .    Drop me out suggestions please ?        submitted by     /u/Techy568       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxi575/free_cloud_hosting_for_app/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxhq9o",
-   "title": "Needed a way to send my girlfriend realistic virtual flowers so I built some myself!",
-   "body": "I am the founder of a SaaS now that I built! It started because my long distance girlfriend had a bad day and flower shops were closed near her so I wanted to send her the next best thing which would be realistic virtual flowers that feel real. Nothing like it exists so I built it myself!  https://bloomria.com  was born!    Each flower is unique and you can send a personalized letter/card as well! It’s free to use for the free tier but on the paid tier you can schedule sending, attach a photo and a voice message as well!        submitted by     /u/xoibsurferx       [link]       [comments]",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wxhq9o/needed_a_way_to_send_my_girlfriend_realistic/",
-   "meta": "r/SaaS"
-  },
-  {
-   "source": "reddit",
-   "ext_id": "t3_1wxrem3",
-   "title": "Sandcastle Inc. (A game about building sandcastles)",
-   "body": "Hello everyone, I have been a lot of incremental games and having an absolute blast with them. So as a developer i though i might try making, do let me know what you feel -  https://absurdyash.itch.io/sandcastle-inc .   AI Disclosure - No AI Generated Assets used in development of this game.       submitted by     /u/yashwarrior       [link]       [comments]",
-   "url": "https://www.reddit.com/r/incremental_games/comments/1wxrem3/sandcastle_inc_a_game_about_building_sandcastles/",
+   "ext_id": "t3_1wymba2",
+   "title": "Taskbar Armory (Free to Play)",
+   "body": "Your workday. Their adventure. A free cozy idle game that lives on your taskbar. Run a dwarven forge while you work or browse.     Mine ore   Craft weapons   Decorate your shop   Send heroes on expeditions for gems, relics and rare loot.     AI disclosure: contains AI art.   Always open to ideas and improvements. I've been fixing fixing bugs and issues daily thanks to Steam feedback and reports. Let me know if you spot anything odd. Ty    Taskbar Armory - Free to Play on Steam        submitted by     /u/Mojo2013       [link]       [comments]",
+   "url": "https://www.reddit.com/r/incremental_games/comments/1wymba2/taskbar_armory_free_to_play/",
    "meta": "r/incremental_games"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxr507",
-   "title": "We just published the Demo of our cozy incremental tilebuilder(?)! Cats and Hats - where you try to stack as many hats as you can, on a variety of cats!",
-   "body": "Hey folks! It's Josh here, one part of the two person dev team behind Cats and Hats! We're stoked to have finally launched our demo for Cats and Hats. After loads of internal testing, we felt it was time to share with the world!    It is pretty full of content as well, with 3 cats, ~150 tiles and over 100 hats!     https://store.steampowered.com/app/4777960/Cats_and_Hats/    After our first game, we wanted to shift gears into something more causal and fun, bit more lighthearted with a broader range. After some fun prototyping, we really liked this idea of turning the game \"memory\" into something, and here is where we landed!    Hope you all enjoy! We're planning full platform (Mobile, PC etc) later on in the year!    Thanks everyone!    ~ Josh    AI Disclosure:   NO  generative AI was used",
-   "url": "https://www.reddit.com/r/incremental_games/comments/1wxr507/we_just_published_the_demo_of_our_cozy/",
+   "ext_id": "t3_1wylxtf",
+   "title": "Big update for my 2D Idle Autobattler demo",
+   "body": "Hey everyone! I’ve just released Demo 2.0 for Idle Pixel Battle, my fantasy idle auto battler about building a party, collecting loot, and unlocking permanent upgrades.   The biggest addition is the Dungeon, the demo’s third biome, with new enemies and mechanics. I’ve also added quests, new abilities, 10 new artifacts, and poison effects that you can combine with other effects.   The upgrade tree has been completely reworked to give you more choices, with cheaper early upgrades and earlier access to automation. I’ve also rebalanced the heroes and changed the leveling system so your whole party progresses more evenly.   The free demo now includes:     3 biomes and 3 playable heroes: Knight, Archer, and Mage   25 hero abilities   28 monsters   42 artifacts   200 permanent unlocks and upgrade",
+   "url": "https://www.reddit.com/r/incremental_games/comments/1wylxtf/big_update_for_my_2d_idle_autobattler_demo/",
    "meta": "r/incremental_games"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxqzsw",
-   "title": "Made a text-based idle incremental sci-fi game",
-   "body": "I wanted to play something but never had the time, so I built in a scheduler: I play when I can, and the game takes care of the rest on its own.   It's not much, but it's honest work. I grew up with text-based games, and now I've finally made one of my own. You're welcome to give it a try! :)   Link to game:  grid2045.com    AI Disclosure: generative ai was used in nearly everything       submitted by     /u/something9102       [link]       [comments]",
-   "url": "https://www.reddit.com/r/incremental_games/comments/1wxqzsw/made_a_textbased_idle_incremental_scifi_game/",
+   "ext_id": "t3_1wyl2gz",
+   "title": "Graveacre: a zombie survival idle game in your browser",
+   "body": "Hi everyone,   I'm French, this post is translated from French, sorry for any odd phrasing.   I'm a front-end developer and I'm presenting my very first zombie idle game: free to play, no ads, no download, no email, playable anywhere, ideally on your phone. A username is all you need.   My main goal is to collect your opinions, feedback, suggestions, impressions… and above all to enjoy sharing it with you.   You can upgrade your base, recruit companions (animals), optimize your gear, mod your weapons, level up your trades and, above all, enjoy a small story, with more than 130 random encounters, more than 30 enemies including 9 bosses in the bestiary, dungeons and hidden places, a stats system, a resistance system, a dynamic weather system with penalties and bonuses, trading between surviv",
+   "url": "https://www.reddit.com/r/incremental_games/comments/1wyl2gz/graveacre_a_zombie_survival_idle_game_in_your/",
    "meta": "r/incremental_games"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxnxhc",
-   "title": "Vanya Online opened a fresh Non-PvP server today - Vanity, everyone starts from zero",
-   "body": "Hey everyone!   We’re Demona Vosz, a small indie team from Brazil working on  Vanya Online , a persistent browser MMORPG also available on Steam.    Today, October 4, we opened Vanity, our brand-new Non-PvP world.    It’s a completely fresh server, so everyone starts from zero with a new economy, new rankings and no existing progression advantage.   Vanya is built around long-term progression with  Idle Hunting, PvE, bosses, a player market, Visages and multiple character progression systems .    No level cap. No skill caps. No account resets.     https://preview.redd.it/b9qmf9yh2ith1.png?width=1040&format=png&auto=webp&s=ab77a164598e581885032836057a5c3de879d8fa    We’ve been developing Vanya continuously since launch and we’re also preparing an official limited  Vanya x Maggie Lindemann  ",
-   "url": "https://www.reddit.com/r/incremental_games/comments/1wxnxhc/vanya_online_opened_a_fresh_nonpvp_server_today/",
+   "ext_id": "t3_1wykfs4",
+   "title": "Funny idle game about ripping people off and creating your own scam business (long playtime, no node skill tree)",
+   "body": "For the past months I've been working on a handmade idle game in which you turn your apartment into a scam business to rip people off.   You start out with a super small apartment room with the typical 'shell game' in its center and work your way up to a lucrative scam business with rigged slot machines, a whole call center in your basement and selling tons of emptied out trading card packs to unsuspecting folks.   I love incremental games and idle games, but I personally am not a big fan that most of them are currently just quick-prestige games with short loops and 6 hours of gameplay. As one of the devs of Gamblers Table I obviously am not free of sin in that case, but I'm speaking as a player here rather than a developer.   In terms of genres its an idle management game with building an",
+   "url": "https://www.reddit.com/r/incremental_games/comments/1wykfs4/funny_idle_game_about_ripping_people_off_and/",
    "meta": "r/incremental_games"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxmpvw",
-   "title": "Our Incremental Clicker Game has also a Desktop Mode!",
-   "body": "The game is called \"From the Fields\" and it will come to steam :DD   This game was made for a 2 day game jam and we decided to continue and publish it to steam, you can check the game jam version(demo) here:  https://the-blindeye.itch.io/from-the-fields    AI Disclosure: No generative AI was used in the development of the game.       submitted by     /u/BlindEyeThe       [link]       [comments]",
-   "url": "https://www.reddit.com/r/incremental_games/comments/1wxmpvw/our_incremental_clicker_game_has_also_a_desktop/",
+   "ext_id": "t3_1wyifzx",
+   "title": "Edenfalls: Outpost, an idle outpost tycoon in a dark biopunk world (Android closed test, looking for feedback :))",
+   "body": "AI disclosure: This game is built with heavy use of generative AI (Claude, an AI coding assistant), under my direction. That covers the code; the pixel art (drawn by AI-written code, not by image generators); the sound effects and music (generated procedurally by AI-written code); most in-game texts (written with AI, based on the world of my own novels); and all translations (German, Spanish, Portuguese, French). The world, the setting and the design decisions are mine, and I play-test and decide everything that goes into the game.   Hi! I'm a solo developer and I've been building Edenfalls: Outpost, an idle tycoon set in 2053 at an old river lock at the edge of \"the Zone\".   - Your contractors hunt on their own; you build ~20 buildings, craft named gear in ten tiers and send squads of up ",
+   "url": "https://www.reddit.com/r/incremental_games/comments/1wyifzx/edenfalls_outpost_an_idle_outpost_tycoon_in_a/",
    "meta": "r/incremental_games"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxmh5f",
-   "title": "Leaderboard finally got a new #1 after months, kinda hyped",
-   "body": "Been working on this thing called PCB Defense for way too long now. its    a tower defense but with a heavy incremental side - turret tiers, skill    tree with SP that carries over, combo multipliers that stack with    multishot beams etc.   opened reddit this morning and the #1 spot finally changed. forgetable    had been sitting there for months at 1.8m, now operator-7492 is at    2.24m. 698 players ranked total which is honestly more than i expected.   playable here:    https://juba13.itch.io/pcb-defense    free, browser, works on phone too. no login bs.   not sure if this counts as incremental enough for the sub, mods can    remove if not. its more TD with incremental mechanics than pure    idle/clicker.   anyway, curious what people think about the mid-game difficulty spike    around ",
-   "url": "https://www.reddit.com/r/incremental_games/comments/1wxmh5f/leaderboard_finally_got_a_new_1_after_months/",
+   "ext_id": "t3_1wyi13u",
+   "title": "We took Aura Farming way too literally — Keep Farming Aura is now playable",
+   "body": "Hey! I’m one of the devs of Keep Farming Aura.   At some point we thought “what if farming Aura was an actual incremental game?” and apparently nobody stopped us, so here we are.   You start with basically nothing, farm Aura, unlock upgrades, do increasingly unnecessary moves and slowly attract more and more attention around you.   We finally put a public build on  itch.io , so I’d really like to know how the beginning feels to people who haven’t been staring at this game every day for months lol   I’m mostly curious about the first few minutes. Does the loop make sense quickly enough? Do the early upgrades feel good? Does anything feel too slow or confusing?   You can play it in the browser here:   https://giantwarrior.itch.io/keep-farming-aura    Steam page, if you want to check it out: ",
+   "url": "https://www.reddit.com/r/incremental_games/comments/1wyi13u/we_took_aura_farming_way_too_literally_keep/",
    "meta": "r/incremental_games"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxikqy",
-   "title": "5 years Quit GameDev, this year comeback, 6months later release Fish Incremental on Steam",
-   "body": "Used to develop web ( flash ) games , mobile games makes me quit game-dev.  This year comeback as solo gamedev ( but helped with one artist ) , half-year i finish my first steamgame and today release Demo build.   Free demo on Steam:  https://store.steampowered.com/app/4868800/    It's Fishing relax incremental games.  WIshlist or feedback mostly welcome .   AI Disclosure : Used AI for the early fish concept but artist already replaced first batch of fish with hand drawn manually.        submitted by     /u/rudys1983       [link]       [comments]",
-   "url": "https://www.reddit.com/r/incremental_games/comments/1wxikqy/5_years_quit_gamedev_this_year_comeback_6months/",
+   "ext_id": "t3_1wyhvut",
+   "title": "Echoes of the Deep : Incremental Endless Miner.",
+   "body": "Hello dear Incremental Enjoyers!!!   Its me again . Another month another post.   I am here to talk to you about my passion project , the game i refuse to stop working on and i keep updating constantly bug fixing , adding QoL or New Features.    Echoes of the Deep : Incremental Endless Miner      https://store.steampowered.com/app/4781450/Echoes\\_of\\_the\\_Deep\\_\\_Incremental\\_Endless\\_Miner/         Speach disclosure  :   I come from Greece. English is NOT my native language . So if something is not fully understandable i apologize . Will try to write as clearly as i can.   (had to write this because a previous post of mine i was heavily critisized for my many grammatical errors).   The text bellow is fully written by me.    AI disclosure :    AI tools where not used during development of ",
+   "url": "https://www.reddit.com/r/incremental_games/comments/1wyhvut/echoes_of_the_deep_incremental_endless_miner/",
    "meta": "r/incremental_games"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxi78a",
-   "title": "A player maxed my whole upgrade tree on the 10,000-car lot, so I wrote an economy simulator to rebalance it",
-   "body": "Hi! I'm the solo dev behind a small Android game where you basically lose your car on a massive parking lot and have to find it again 😅   The lots start at 100 cars and eventually go all the way up to 100,000.   While searching you earn money and spend it on upgrades like movement speed, key range, scanner range and drones that help scan cars for you.   And well... I kinda broke my own economy.   One player told me he managed to max basically every upgrade while still playing on the 10,000 car lot.   At first I thought \"there's no way\".   Then I checked it.   He was right lol.   The problem was that a lot of the bonuses multiply with each other. Reward × key range × movement speed × drones × scanner etc.   So at some point the player income just goes crazy and the upgrade prices I made man",
-   "url": "https://www.reddit.com/r/incremental_games/comments/1wxi78a/a_player_maxed_my_whole_upgrade_tree_on_the/",
+   "ext_id": "t3_1wyhu2r",
+   "title": "Lootkeeper: Tidy Up the Loot - a tidy-up incremental game [Demo Available]",
+   "body": "Hi everyone! We're a  2-person indie studio  — a programmer and an illustrator — and our tidy-up incremental game now has a playable demo!    Lootkeeper: Tidy Up the Loot  is about organizing the enormous mess left behind by an adventurer.   🧹  1,800+ fantasy items  to organize  🏰  24 categories and 24 rooms   ✨  Magic, upgrades and power-ups  to make sorting faster and more efficient  🎨 All artwork is  hand-drawn by our illustrator    The demo lets you play for  about 1 hour , and your save carries over to the full game.   We're launching on Steam on  October 14th .    The demo is playable right now:    https://store.steampowered.com/app/5272190/Lootkeeper_Tidy_Up_the_Loot/    We'd love to hear what you think after playing it!    AI disclosure:  AI has only been used for localization, exc",
+   "url": "https://www.reddit.com/r/incremental_games/comments/1wyhu2r/lootkeeper_tidy_up_the_loot_a_tidyup_incremental/",
    "meta": "r/incremental_games"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxhx78",
-   "title": "WARM, BUTTERY POPCORN! WITH A SUGAR COATING!",
-   "body": "A friend of mine is developing a really cool incremental game full of references. I just finished it.   This is a really cool short incremental game. The pacing is very satisfying, very exponential, not only in the raw currency ​but also in the features and upgrades that unlocks throughout the late game. This game keeps on giving whereas other similar games slow down almost to a halt when close to the end. I felt this game takes some inspiration from cookie clicker, which is a good thing.   In conclusion, a really cool game that you need to play if you like the genre.    https://avoguga.itch.io/warm-buttery-popcorn-with-a-sugar-coating        submitted by     /u/smbgfull       [link]       [comments]",
-   "url": "https://www.reddit.com/r/incremental_games/comments/1wxhx78/warm_buttery_popcorn_with_a_sugar_coating/",
+   "ext_id": "t3_1wyezmk",
+   "title": "New Baseball Idle Game",
+   "body": "Hey Everyone! I am a new developer who just released an idle game called Diamond Idle. I am very passionate about this project and making it into something special.   There is a storyline that follows your team's quest to make it to the Bigs. The first chapter is available now, which is called Sandlot League. I already have the next 7 chapter written out.   Some of the features include:   - Full Main Storyline and Side Quests   - Customize your home field with upgrades   Upgrade your team's skills!   - Training skills like hitting, plate discipline, contact, and more improve your team's chances at winning games.   - Crafting Skills allow you to make your own bats, gloves, and jerseys.   Side Games, Jersey customization, field customization, new skills, and more are already planned!   Come ",
+   "url": "https://www.reddit.com/r/incremental_games/comments/1wyezmk/new_baseball_idle_game/",
    "meta": "r/incremental_games"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxgynm",
-   "title": "My top 5 incremental games for 2026 so far. Any of these on your list?",
-   "body": "So recently I had put together a video covering five incremental games I enjoyed the most in 2026 and I wanted to share the rankings here too. Here’s where I ultimately landed and why..     Click The Button     The simplest one on my list, but sometimes that’s exactly what I’m in the mood for. Clicking, opening chests, and buying upgrades makes for a good little game to knock out without committing a ton of time. I really did like this one because it was not only a fairly quick game, but one where it felt like you were getting \"stronger\" real quick and fast. I never felt like it was a long grind and was glad it was as short as it was. Anything more dragged out for this one would have probably made this less enjoyable than it was.     All Hail The Orb     There’s something pretty funny abou",
-   "url": "https://www.reddit.com/r/incremental_games/comments/1wxgynm/my_top_5_incremental_games_for_2026_so_far_any_of/",
+   "ext_id": "t3_1wyeqlg",
+   "title": "I've made lil game inspired by universal paper clip quantum computing mechanic",
+   "body": "You can play it there in a browser:  https://gesla.itch.io/out-of-phase    It takes about 30 minutes to complete. You're a probe going further and further into the universe.    AI disclosure: AI has been used for coding and, technically, for visuals since everything is just ui. No generative AI for music and sounds       submitted by     /u/IWannaPetARacoon       [link]       [comments]",
+   "url": "https://www.reddit.com/r/incremental_games/comments/1wyeqlg/ive_made_lil_game_inspired_by_universal_paper/",
    "meta": "r/incremental_games"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxf3dy",
-   "title": "kosmora, a collection game where your wikipedia cards earn per hour",
-   "body": "Game Title: Kosmora  Playable Link:  https://kosmora.io/   Platform: browser, installs as an app on phone and desktop    every card is a wikipedia article and its rarity comes from the article's real page views. each different card you own earns kosmo every second, rarer cards earn more, doubles add nothing. collecting cards of one family raises its tier and each tier boosts earnings. kosmo buys packs and talents, five paths of five ranks. earnings keep coming while you are away, up to 7 days.    you need an account, google or an email link. no pay to win, money only buys cosmetics.    i'd like to hear where the pacing drags.    AI disclosure: card text is summarized from each wikipedia article by a language model. card pictures come from wikimedia commons, and are generated when commons h",
-   "url": "https://www.reddit.com/r/incremental_games/comments/1wxf3dy/kosmora_a_collection_game_where_your_wikipedia/",
+   "ext_id": "t3_1wybc5s",
+   "title": "What's it like developing one incremental game for 13 years? The story of Get a Little Gold",
+   "body": "Today is a very special day. It's the  13th anniversary  since I started developing my dream incremental game, and also the  10th anniversary  of the first version of  Get a Little Gold  being released on Kongregate.   But let me tell you the whole story.   The whole story   I can't remember how I stumbled upon my first incremental game, but I remember exactly how I felt. It was early  September 2013 , and I couldn't stop playing  Cookie Clicker . Looking back on my first evening with the game, I can recall myself doing the dishes, getting distracted every few minutes to buy another cursor or hire a grandma.   I was hooked!   But the more I played, the more ideas came to mind about how to make the game even better. I constantly thought about interesting mechanics, new upgrades and achievem",
+   "url": "https://www.reddit.com/r/incremental_games/comments/1wybc5s/whats_it_like_developing_one_incremental_game_for/",
    "meta": "r/incremental_games"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxejm4",
-   "title": "Scrath It! Lucky Cards, Demo out on Steam!",
-   "body": "Steam Demo:  https://store.steampowered.com/app/4824030/Scratch_It_Lucky_Cards/?utm_source=rdt_incremental    AI Disclosure: No generative AI was used in the development of the game.       submitted by     /u/Unlikely_Excuse_4527       [link]       [comments]",
-   "url": "https://www.reddit.com/r/incremental_games/comments/1wxejm4/scrath_it_lucky_cards_demo_out_on_steam/",
+   "ext_id": "t3_1wyayi2",
+   "title": "(Roblox) Core Incremental, my first inc. game!",
+   "body": "How you Play:   Shoot pins at a spinning core, but don't hit the other pins!   Rebirth to upgrade your core and progress faster   Unlock Minigames and find more ways to gain cores   Trade and buy skins that give powerful boosts    https://www.roblox.com/games/6647967525/CoreBall     AI Disclosure: AI was used for some of the menus in my game.        submitted by     /u/Shoddy-Drive-8185       [link]       [comments]",
+   "url": "https://www.reddit.com/r/incremental_games/comments/1wyayi2/roblox_core_incremental_my_first_inc_game/",
    "meta": "r/incremental_games"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wxeihg",
-   "title": "I'm developing WalkScape, a RuneScape inspired MMO where you progress by walking IRL. Trading is releasing next week!",
-   "body": "Hello  r/inremental _games!   I've been developing WalkScape for almost 3 years now. We (Not a Cult, the company) have gone from just me as a solo dev to now having a team of five people in total and things are ramping up!   We're releasing Trading to WalkScape on next week's Wednesday (7th of October).    Screenshots      Screenshot 1: Activity view       Screenshot 2: Gear view       Screenshot 3: Location view       Screenshot 4: World Map      How to start playing    You can start playing the game immediately if you support us through  our Patreon page . We currently have 20% and 60% Discounts on Patreon for your first month/year as a way to celebrate the release of Trading. More on  the Discounts here .   The game is entirely community funded with no investors or publishers behind it.",
-   "url": "https://www.reddit.com/r/incremental_games/comments/1wxeihg/im_developing_walkscape_a_runescape_inspired_mmo/",
+   "ext_id": "t3_1wyan7e",
+   "title": "Fruit Fly Idle: a small Android incremental where progress fills the screen with flies",
+   "body": "I made a tiny one-screen incremental game about feeding and breeding fruit flies. Each visible fly represents part of the population, so the screen becomes more crowded as the numbers climb. The loop is feeding, balancing births and deaths, upgrading feed power, breeding, lifespan and trap resistance, then moving to the next generation.   It is free and playable on Android:  https://play.google.com/store/apps/details?id=com.rootgames.fruitflyidle&pcampaignid=web_share    I am curious whether the literal “more number = more flies” feedback stays satisfying or becomes visually tiring.   AI disclosure: I used AI coding assistance for parts of development. I designed, integrated and tested the game. The fly visuals shown here are generated by the game code, not generative-AI artwork.       sub",
+   "url": "https://www.reddit.com/r/incremental_games/comments/1wyan7e/fruit_fly_idle_a_small_android_incremental_where/",
    "meta": "r/incremental_games"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wx9aez",
-   "title": "When does automation make an incremental game more interesting?",
-   "body": "Early clicking can make each upgrade feel earned, but once that loop is automated, the interesting choice has to move somewhere else. A prestige that only raises production numbers can flatten the loop; one that changes which resource is scarce can open up new decisions. What mechanics make automation feel like a new stage of play to you, rather than the game playing itself?       submitted by     /u/toujourspluss       [link]       [comments]",
-   "url": "https://www.reddit.com/r/incremental_games/comments/1wx9aez/when_does_automation_make_an_incremental_game/",
+   "ext_id": "t3_1wy9po1",
+   "title": "Le Grainetier - The Seed Merchant : Need your reviews",
+   "body": "Hey, I'm actually working on my very first game, Le Grainetier, wich is an incremental game about a little garden in France. The goal is to create more and more vegetables to sell more and more on the market, to learn new informations about your family legacy.   The game is now playable on itch with this url :  https://flantechnique.itch.io/le-grainetier    I'd like to know what I could improve, what's missing, what's not working well. Don't hesitate to give me your review !   AI disclosure: I help myself in the build and coding with Claude code. All creatives parts (texts, history, concepts, pictures...) are 100% from myself.       submitted by     /u/_snoopysnoop       [link]       [comments]",
+   "url": "https://www.reddit.com/r/incremental_games/comments/1wy9po1/le_grainetier_the_seed_merchant_need_your_reviews/",
    "meta": "r/incremental_games"
   },
   {
    "source": "reddit",
-   "ext_id": "t3_1wwrvhx",
-   "title": "We made Pray & Slay, an incremental game where you fight with a holy spell and multiply gold with darts. The demo is live on Steam!",
-   "body": "Hey! There are two of us working on Pray & Slay. We both play a lot of incremental games, and eventually wanted to try making a small one ourselves.   It's our first game, so finally putting the demo out there is a little nerve-racking, not gonna lie.   The loop is pretty simple: fight monsters with a holy spell, take the gold from each run to a dartboard and try to multiply it, spend it on permanent upgrades, then go back in stronger.   We've played the same build so many times that we're at the point where we can't really tell what's obvious, what's confusing, or what just feels normal to us because we've seen it a hundred times.   If you try it, any feedback is welcome. It doesn't have to be detailed, even one small thing you noticed is useful.   Thanks for taking a look!     Pray & Sla",
-   "url": "https://www.reddit.com/r/incremental_games/comments/1wwrvhx/we_made_pray_slay_an_incremental_game_where_you/",
+   "ext_id": "t3_1wy9hlr",
+   "title": "Just released the android version of my chill incremental about cutting trees. Demo available on Itch and Steam page available for wishlist!",
+   "body": "I used to love opening maps on Warcraft and Age of Empires without any enemies, and just try to gather all trees on the map as fast as possible (Dial Up internet was still expensive, and I was entertained easily).   So I made an incremental inspired by that!    Features:    Start with 1 lumbermill and 1 woodcutter that automatically fells trees and sells at the mill.  Use the money to buy more workers, upgrade them with more damage, attack and move speed, and build more lumbermills when the distance back from the trees start getting too long.    Prestige  to start over with permanent upgrades like more initial woodcutters, more money from each tree, and super mills that can be placed in the middle of the forest.   The further you go, the more prestige points you get.    Unlock bigger and b",
+   "url": "https://www.reddit.com/r/incremental_games/comments/1wy9hlr/just_released_the_android_version_of_my_chill/",
+   "meta": "r/incremental_games"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wy8jfq",
+   "title": "Red flags for incremental games",
+   "body": "So, I was browsing the Steam autumn sale for incremental games and had an epiphany (probably too strong a word) that the current biggest red flag for games in the genre seems to be games that release a demo then remove the demo when they release the full game.    Nearly every game that does this, does so because the Demo is basically the full game and anything added onto it just feels tacked on and is negatively reviewed by players (even those who like/recommend it tend to say some variation of everything after the demo was tacked on/offered nothing new/actually detracted from the experience).    It is probably also worth noting this phenomenon almost exclusively seems to apply to nodebuster-likes. Make of that what you will.    So now having noticed this I'm avoiding any games that do it ",
+   "url": "https://www.reddit.com/r/incremental_games/comments/1wy8jfq/red_flags_for_incremental_games/",
+   "meta": "r/incremental_games"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wy754g",
+   "title": "Incremental bullet hell about stealing cheese! (Demo)",
+   "body": "We’ve been working on  Cheese, Please!  for a while, and the demo is now available on Steam.   It’s an incremental bullet hell where you steal cheese from the Cat Empire, get stronger, unlock upgrades and gradually turn your run into complete chaos.   We’d love to hear what you think if you give the demo a try!    Steam:   https://store.steampowered.com/app/5040020/Cheese_Please_Demo/    AI Disclosure: No generative AI was used in the creation of Cheese, Please!       submitted by     /u/diggyducks       [link]       [comments]",
+   "url": "https://www.reddit.com/r/incremental_games/comments/1wy754g/incremental_bullet_hell_about_stealing_cheese_demo/",
+   "meta": "r/incremental_games"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wy6srd",
+   "title": "Is my game an incremental or not?",
+   "body": "I'm making You'll Be Mined, a minesweeper roguelite. I've been calling it an incremental because:   You earn points by clearing fields.  You spend those points on upgrades and mine modifiers.  Those upgrades help you earn more points, so you can buy more upgrades.  You keep your build between fields and rounds within a run.   That sounds like an incremental to me. But it wasn't accepted by incrementaldb, so now I'm wondering if I'm using the wrong label.   What do you think? Would you call it an incremental, a roguelite with incremental elements, or something else? Where would you draw the line?    Steam page    Thank you!   AI disclosure: no gen AI used       submitted by     /u/BusinessPain5298       [link]       [comments]",
+   "url": "https://www.reddit.com/r/incremental_games/comments/1wy6srd/is_my_game_an_incremental_or_not/",
+   "meta": "r/incremental_games"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wy4ktv",
+   "title": "Looking for some honest feedback on an idle game I'm working on - Data Campus",
+   "body": "Hi everyone,    AI disclosure : The idea and game design are mine, but Claude (AI) wrote all the code. The art and sounds are made by that code too, so no AI image or music tools. AI also helped with the game text, the cover images and this post. Fonts are from Google Fonts.    Data Center is an idle production/building game where you run a data center and have to supply customers with servers. You mine raw materials, build the chips and supply the customers with servers while controlling the heating and cooling of the racks.   I got influenced by a few idle games and wanted to try out myself.   Here you can find the link:  https://behuzer.itch.io/data-campus    I am looking for some honest feedback on the game, especially the first 15 minutes and the replayability.    Would appreciate it ",
+   "url": "https://www.reddit.com/r/incremental_games/comments/1wy4ktv/looking_for_some_honest_feedback_on_an_idle_game/",
+   "meta": "r/incremental_games"
+  },
+  {
+   "source": "reddit",
+   "ext_id": "t3_1wy40b4",
+   "title": "Clean 'Em Ocean demo is out on Steam,",
+   "body": "A short incremental game about cleaning the ocean with a speedboat, unlocking upgrades, and cleaning more trash.    https://store.steampowered.com/app/5320660/Clean_Em_Ocean_Demo/    AI Disclosure: I'm using chatGPT to assist me write the code       submitted by     /u/Error_byDefault       [link]       [comments]",
+   "url": "https://www.reddit.com/r/incremental_games/comments/1wy40b4/clean_em_ocean_demo_is_out_on_steam/",
    "meta": "r/incremental_games"
   }
  ]
