@@ -1,105 +1,129 @@
 {
- "date": "2026-10-23",
+ "date": "2026-10-24",
  "stats": {
-  "fetched": 62,
-  "fresh": 12,
-  "scored": 12
+  "fetched": 57,
+  "fresh": 15,
+  "scored": 15
  },
  "items": [
   {
    "source": "rss",
-   "ext_id": "http://www.gamelook.com.cn/?p=604554",
-   "title": "离大谱！《WarDogs》新赛季上线3天就要停？CEO认错：“我们确实搞砸了”",
-   "body": "【GameLook专稿，未经允许禁止转载！】 GameLook报道/9月10日，英国小团队Bulkhead做的《WARDOGS》（战狗）在Steam开启抢先体验，首日卖出125万套...",
-   "url": "http://www.gamelook.com.cn/2026/10/604554/",
-   "meta": "游戏大观 | GameLook.com.cn"
+   "ext_id": "https://www.gameres.com/901203319.html",
+   "title": "检验抓宠二次元游戏的时刻终于来了",
+   "body": "《蓝色星原：旅谣》定档11月26日公测，游戏美术资产丰厚，以奇波为大世界探索核心锚点，兼具多重功能，其成败关乎抓宠二次元游戏赛道的发展。",
+   "url": "https://www.gameres.com/901203319.html",
+   "meta": "GameRes游资网"
   },
   {
    "source": "tuoluo",
-   "ext_id": "534966",
-   "title": "曾经流水破亿的AI游戏，是如何一步步走向破产的？",
-   "body": "——月活2000万、28家金主拒收购，Character.AI 到底留下了什么？_游戏陀螺",
-   "url": "https://www.youxituoluo.com/534966.html",
+   "ext_id": "534968",
+   "title": "周年庆“印钞机”：《阴阳师》暴涨170%，《原神》《三战》重回畅销TOP",
+   "body": "Sensor Tower发布了2026年9月中国手游发行商全球收入排行榜Top30。_游戏陀螺",
+   "url": "https://www.youxituoluo.com/534968.html",
    "meta": "游戏陀螺·小游戏"
   },
   {
    "source": "rss",
-   "ext_id": "http://www.gamelook.com.cn/?p=604455",
-   "title": "集体上头！《深空当铺》Steam测试爆红，3万赛博店主“沉迷讨价还价”",
-   "body": "【GameLook专稿，禁止转载！】 一边是玩家熬到凌晨、肝上百小时不肯关店，一边是 demo 漏洞扎堆、争议如影随形。一款还没发售的独立游戏，早早站在了狂热期待与理性质疑的十字路...",
-   "url": "http://www.gamelook.com.cn/2026/10/604455/",
-   "meta": "游戏大观 | GameLook.com.cn"
-  },
-  {
-   "source": "tuoluo",
-   "ext_id": "534971",
-   "title": "库洛首投AI公司，腾讯连投两家土耳其厂商，《终末地》新版本登上畅销榜Top3 | 陀螺周报",
-   "body": "每周末，我们将为大家盘点一周的产业要点。_游戏陀螺",
-   "url": "https://www.youxituoluo.com/534971.html",
-   "meta": "游戏陀螺·小游戏"
-  },
-  {
-   "source": "rss",
-   "ext_id": "http://www.gamelook.com.cn/?p=604359",
-   "title": "甲方跑路，武汉外包把死透的二游，爆改成单机杀上了Steam！",
-   "body": "【GameLook专稿，禁止转载！】 GameLook报道/游戏圈里的“活久见”，最近又添了新素材。 你见过甲方公司倒闭、项目解散、欠着外包尾款人间蒸发，结果乙方决定攥着手里的美术...",
-   "url": "http://www.gamelook.com.cn/2026/10/604359/",
-   "meta": "游戏大观 | GameLook.com.cn"
-  },
-  {
-   "source": "rss",
-   "ext_id": "http://www.gamelook.com.cn/?p=604344",
-   "title": "“AI垃圾横行”？8200款游戏冲爆Steam新品节，“玩家不满、开发者担忧”",
-   "body": "【GameLook专稿，禁止转载！】 曾经属于独立游戏黑马破土而出的沃土 ——Steam 新品节，如今彻底沦为一场海量 游戏demo 的内卷混战。一年多的时间，这场玩家与开发者双向...",
-   "url": "http://www.gamelook.com.cn/2026/10/604344/",
-   "meta": "游戏大观 | GameLook.com.cn"
-  },
-  {
-   "source": "rss",
-   "ext_id": "http://www.gamelook.com.cn/?p=604275",
-   "title": "众筹超3700万，《艾希》爆火十年后，中国爆款独游仍为生计发愁？",
-   "body": "【GameLook专稿，禁止转载！】 GameLook报道/《艾希：续》这次众筹，最出乎意料的场面，是钱越筹越多，制作人却开始劝玩家不要再投了。 据悉项目在摩点设置的目标只有1万元...",
-   "url": "http://www.gamelook.com.cn/2026/10/604275/",
-   "meta": "游戏大观 | GameLook.com.cn"
-  },
-  {
-   "source": "rss",
-   "ext_id": "https://www.gameres.com/901203297.html",
-   "title": "刷宝+背包管理有没有搞头？国产修仙动作游戏《重生修仙》免费开玩",
-   "body": "国产修仙动作游戏《重生修仙》于Steam新品节开启免费试玩，融合刷宝、背包管理玩法，拥有多种修仙法宝与丰富养成体系，采用2D像素+3D水墨风格。",
-   "url": "https://www.gameres.com/901203297.html",
+   "ext_id": "https://www.gameres.com/901203318.html",
+   "title": "双11打造二次元主题主机 技嘉雕妹板卡组合带来个性化装机体验",
+   "body": "双11装机季，技嘉推出雕妹主题B850主板与RTX 5060显卡，融入二次元IP设计，兼顾颜值与性能，适合打造白色主题主机，京东自营已开启相关促销。",
+   "url": "https://www.gameres.com/901203318.html",
    "meta": "GameRes游资网"
   },
   {
    "source": "rss",
-   "ext_id": "https://www.gameres.com/901203294.html",
-   "title": "Side收购精品游戏美术工作室Roboto Entertainment，进一步扩展创意服务",
-   "body": "Side宣布收购成都精品游戏美术工作室Roboto Entertainment，创始人Andrea Cordella出任Side全球美术总监并负责成都新工作室，强化全球美术服务能力，扩大在华业务布局。",
-   "url": "https://www.gameres.com/901203294.html",
+   "ext_id": "https://www.gameres.com/901203317.html",
+   "title": "技嘉双11装机福利全面开启 板卡优惠与多重好礼同步来袭",
+   "body": "技嘉京东自营旗舰店双11促销从10月12日至11月14日，覆盖主板、显卡等多品类硬件，设多阶段优惠，还有抽奖、晒单、会员赠礼等多重福利。",
+   "url": "https://www.gameres.com/901203317.html",
    "meta": "GameRes游资网"
   },
   {
    "source": "rss",
-   "ext_id": "https://www.gameres.com/901203293.html",
-   "title": "神明蜕变逆袭RPG《星途天城》正式公测，强力神话星灵签到送，新手也能全图鉴！",
-   "body": "蒸汽幻想神明蜕变逆袭RPG《星途天城》10月22日全平台公测，设三阶降神养成、减负策略玩法等内容，联动多方资源，推出签到送神话星灵等多重公测福利。",
-   "url": "https://www.gameres.com/901203293.html",
+   "ext_id": "https://www.gameres.com/901203316.html",
+   "title": "黑白双配色打造整洁装机体验 技嘉B850M AORUS STEALTH系列丰富背插装机选择",
+   "body": "技嘉推出B850M AORUS STEALTH系列背插主板，提供黑白双配色，将主要接口移至PCB背面减少正面线材外露，搭载AMD B850芯片组，性能扩展齐全，满足整洁装机需求。",
+   "url": "https://www.gameres.com/901203316.html",
    "meta": "GameRes游资网"
   },
   {
    "source": "rss",
-   "ext_id": "https://www.gameres.com/901203286.html",
-   "title": "万物皆可增量，最开门见山的游戏品类迎来了复兴热潮",
-   "body": "增量游戏品类迎来复兴热潮，成为小团队新机遇。新增量游戏具备可视化、短流程、多玩法融合等特征，也存在体验割裂、设计冗余等问题。",
-   "url": "https://www.gameres.com/901203286.html",
+   "ext_id": "https://www.gameres.com/901203315.html",
+   "title": "手游画面迎来质变？iQOO 携手虚幻引擎打造移动游戏新体验",
+   "body": "2026年10月，iQOO以Unreal移动游戏合作伙伴身份亮相上海虚幻引擎嘉年华，展示自研电竞芯片等游戏技术，将与虚幻引擎深化合作，推动高品质移动游戏落地。",
+   "url": "https://www.gameres.com/901203315.html",
    "meta": "GameRes游资网"
   },
   {
    "source": "rss",
-   "ext_id": "https://www.gameres.com/901203285.html",
-   "title": "跨界奇才臼井伸二，讲述在FromSoftware和白金的工作经历",
-   "body": "臼井伸二职业生涯横跨游戏、动漫、玩具领域，分享其在FromSoftware、白金工作室的游戏开发经历，以及转战动画行业的创作经验与未来愿景。",
-   "url": "https://www.gameres.com/901203285.html",
+   "ext_id": "https://www.gameres.com/901203314.html",
+   "title": "《魔域》金秋幻兽「澜境君·镜汐」正式上线： 双形态蜕变与核心战斗技能解析",
+   "body": "2026年《魔域》金秋幻兽「澜境君·镜汐」正式上线，拥有麒麟、人形双形态，具备战斗、防护等多类技能，玩家可购买「彩境灵澜礼包」召唤获取。",
+   "url": "https://www.gameres.com/901203314.html",
+   "meta": "GameRes游资网"
+  },
+  {
+   "source": "rss",
+   "ext_id": "https://www.gameres.com/901203313.html",
+   "title": "不夺冠，全退款！雷鸟 GT Max bilibili 限定版助阵BLG出征世界赛",
+   "body": "雷鸟创新联合B站发布雷鸟GT Max bilibili限定版，助阵BLG征战2026英雄联盟S16世界赛，推出“不夺冠全退款且不退货”活动，产品适配电竞复盘与巨幕观赛。",
+   "url": "https://www.gameres.com/901203313.html",
+   "meta": "GameRes游资网"
+  },
+  {
+   "source": "rss",
+   "ext_id": "https://www.gameres.com/901203312.html",
+   "title": "东映游戏首次参展《gamescom asia x Thailand Game Show 2026》",
+   "body": "东映游戏将首次参展2026年10月29日至11月1日在泰国曼谷举办的《gamescom asia x Thailand Game Show 2026》，展位提供三款精选作品试玩，加速全球化布局。",
+   "url": "https://www.gameres.com/901203312.html",
+   "meta": "GameRes游资网"
+  },
+  {
+   "source": "rss",
+   "ext_id": "https://www.gameres.com/901203311.html",
+   "title": "决胜巅峰M8世界总决赛赛制公布，正赛将首次落地欧洲",
+   "body": "沐瞳公布决胜巅峰M8世界总决赛赛制，赛事分曼谷外卡赛、伊斯坦布尔正赛两阶段，系M系列正赛首次落地欧洲，总奖金池100万美元，同步公布赛制与场馆安排。",
+   "url": "https://www.gameres.com/901203311.html",
+   "meta": "GameRes游资网"
+  },
+  {
+   "source": "rss",
+   "ext_id": "https://www.gameres.com/901203309.html",
+   "title": "认真肝了30个小时之后, 我被《三国志：霸王崛起》打脸了",
+   "body": "资深三国SLG玩家实测《三国志：霸王崛起》封测30小时，从美术、玩法、节奏、社交、付费等维度评测，梳理亮点与不足，给出游玩参考。",
+   "url": "https://www.gameres.com/901203309.html",
+   "meta": "GameRes游资网"
+  },
+  {
+   "source": "rss",
+   "ext_id": "https://www.gameres.com/901203302.html",
+   "title": "同袍集结，全服撒金！《长安幻想》全新“同袍节”版本今日开启！",
+   "body": "《长安幻想》全新“同袍节”版本上线，主打社交减负与全民撒金，推出全服5亿灵玉福利、月卡免单、代言人张若昀相关活动及直播盛典。",
+   "url": "https://www.gameres.com/901203302.html",
+   "meta": "GameRes游资网"
+  },
+  {
+   "source": "rss",
+   "ext_id": "https://www.gameres.com/901203301.html",
+   "title": "2026北京亦庄·未来游戏电竞科技大会成功举办",
+   "body": "10月21日，2026北京亦庄·未来游戏电竞科技大会在北京智慧电竞赛事中心举办，以“问未来·第一场”为主题，发布游戏电竞十大科技创新应用场景，推动产业合作落地，启动未来游戏电竞季。",
+   "url": "https://www.gameres.com/901203301.html",
+   "meta": "GameRes游资网"
+  },
+  {
+   "source": "rss",
+   "ext_id": "https://www.gameres.com/901203300.html",
+   "title": "致敬法国创意精神 《雷曼：传奇再叙》全新“法棍”外观公布",
+   "body": "在巴黎游戏周前夕，游戏将以一套趣味外观，向法国游戏创意精神致敬",
+   "url": "https://www.gameres.com/901203300.html",
+   "meta": "GameRes游资网"
+  },
+  {
+   "source": "rss",
+   "ext_id": "https://www.gameres.com/901203299.html",
+   "title": "畅销榜Top2，《率土之滨》步入新十年的韧性从何而来？",
+   "body": "《率土之滨》十一周年庆期间热度攀升至国区iOS畅销榜Top2，其逆周期韧性源于玩法革新、跨界联动、玩家生态建设等多方面的长期深耕。",
+   "url": "https://www.gameres.com/901203299.html",
    "meta": "GameRes游资网"
   }
  ]
